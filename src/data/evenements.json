@@ -1,0 +1,308 @@
+[
+  {
+    "id": "fronde",
+    "date": "1648",
+    "date_fin": "1653",
+    "titre": "La Fronde",
+    "type": "fait",
+    "resume": "Série de révoltes contre l'autorité royale pendant la minorité de Louis XIV, menées d'abord par le Parlement de Paris (Fronde parlementaire) puis par une partie de la haute noblesse (Fronde des princes), alors que la régence est assurée par Anne d'Autriche et le cardinal Mazarin.",
+    "impact_par_couche": {
+      "paysannerie": "Les campagnes traversées par les troupes frondeuses et royales subissent réquisitions et pillages, aggravant une situation déjà difficile.",
+      "bourgeoisie": "Le Parlement de Paris, dont les magistrats sont issus de la bourgeoisie de robe, conteste l'enregistrement d'édits fiscaux décidés sans lui.",
+      "noblesse": "Une partie de la haute noblesse prend les armes contre le pouvoir royal, en réaction à la centralisation menée par Mazarin.",
+      "clerge": "Le haut clergé reste globalement en retrait du conflit armé."
+    },
+    "sources": ["wikidata-q656186", "goubert-1966", "petitfils-1995"],
+    "statut": "a_verifier",
+    "vecu": {
+      "paysan-beauce": {
+        "type": "fiction",
+        "texte": "Des cavaliers traversent le village, réquisitionnent le fourrage et le grain sans toujours payer. On ferme les portes à la tombée du jour.",
+        "decision": {
+          "question": "Une partie de la récolte n'a pas encore été déclarée. Que faites-vous ?",
+          "options": [
+            { "texte": "Cacher le surplus de grain dans la grange", "consequence": "Vous gardez de quoi tenir l'hiver, mais un voisin jaloux pourrait vous dénoncer aux soldats de passage." },
+            { "texte": "Livrer tout ce qu'on vous réclame", "consequence": "Vous évitez les représailles immédiates, mais il ne reste presque plus rien pour nourrir la famille." }
+          ]
+        }
+      },
+      "artisan-parisien": {
+        "type": "fiction",
+        "texte": "Des barricades se dressent dans sa rue. L'atelier tourne au ralenti, les livraisons de matière première n'arrivent plus.",
+        "decision": {
+          "question": "Les voisins montent des barricades devant l'atelier. Que faites-vous ?",
+          "options": [
+            { "texte": "Aider à monter la barricade", "consequence": "Vous gagnez la confiance du quartier, mais vous vous exposez si l'autorité royale reprend la main." },
+            { "texte": "Rester à l'atelier, portes closes", "consequence": "Vous protégez votre outil de travail, mais certains voisins vous jugeront distant du sort commun." }
+          ]
+        }
+      },
+      "officier-robe": {
+        "type": "fiction",
+        "texte": "Ses collègues du Parlement discutent de résister aux édits royaux. Il doit choisir entre sa charge et sa prudence.",
+        "decision": {
+          "question": "Le Parlement débat de refuser l'enregistrement d'un édit royal. Que faites-vous ?",
+          "options": [
+            { "texte": "Voter avec les magistrats frondeurs", "consequence": "Vous restez fidèle à vos collègues de robe, au risque de vous exposer à la disgrâce royale si la Fronde échoue." },
+            { "texte": "S'abstenir et rester en retrait", "consequence": "Vous ménagez vos arrières, mais votre réputation auprès du Parlement peut en pâtir." }
+          ]
+        }
+      },
+      "dame-petite-noblesse": {
+        "type": "fiction",
+        "texte": "Les nouvelles de Paris arrivent par courrier, en retard et contradictoires. Elle ne sait pas quel camp compte réellement.",
+        "decision": {
+          "question": "Votre mari envisage de rejoindre les princes frondeurs. Que lui conseillez-vous ?",
+          "options": [
+            { "texte": "L'encourager à les rejoindre", "consequence": "La famille se range du côté des grands seigneurs révoltés, avec l'espoir d'un avantage si la Fronde l'emporte." },
+            { "texte": "Le dissuader et rester à l'écart", "consequence": "Vous préservez la terre familiale des représailles, mais vous perdez une occasion de vous rapprocher des grands du royaume." }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "debut-regne-personnel",
+    "date": "1661",
+    "titre": "Début du règne personnel de Louis XIV",
+    "type": "fait",
+    "resume": "À la mort du cardinal Mazarin, Louis XIV annonce qu'il gouvernera désormais sans premier ministre et exercera personnellement le pouvoir.",
+    "impact_par_couche": {
+      "paysannerie": "Le changement de gouvernement à la Cour n'a pas d'effet immédiat visible sur la vie quotidienne dans les campagnes.",
+      "bourgeoisie": "Des hommes comme Colbert accèdent à des responsabilités croissantes dans l'administration royale.",
+      "noblesse": "La haute noblesse perd l'accès direct au premier ministre et voit le roi concentrer les décisions.",
+      "clerge": "Le clergé continue de jouer son rôle institutionnel sans changement immédiat rapporté."
+    },
+    "sources": ["wikidata-q7742", "wikidata-q166056", "goubert-1966", "petitfils-1995"],
+    "statut": "a_verifier",
+    "vecu": {
+      "paysan-beauce": {
+        "type": "fiction",
+        "texte": "Le curé annonce à la messe la mort du cardinal et le nouveau gouvernement du roi. Pour lui, rien ne change dans les champs.",
+        "decision": {
+          "question": "Des rumeurs courent sur de nouveaux impôts décidés directement par le roi. Que faites-vous ?",
+          "options": [
+            { "texte": "Mettre de côté une réserve de grain par précaution", "consequence": "Vous vous prémunissez contre une mauvaise surprise, au prix d'une année plus serrée dès maintenant." },
+            { "texte": "Continuer comme avant, sans rien changer", "consequence": "Vous ne perdez rien dans l'immédiat, mais vous serez pris au dépourvu si les rumeurs se confirment." }
+          ]
+        }
+      },
+      "artisan-parisien": {
+        "type": "fiction",
+        "texte": "On parle dans les échoppes d'un roi qui veut tout décider seul. Certains y voient une promesse d'ordre, d'autres une inquiétude.",
+        "decision": {
+          "question": "L'administration royale commence à encourager certaines manufactures. Que faites-vous ?",
+          "options": [
+            { "texte": "Chercher à obtenir des commandes royales", "consequence": "Une possible source de revenus stables s'ouvre, mais elle vous lie davantage aux exigences de l'administration." },
+            { "texte": "Continuer à travailler pour la clientèle habituelle", "consequence": "Vous gardez votre indépendance, sans profiter d'une opportunité naissante." }
+          ]
+        }
+      },
+      "officier-robe": {
+        "type": "fiction",
+        "texte": "Il comprend que les équilibres de pouvoir à la Cour viennent de changer, et que sa charge devra composer avec une autorité royale plus directe.",
+        "decision": {
+          "question": "L'administration royale se resserre autour du roi. Que faites-vous de votre charge ?",
+          "options": [
+            { "texte": "Se rapprocher activement de la nouvelle administration", "consequence": "Vous gagnez en visibilité auprès du pouvoir central, au risque de heurter des collègues plus prudents." },
+            { "texte": "Exercer sa charge sans chercher à se distinguer", "consequence": "Vous restez à l'abri des jeux de Cour, mais aussi de leurs opportunités." }
+          ]
+        }
+      },
+      "dame-petite-noblesse": {
+        "type": "fiction",
+        "texte": "Elle entend dire que le jeune roi entend gouverner seul. Elle se demande si cela rapprochera ou éloignera encore la Cour de sa province.",
+        "decision": {
+          "question": "Un cousin éloigné a une charge à la Cour. Tentez-vous de solliciter son appui ?",
+          "options": [
+            { "texte": "Lui écrire pour solliciter une introduction à la Cour", "consequence": "Une chance, mince, de rapprocher la famille de Versailles, au prix d'une dépense de courtoisie qu'elle peut difficilement se permettre." },
+            { "texte": "Rester sur ses terres, sans rien demander", "consequence": "Elle préserve son indépendance et ses maigres ressources, loin des ambitions de Cour." }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "revocation-edit-nantes",
+    "date": "1685-10-18",
+    "titre": "Révocation de l'Édit de Nantes",
+    "type": "fait",
+    "resume": "Par l'édit de Fontainebleau, Louis XIV révoque l'édit de Nantes de 1598, retirant aux protestants du royaume la liberté de culte qui leur était garantie.",
+    "impact_par_couche": {
+      "paysannerie": "Des familles protestantes de la paysannerie sont confrontées à des conversions forcées ou choisissent l'exil, notamment vers des régions frontalières.",
+      "bourgeoisie": "De nombreux marchands et artisans protestants émigrent, emportant avec eux savoir-faire et capitaux.",
+      "noblesse": "Une partie de la noblesse protestante doit choisir entre conversion, exil ou clandestinité.",
+      "clerge": "Le clergé catholique est chargé de veiller aux conversions et à l'application de l'édit sur le terrain."
+    },
+    "sources": ["wikidata-q512443", "goubert-1966", "petitfils-1995"],
+    "statut": "a_verifier",
+    "vecu": {
+      "paysan-beauce": {
+        "type": "fiction",
+        "texte": "Le curé de la paroisse vient consigner qui assiste à la messe. Il n'a jamais été protestant, mais il voit des voisins partir de nuit.",
+        "decision": {
+          "question": "Un voisin protestant vous demande de l'aide pour fuir discrètement. Que faites-vous ?",
+          "options": [
+            { "texte": "L'aider à passer la nuit et à partir", "consequence": "Vous risquez gros si cela s'apprend, mais vous sauvez peut-être une famille que vous connaissez depuis toujours." },
+            { "texte": "Refuser, par prudence", "consequence": "Vous évitez le danger pour votre propre famille, mais vous abandonnez un voisin dans une situation désespérée." }
+          ]
+        }
+      },
+      "artisan-parisien": {
+        "type": "fiction",
+        "texte": "Un maître d'un atelier voisin, huguenot, ferme boutique du jour au lendemain et disparaît avec sa famille.",
+        "decision": {
+          "question": "L'atelier voisin, laissé vide, pourrait être repris. Que faites-vous ?",
+          "options": [
+            { "texte": "Reprendre l'atelier et sa clientèle", "consequence": "Votre activité s'agrandit, mais vous profitez directement du départ forcé d'un confrère." },
+            { "texte": "Ne pas y toucher", "consequence": "Vous restez à l'écart de cette affaire, au prix d'une occasion que d'autres saisiront à votre place." }
+          ]
+        }
+      },
+      "officier-robe": {
+        "type": "fiction",
+        "texte": "Il doit désormais faire appliquer l'édit dans son ressort, y compris envers des familles qu'il connaît depuis longtemps.",
+        "decision": {
+          "question": "Une famille protestante de votre ressort attend votre décision. Que faites-vous ?",
+          "options": [
+            { "texte": "Appliquer l'édit avec rigueur", "consequence": "Vous vous conformez strictement à vos obligations de charge, au prix de la situation de familles que vous connaissez." },
+            { "texte": "Retarder discrètement l'application", "consequence": "Vous laissez un répit à cette famille, en vous exposant vous-même si cela venait à se savoir." }
+          ]
+        }
+      },
+      "dame-petite-noblesse": {
+        "type": "fiction",
+        "texte": "Une cousine protestante de la région lui écrit qu'elle envisage de quitter le royaume. Elle ne sait pas si elle la reverra.",
+        "decision": {
+          "question": "Votre cousine vous demande un peu d'argent pour financer son départ. Que faites-vous ?",
+          "options": [
+            { "texte": "Lui envoyer ce que vous pouvez", "consequence": "Vous l'aidez à partir, au risque d'attirer l'attention sur vos propres liens avec elle." },
+            { "texte": "Ne pas répondre à sa lettre", "consequence": "Vous vous protégez de tout soupçon, mais vous laissez votre cousine sans secours." }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "grand-hiver-1709",
+    "date": "1709",
+    "titre": "Le Grand Hiver",
+    "type": "fait",
+    "resume": "Un froid extrême et prolongé s'abat sur une large partie de l'Europe au tournant de 1708-1709, détruisant les récoltes et le bétail et provoquant une grave crise de subsistance.",
+    "impact_par_couche": {
+      "paysannerie": "Les récoltes et les réserves de semence sont détruites par le gel, provoquant disette et mortalité accrue dans les campagnes.",
+      "bourgeoisie": "La flambée du prix du grain touche aussi les villes, où le pain devient plus difficile à obtenir.",
+      "noblesse": "Les revenus seigneuriaux tirés des terres chutent avec l'effondrement des récoltes.",
+      "clerge": "Les paroisses sont sollicitées pour l'aide aux plus démunis face à la disette."
+    },
+    "sources": ["wikidata-q600402", "goubert-1966"],
+    "statut": "a_verifier",
+    "vecu": {
+      "paysan-beauce": {
+        "type": "fiction",
+        "texte": "Le vin gèle dans les caves, le blé en terre est perdu. Il ne sait pas s'il aura assez de semence pour l'année suivante.",
+        "decision": {
+          "question": "Il ne reste presque plus de grain. Que faites-vous ?",
+          "options": [
+            { "texte": "Consommer les dernières réserves, y compris la semence", "consequence": "Vous tenez l'hiver, mais vous n'aurez rien à semer au printemps si rien ne vient combler ce manque." },
+            { "texte": "Garder la semence coûte que coûte, quitte à avoir faim", "consequence": "Vous préservez la récolte future, au prix de privations sévères pour la famille dès maintenant." }
+          ]
+        }
+      },
+      "artisan-parisien": {
+        "type": "fiction",
+        "texte": "Le prix du pain double puis triple. Des attroupements se forment devant les boulangeries.",
+        "decision": {
+          "question": "Vous avez encore un peu de farine en réserve. Que faites-vous ?",
+          "options": [
+            { "texte": "La vendre au prix fort", "consequence": "Vous en tirez un revenu important dans une période difficile, au risque de la colère du voisinage." },
+            { "texte": "La partager à prix coûtant avec les voisins", "consequence": "Vous gagnez la reconnaissance du quartier, mais vous renoncez à un gain que la situation aurait permis." }
+          ]
+        }
+      },
+      "officier-robe": {
+        "type": "fiction",
+        "texte": "Il est sollicité pour des mesures locales d'urgence face à la disette, sans moyens suffisants pour y répondre pleinement.",
+        "decision": {
+          "question": "Des réserves de grain existent chez certains notables. Que décidez-vous ?",
+          "options": [
+            { "texte": "Réquisitionner une partie de ces réserves pour les redistribuer", "consequence": "Vous soulagez une partie de la disette locale, en vous mettant à dos des notables influents." },
+            { "texte": "Respecter la propriété privée et ne rien réquisitionner", "consequence": "Vous évitez le conflit avec les notables, tandis que la disette continue de frapper les plus démunis." }
+          ]
+        }
+      },
+      "dame-petite-noblesse": {
+        "type": "fiction",
+        "texte": "Les fermiers qui lui doivent redevance ne peuvent plus payer. Elle doit choisir entre exiger son dû et risquer leur ruine, ou y renoncer.",
+        "decision": {
+          "question": "Vos fermiers ne peuvent pas payer leur redevance cette année. Que décidez-vous ?",
+          "options": [
+            { "texte": "Réduire ou suspendre la redevance pour cette année", "consequence": "Vous préservez vos fermiers de la ruine, au prix de vos propres revenus déjà fragiles." },
+            { "texte": "Maintenir l'exigence de la redevance", "consequence": "Vous protégez vos propres ressources, au risque de ruiner des fermiers dont vous dépendez aussi à long terme." }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "id": "mort-louis-xiv",
+    "date": "1715-09-01",
+    "titre": "Mort de Louis XIV",
+    "type": "fait",
+    "resume": "Louis XIV meurt à Versailles après soixante-douze ans de règne, le plus long de l'histoire de France. Son arrière-petit-fils, âgé de cinq ans, lui succède sous le nom de Louis XV.",
+    "impact_par_couche": {
+      "paysannerie": "La mort du roi n'entraîne pas de changement immédiat dans les conditions matérielles des campagnes.",
+      "bourgeoisie": "L'annonce circule dans les villes, où elle nourrit des discussions sur l'avenir du gouvernement.",
+      "noblesse": "La succession ouvre une période de régence dont les grands du royaume attendent une redistribution des influences à la Cour.",
+      "clerge": "Le clergé célèbre les cérémonies funéraires et de deuil prescrites par l'usage royal."
+    },
+    "sources": ["wikidata-q7742", "petitfils-1995"],
+    "statut": "a_verifier",
+    "vecu": {
+      "paysan-beauce": {
+        "type": "fiction",
+        "texte": "Le glas sonne au clocher du village. Il n'a connu que ce roi de toute sa vie.",
+        "decision": {
+          "question": "Le village se demande ce que la régence va changer. Que faites-vous ?",
+          "options": [
+            { "texte": "Continuer le travail des champs sans s'en soucier", "consequence": "La vie continue comme avant, pour le meilleur et pour le pire, sans que vous n'y puissiez grand-chose." },
+            { "texte": "Se renseigner auprès du curé sur ce que cela signifie", "consequence": "Vous en apprenez un peu plus sur la régence à venir, sans que cela ne change rien à votre condition immédiate." }
+          ]
+        }
+      },
+      "artisan-parisien": {
+        "type": "fiction",
+        "texte": "Dans l'atelier, on se demande à voix basse ce que le nouveau règne, sous un enfant-roi, changera aux affaires.",
+        "decision": {
+          "question": "Des clients hésitent à passer de nouvelles commandes avant de voir ce que fera la régence. Que faites-vous ?",
+          "options": [
+            { "texte": "Accepter de nouvelles commandes malgré l'incertitude", "consequence": "Vous maintenez l'activité de l'atelier, en prenant le risque d'une conjoncture encore incertaine." },
+            { "texte": "Attendre d'y voir plus clair avant d'investir", "consequence": "Vous limitez les risques, au prix d'un ralentissement de l'activité en attendant." }
+          ]
+        }
+      },
+      "officier-robe": {
+        "type": "fiction",
+        "texte": "Il s'interroge sur les équilibres de pouvoir qui vont se redessiner à la Cour pendant la régence à venir.",
+        "decision": {
+          "question": "La régence s'annonce, avec de nouveaux équilibres à la Cour. Que faites-vous ?",
+          "options": [
+            { "texte": "Chercher à se rapprocher du nouveau pouvoir en place", "consequence": "Vous tentez de vous positionner tôt, au risque de vous tromper sur qui l'emportera dans les jeux de la régence." },
+            { "texte": "Rester prudent et observer la situation évoluer", "consequence": "Vous évitez de vous engager trop tôt, au prix de laisser d'autres saisir les opportunités du moment." }
+          ]
+        }
+      },
+      "dame-petite-noblesse": {
+        "type": "fiction",
+        "texte": "Elle se demande si le nouveau règne rapprochera enfin sa famille de la Cour, ou si tout continuera comme avant, loin de Versailles.",
+        "decision": {
+          "question": "La régence de Philippe d'Orléans commence. Tentez-vous une nouvelle démarche vers la Cour ?",
+          "options": [
+            { "texte": "Écrire pour renouveler une demande d'appui à la Cour", "consequence": "Une nouvelle tentative de rapprochement, sans certitude qu'elle aboutisse davantage que les précédentes." },
+            { "texte": "Renoncer et se concentrer sur les terres familiales", "consequence": "Vous consacrez vos efforts à ce qui dépend réellement de vous, en laissant de côté l'ambition de Cour." }
+          ]
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "wikidata-q7742",
+    "type": "base",
+    "reference": "Wikidata — Louis XIV (Q7742)",
+    "url": "https://www.wikidata.org/wiki/Q7742",
+    "page": null
+  },
+  {
+    "id": "wikidata-q166056",
+    "type": "base",
+    "reference": "Wikidata — Jules Mazarin (Q166056)",
+    "url": "https://www.wikidata.org/wiki/Q166056",
+    "page": null
+  },
+  {
+    "id": "wikidata-q656186",
+    "type": "base",
+    "reference": "Wikidata — la Fronde (Q656186)",
+    "url": "https://www.wikidata.org/wiki/Q656186",
+    "page": null
+  },
+  {
+    "id": "wikidata-q512443",
+    "type": "base",
+    "reference": "Wikidata — Édit de Fontainebleau / révocation de l'édit de Nantes (Q512443)",
+    "url": "https://www.wikidata.org/wiki/Q512443",
+    "page": null
+  },
+  {
+    "id": "wikidata-q600402",
+    "type": "base",
+    "reference": "Wikidata — Great Frost of 1709 (Q600402). Entrée centrée sur le contexte britannique ; à recouper avec une source française avant usage précis.",
+    "url": "https://www.wikidata.org/wiki/Q600402",
+    "page": null
+  },
+  {
+    "id": "goubert-1966",
+    "type": "ouvrage",
+    "reference": "Pierre Goubert, Louis XIV et vingt millions de Français, Fayard, 1966",
+    "url": null,
+    "page": null
+  },
+  {
+    "id": "petitfils-1995",
+    "type": "ouvrage",
+    "reference": "Jean-Christian Petitfils, Louis XIV, Perrin, 1995",
+    "url": null,
+    "page": null
+  }
+]
