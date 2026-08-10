@@ -1,0 +1,91 @@
+[
+  {
+    "id": "louis-xiv",
+    "nom": "Louis XIV",
+    "wikidata": "Q7742",
+    "naissance": "1638-09-05",
+    "mort": "1715-09-01",
+    "couche_sociale": "roi de France et de Navarre",
+    "genealogie": {
+      "pere": "Louis XIII",
+      "mere": "Anne d'Autriche",
+      "conjoints": [
+        "Marie-Thérèse d'Autriche, infante d'Espagne (mariage de 1660 à sa mort en 1683)",
+        "Françoise d'Aubigné, marquise de Maintenon (épouse secrète à partir de 1683)"
+      ],
+      "enfants": [
+        "Louis de France, dit le Grand Dauphin (1661-1711), fils de Marie-Thérèse"
+      ],
+      "notes": "Louis XIV et Marie-Thérèse ont eu plusieurs enfants ; le Grand Dauphin est le seul à avoir atteint l'âge adulte. Le roi a par ailleurs eu des enfants légitimés issus d'autres relations, non détaillés ici faute de vérification complète.",
+      "sources": ["wikidata-q7742"]
+    },
+    "croyances": {
+      "confession": "catholique",
+      "convictions": "",
+      "rapport_au_roi": "",
+      "sources": ["wikidata-q7742"]
+    },
+    "faits": [
+      { "date": "1643-05-14", "fait": "Devient roi de France et de Navarre à la mort de Louis XIII, à l'âge de 4 ans.", "sources": ["wikidata-q7742"] },
+      { "date": "1661", "fait": "À la mort de Mazarin, annonce qu'il gouvernera sans premier ministre.", "sources": ["wikidata-q7742", "wikidata-q166056"] },
+      { "date": "1685-10-18", "fait": "Signe l'édit de Fontainebleau, qui révoque l'édit de Nantes.", "sources": ["wikidata-q512443"] },
+      { "date": "1715-09-01", "fait": "Meurt à Versailles après soixante-douze ans de règne.", "sources": ["wikidata-q7742"] }
+    ],
+    "regard_sur_les_puissances": [],
+    "regard_sur_les_etats": [],
+    "iconographie": [
+      {
+        "titre": "Portrait of Louis XIV of France",
+        "artiste": "Hyacinthe Rigaud",
+        "date": "1701",
+        "conservation": "Musée du Louvre, Paris",
+        "url_image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Rigaud_Louis_XIV_1701.jpg",
+        "url_notice": "https://commons.wikimedia.org/wiki/File:Rigaud_Louis_XIV_1701.jpg",
+        "domaine_public": true
+      }
+    ],
+    "statut": "verifie"
+  },
+  {
+    "id": "mazarin",
+    "nom": "Jules Mazarin",
+    "wikidata": "Q166056",
+    "naissance": "1602-07-14",
+    "mort": "1661-03-09",
+    "couche_sociale": "cardinal-ministre",
+    "genealogie": {
+      "pere": "",
+      "mere": "",
+      "conjoints": [],
+      "enfants": [],
+      "notes": "Cardinal, Mazarin n'a pas eu de descendance légitime connue. Ascendance non vérifiée ici.",
+      "sources": []
+    },
+    "croyances": {
+      "confession": "catholique",
+      "convictions": "",
+      "rapport_au_roi": "",
+      "sources": ["wikidata-q166056"]
+    },
+    "faits": [
+      { "date": "1641-12-16", "fait": "Devient cardinal.", "sources": ["wikidata-q166056"] },
+      { "date": "1642-12-05", "fait": "Devient premier ministre de France.", "sources": ["wikidata-q166056"] },
+      { "date": "1648", "fait": "Sa politique fiscale et son autorité contestées déclenchent la Fronde.", "sources": ["wikidata-q166056", "wikidata-q656186"] },
+      { "date": "1661-03-09", "fait": "Meurt en exercice, à Vincennes.", "sources": ["wikidata-q166056"] }
+    ],
+    "regard_sur_les_puissances": [],
+    "regard_sur_les_etats": [],
+    "iconographie": [
+      {
+        "titre": "Portrait of cardinal Jules Mazarin",
+        "artiste": "Pierre Mignard",
+        "date": "vers 1658-1660",
+        "conservation": "Musée Condé, Chantilly",
+        "url_image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Cardinal_Mazarin_by_Pierre_Mignard_%28Mus%C3%A9e_Cond%C3%A9%29.jpg",
+        "url_notice": "https://commons.wikimedia.org/wiki/File:Cardinal_Mazarin_by_Pierre_Mignard_(Mus%C3%A9e_Cond%C3%A9).jpg",
+        "domaine_public": true
+      }
+    ],
+    "statut": "verifie"
+  }
+]

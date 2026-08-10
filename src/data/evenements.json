@@ -13,6 +13,7 @@
       "clerge": "Le haut clergé reste globalement en retrait du conflit armé."
     },
     "sources": ["wikidata-q656186", "goubert-1966", "petitfils-1995"],
+    "figures": ["mazarin"],
     "statut": "a_verifier",
     "vecu": {
       "paysan-beauce": {
@@ -74,6 +75,7 @@
       "clerge": "Le clergé continue de jouer son rôle institutionnel sans changement immédiat rapporté."
     },
     "sources": ["wikidata-q7742", "wikidata-q166056", "goubert-1966", "petitfils-1995"],
+    "figures": ["louis-xiv", "mazarin"],
     "statut": "a_verifier",
     "vecu": {
       "paysan-beauce": {
@@ -135,6 +137,7 @@
       "clerge": "Le clergé catholique est chargé de veiller aux conversions et à l'application de l'édit sur le terrain."
     },
     "sources": ["wikidata-q512443", "goubert-1966", "petitfils-1995"],
+    "figures": ["louis-xiv"],
     "statut": "a_verifier",
     "vecu": {
       "paysan-beauce": {
@@ -257,6 +260,7 @@
       "clerge": "Le clergé célèbre les cérémonies funéraires et de deuil prescrites par l'usage royal."
     },
     "sources": ["wikidata-q7742", "petitfils-1995"],
+    "figures": ["louis-xiv"],
     "statut": "a_verifier",
     "vecu": {
       "paysan-beauce": {
