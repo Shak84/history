@@ -1,0 +1,30 @@
+[
+  {
+    "id": "paysan-beauce",
+    "nom": "Un paysan de Beauce",
+    "couche_sociale": "paysannerie",
+    "description": "Laboureur dans le grenier à blé du royaume. Il exploite une terre soumise à la taille (impôt royal direct), à la dîme (prélèvement de l'Église) et souvent à des redevances seigneuriales, en plus de la corvée royale sur les routes.",
+    "avatar": "🌾"
+  },
+  {
+    "id": "artisan-parisien",
+    "nom": "Un artisan parisien",
+    "couche_sociale": "bourgeoisie",
+    "description": "Membre d'une corporation de métier à Paris, sa maîtrise encadre strictement sa production et son apprentissage. Il est exposé aux flambées du prix du pain et aux tensions propres à la capitale du royaume.",
+    "avatar": "🔨"
+  },
+  {
+    "id": "officier-robe",
+    "nom": "Un officier de robe",
+    "couche_sociale": "noblesse de robe",
+    "description": "Il a acheté une charge royale (vénalité des offices) au sein d'une cour souveraine, ce qui lui confère un statut nobiliaire distinct de la noblesse d'épée. Sa fidélité se partage entre l'autorité royale et les institutions dont il est membre.",
+    "avatar": "⚖️"
+  },
+  {
+    "id": "dame-petite-noblesse",
+    "nom": "Une dame de la petite noblesse",
+    "couche_sociale": "noblesse",
+    "description": "Elle vit sur une terre de province, de revenus seigneuriaux souvent modestes. Exemptée de la taille, elle reste néanmoins loin des fastes de la Cour, dont les échos lui parviennent tardivement et déformés.",
+    "avatar": "🌸"
+  }
+]
