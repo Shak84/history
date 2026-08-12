@@ -1,47 +1,6 @@
-import { useState } from 'react'
-import sources from '../data/sources.json'
 import Decision from './Decision'
-
-const sourcesParId = Object.fromEntries(sources.map((s) => [s.id, s]))
-
-function BlocSources({ ids }) {
-  const [ouvert, setOuvert] = useState(false)
-  return (
-    <div className="mt-3 text-sm">
-      <button
-        onClick={() => setOuvert((o) => !o)}
-        className="text-stone-500 hover:text-stone-800 underline"
-      >
-        Sources {ouvert ? '▲' : '▼'}
-      </button>
-      {ouvert && (
-        <ul className="mt-2 space-y-1 text-stone-600 list-disc list-inside">
-          {ids.map((id) => {
-            const s = sourcesParId[id]
-            if (!s) return null
-            return (
-              <li key={id}>
-                {s.url ? (
-                  <a
-                    href={s.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-blue-700 hover:underline"
-                  >
-                    {s.reference}
-                  </a>
-                ) : (
-                  s.reference
-                )}
-                {s.page ? `, p. ${s.page}` : ''}
-              </li>
-            )
-          })}
-        </ul>
-      )}
-    </div>
-  )
-}
+import BlocSources from './BlocSources'
+import TexteEnrichi from './TexteEnrichi'
 
 export default function Evenement({ evenement, personnageId }) {
   const scene = evenement.vecu?.[personnageId]
@@ -60,7 +19,9 @@ export default function Evenement({ evenement, personnageId }) {
       </div>
       <h2 className="text-xl font-semibold text-stone-800 mb-3">{evenement.titre}</h2>
 
-      <p className="text-stone-700 mb-4">{evenement.resume}</p>
+      <p className="text-stone-700 mb-4">
+        <TexteEnrichi texte={evenement.resume} />
+      </p>
 
       {scene && (
         <div className="border-l-2 border-stone-300 pl-4 mb-2">

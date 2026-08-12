@@ -27,7 +27,7 @@
     },
     "faits": [
       { "date": "1643-05-14", "fait": "Devient roi de France et de Navarre à la mort de Louis XIII, à l'âge de 4 ans.", "sources": ["wikidata-q7742"] },
-      { "date": "1661", "fait": "À la mort de Mazarin, annonce qu'il gouvernera sans premier ministre.", "sources": ["wikidata-q7742", "wikidata-q166056"] },
+      { "date": "1661", "fait": "À la mort de [[figure:mazarin]], annonce qu'il gouvernera sans premier ministre.", "sources": ["wikidata-q7742", "wikidata-q166056"] },
       { "date": "1685-10-18", "fait": "Signe l'édit de Fontainebleau, qui révoque l'édit de Nantes.", "sources": ["wikidata-q512443"] },
       { "date": "1715-09-01", "fait": "Meurt à Versailles après soixante-douze ans de règne.", "sources": ["wikidata-q7742"] }
     ],

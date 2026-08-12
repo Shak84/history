@@ -5,7 +5,7 @@
     "date_fin": "1653",
     "titre": "La Fronde",
     "type": "fait",
-    "resume": "Série de révoltes contre l'autorité royale pendant la minorité de Louis XIV, menées d'abord par le Parlement de Paris (Fronde parlementaire) puis par une partie de la haute noblesse (Fronde des princes), alors que la régence est assurée par Anne d'Autriche et le cardinal Mazarin.",
+    "resume": "Série de révoltes contre l'autorité royale pendant la minorité de Louis XIV, menées d'abord par le Parlement de Paris (Fronde parlementaire) puis par une partie de la haute noblesse (Fronde des princes), alors que la régence est assurée par Anne d'Autriche et le cardinal [[figure:mazarin]].",
     "impact_par_couche": {
       "paysannerie": "Les campagnes traversées par les troupes frondeuses et royales subissent réquisitions et pillages, aggravant une situation déjà difficile.",
       "bourgeoisie": "Le Parlement de Paris, dont les magistrats sont issus de la bourgeoisie de robe, conteste l'enregistrement d'édits fiscaux décidés sans lui.",
@@ -67,7 +67,7 @@
     "date": "1661",
     "titre": "Début du règne personnel de Louis XIV",
     "type": "fait",
-    "resume": "À la mort du cardinal Mazarin, Louis XIV annonce qu'il gouvernera désormais sans premier ministre et exercera personnellement le pouvoir.",
+    "resume": "À la mort du cardinal [[figure:mazarin]], [[figure:louis-xiv]] annonce qu'il gouvernera désormais sans premier ministre et exercera personnellement le pouvoir.",
     "impact_par_couche": {
       "paysannerie": "Le changement de gouvernement à la Cour n'a pas d'effet immédiat visible sur la vie quotidienne dans les campagnes.",
       "bourgeoisie": "Des hommes comme Colbert accèdent à des responsabilités croissantes dans l'administration royale.",
@@ -129,7 +129,7 @@
     "date": "1685-10-18",
     "titre": "Révocation de l'Édit de Nantes",
     "type": "fait",
-    "resume": "Par l'édit de Fontainebleau, Louis XIV révoque l'édit de Nantes de 1598, retirant aux protestants du royaume la liberté de culte qui leur était garantie.",
+    "resume": "Par l'édit de Fontainebleau, [[figure:louis-xiv]] révoque l'édit de Nantes de 1598, retirant aux protestants du royaume la liberté de culte qui leur était garantie.",
     "impact_par_couche": {
       "paysannerie": "Des familles protestantes de la paysannerie sont confrontées à des conversions forcées ou choisissent l'exil, notamment vers des régions frontalières.",
       "bourgeoisie": "De nombreux marchands et artisans protestants émigrent, emportant avec eux savoir-faire et capitaux.",
@@ -252,7 +252,7 @@
     "date": "1715-09-01",
     "titre": "Mort de Louis XIV",
     "type": "fait",
-    "resume": "Louis XIV meurt à Versailles après soixante-douze ans de règne, le plus long de l'histoire de France. Son arrière-petit-fils, âgé de cinq ans, lui succède sous le nom de Louis XV.",
+    "resume": "[[figure:louis-xiv]] meurt à Versailles après soixante-douze ans de règne, le plus long de l'histoire de France. Son arrière-petit-fils, âgé de cinq ans, lui succède sous le nom de Louis XV.",
     "impact_par_couche": {
       "paysannerie": "La mort du roi n'entraîne pas de changement immédiat dans les conditions matérielles des campagnes.",
       "bourgeoisie": "L'annonce circule dans les villes, où elle nourrit des discussions sur l'avenir du gouvernement.",

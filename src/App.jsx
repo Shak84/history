@@ -4,6 +4,7 @@ import evenements from './data/evenements.json'
 import SelecteurPersonnage from './components/SelecteurPersonnage'
 import FichePersonnage from './components/FichePersonnage'
 import ListeEvenements from './components/ListeEvenements'
+import ModaleStack from './components/ModaleStack'
 
 function App() {
   const [personnageId, setPersonnageId] = useState(null)
@@ -26,6 +27,7 @@ function App() {
           <ListeEvenements evenements={evenements} personnageId={personnage.id} />
         </>
       )}
+      <ModaleStack />
     </div>
   )
 }
