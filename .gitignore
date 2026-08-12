@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# ouvrages sources (gros PDF Gallica/BnF, non versionnés — voir sources.json pour les URL)
+ouvrages/
+
 # dotenv environment variable files
 .env
 .env.*

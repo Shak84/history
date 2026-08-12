@@ -31,7 +31,9 @@
       { "date": "1685-10-18", "fait": "Signe l'édit de Fontainebleau, qui révoque l'édit de Nantes.", "sources": ["wikidata-q512443"] },
       { "date": "1715-09-01", "fait": "Meurt à Versailles après soixante-douze ans de règne.", "sources": ["wikidata-q7742"] }
     ],
-    "regard_sur_les_puissances": [],
+    "regard_sur_les_puissances": [
+      { "pays": "ses voisins (puissances européennes, non nommées individuellement)", "position": "Sur son lit de mort, appelle son successeur à rechercher la paix avec les puissances voisines plutôt que la guerre.", "citation": "Mon enfant, vous allez être un grand roi : ne m'imitez pas dans le goût que j'ai eu pour les bâtiments, ni dans celui que j'ai eu pour la guerre ; tâchez, au contraire, d'avoir la paix avec vos voisins.", "sources": ["doumic-1921-p111"] }
+    ],
     "regard_sur_les_etats": [],
     "iconographie": [
       {
@@ -86,6 +88,117 @@
         "domaine_public": true
       }
     ],
+    "statut": "verifie"
+  },
+  {
+    "id": "vauban",
+    "nom": "Sébastien Le Prestre, seigneur de Vauban",
+    "wikidata": "Q192839",
+    "naissance": "1633-05",
+    "mort": "1707-03-30",
+    "couche_sociale": "petite noblesse du Nivernais (« qui est une maison de noblesse du Nivernais »)",
+    "genealogie": {
+      "pere": "Le nom du père fait l'objet d'un désaccord entre les sources dépouillées : « Urbain le Prêtre » selon l'Éloge de Fontenelle, « Albin Leprestre » selon une note de l'éditeur Augoyat (1839) citant une histoire locale d'Avallon, qui affirme explicitement que les généalogistes ont substitué « Urbain » au véritable prénom « Albin ». Décrit comme un gentilhomme peu fortuné, cadet de famille, ruiné dans le service.",
+      "mere": "Aimée de Carmagnol (selon l'Éloge de Fontenelle, non recoupée par les autres sources dépouillées)",
+      "conjoints": [
+        "Jeanne d'Osnay (ou d'Aunay), fille de Claude d'Aunay, baron d'Espiry, mariage en 1660"
+      ],
+      "enfants": [
+        "Madame la marquise d'Ussé"
+      ],
+      "notes": "Vauban lui-même situe sa famille comme détentrice de la seigneurie de Vauban « depuis deux cents ans et plus ». La date de naissance est elle-même disputée entre les sources : « le 1er jour de mai 1633 » selon Fontenelle, « le 15 mai 1633 » selon la note Augoyat citant une histoire locale d'Avallon ; Wikidata indique une naissance en mai 1633 avec baptême le 15 mai 1633 à Saint-Léger-Vauban, ce qui corrobore la date du 15 mai sans trancher définitivement. Une seconde fille est mentionnée par Fontenelle sous un titre dont la graphie OCR est trop incertaine pour être reproduite ici (« comtesse de Villebretin » à vérifier sur le fac-similé).",
+      "sources": ["vauban-abrege-1839-p25", "vauban-abrege-1839-p26", "vauban-paris-1821-p8", "vauban-paris-1821-p21", "wikidata-q192839"]
+    },
+    "croyances": {
+      "confession": "",
+      "convictions": "",
+      "rapport_au_roi": "Dans une lettre à Louis XIV (reproduite dans l'Abrégé de 1703), Vauban écrit : « Souvenez-vous, Sire, que je ne suis qu'à vous, que je n'ai d'autre protection que celle dont vous m'honorez [...] après quarante-cinq ans de bons et fidèles services. » Fontenelle le décrit comme « passionnément attaché au roi, sujet plein d'une fidélité ardente et zélée, et nullement courtisan ; il auroit infiniment mieux aimé servir que plaire. » Selon la notice éditoriale de 1897 (citant Saint-Simon sans reproduire sa citation exacte), les relations se dégradent après la publication de La Dîme royale en 1707, le roi accueillant très mal la présentation du livre.",
+      "sources": ["vauban-abrege-1839-p30-31", "vauban-paris-1821-p15", "vauban-dime-1897-p7"]
+    },
+    "faits": [
+      { "date": "1651", "fait": "Entre au service comme cadet dans le régiment de Condé, compagnie d'Arcenay, à 17 ans.", "sources": ["vauban-abrege-1839-p5"] },
+      { "date": "1653", "fait": "Fait prisonnier par un parti de l'armée royale ; passe au service du roi à l'initiative du cardinal Mazarin.", "sources": ["vauban-abrege-1839-p6"] },
+      { "date": "1655-05-03", "fait": "Nommé ingénieur ordinaire du roi par brevet.", "sources": ["vauban-dime-1897-p5-6", "vauban-abrege-1839-p19"] },
+      { "date": "1668", "fait": "Devient gouverneur de la citadelle de Lille, premier gouvernement de cette nature en France.", "sources": ["vauban-abrege-1839-p9-10", "vauban-abrege-1839-p19"] },
+      { "date": "1673", "fait": "Au siège de Maëstricht, met en usage pour la première fois sa méthode des attaques par parallèles.", "sources": ["vauban-abrege-1839-p10"] },
+      { "date": "1678", "fait": "Devient commissaire-général des fortifications de France.", "sources": ["vauban-abrege-1839-p12-13", "vauban-abrege-1839-p19"] },
+      { "date": "1689", "fait": "Adresse à Louvois un mémoire pour obtenir le rappel des huguenots.", "sources": ["vauban-abrege-1839-p27"] },
+      { "date": "1696-09-13", "fait": "Écrit à Racine une lettre décrivant l'état critique de la France dans les négociations de paix.", "sources": ["vauban-abrege-1839-p28-30"] },
+      { "date": "1699", "fait": "Nommé membre honoraire de l'Académie des sciences.", "sources": ["vauban-paris-1821-p11"] },
+      { "date": "1703", "fait": "Nommé maréchal de France, alors qu'il se trouve à Namur.", "sources": ["vauban-abrege-1839-p18"] },
+      { "date": "1706-02-02", "fait": "Rédige le « Projet de paix fait à plaisir », mémoire manuscrit sur une possible sortie de la guerre de Succession d'Espagne.", "sources": ["vauban-carte-1891-p9"] },
+      { "date": "1707", "fait": "Publie sans nom d'auteur La Dîme royale, traité proposant un impôt unique remplaçant la fiscalité existante.", "sources": ["vauban-abrege-1839-p24", "vauban-dime-1897-p7"] },
+      { "date": "1707", "fait": "Une ordonnance royale fait saisir et interdire La Dîme royale.", "sources": ["vauban-dime-1897-p8"] },
+      { "date": "1707-03-30", "fait": "Meurt à Paris d'une fluxion de poitrine.", "sources": ["vauban-abrege-1839-p24", "vauban-paris-1821-p20", "wikidata-q192839"] }
+    ],
+    "regard_sur_les_puissances": [
+      { "pays": "Espagne", "position": "Analyse la puissance espagnole comme ruinée par ses anciennes prétentions à la monarchie universelle.", "citation": "L'intérêt de l'Espagne n'est plus de prétendre à la monarchie universelle ; c'est ce qui l'a ruinée.", "sources": ["vauban-carte-1891-p5"] },
+      { "pays": "Angleterre", "position": "Préconise d'exploiter les divisions religieuses et commerciales anglaises au profit de la France.", "citation": "les intérêts de la France sont de balancer l'autorité du roi et du parlement, de fomenter les jalousies entre les presbytériens et les épiscopaux, de protéger les Hollandois contre eux quand ils seront rentrés dans le devoir, et de ruiner leur commerce par la course quand on sera en guerre avec eux.", "sources": ["vauban-carte-1891-p7-8"] },
+      { "pays": "Provinces-Unies (Hollande)", "position": "Position hostile : juge cette nation à contenir strictement dans ses limites commerciales.", "citation": "afin de réduire cette insolente nation à l'étendue du pays nécessaire à son commerce et rien de plus", "sources": ["vauban-carte-1891-p8"] },
+      { "pays": "Portugal", "position": "Anticipe l'absorption à terme du Portugal par l'Espagne.", "citation": "tôt ou tard l'Espagne absorbera le Portugal, notamment si la France s'en mêle", "sources": ["vauban-carte-1891-p8"] },
+      { "pays": "Saint-Empire", "position": "Soutient le maintien de l'Empire dans la maison d'Autriche face à la menace ottomane.", "citation": "Assister l'Empire contre les entreprises de l'Empereur en cas d'attentat sur la liberté des États qui le composent [...] l'assister en ce cas contre ceux qui voudraient l'opprimer, notamment contre les Turcs.", "sources": ["vauban-carte-1891-p7"] },
+      { "pays": "Italie", "position": "Défend le statu quo territorial italien contre toute hégémonie d'un prince italien.", "citation": "Maintenir l'Italie sur le pied où elle est et ne pas souffrir qu'elle soit opprimée en son corps ni en ses membres, ni que pas un de ses princes ne s'élève au-dessus des autres à leurs dépens.", "sources": ["vauban-carte-1891-p7"] },
+      { "pays": "Empire (Allemagne)", "position": "S'alarme de la cession de Strasbourg comme d'un avantage stratégique offert aux Allemands.", "citation": "cela s'appelle donner aux Allemands le plus beau et le plus sûr magasin de l'Europe pour les secours de M. de Lorraine, et pour porter la guerre en France.", "sources": ["vauban-abrege-1839-p29"] },
+      { "pays": "Empire ottoman", "position": "Encourage une expansion allemande dirigée vers les Turcs plutôt qu'en Europe chrétienne.", "citation": "Que l'Allemagne se renfermât toute dans soy sans chercher à s'étendre davantage, si ce n'est du côté des Turcs.", "sources": ["vauban-carte-1891-p20"] }
+    ],
+    "regard_sur_les_etats": [
+      { "etat": "paysannerie", "position": "Appelle à ménager le petit peuple des campagnes pour qu'il puisse subsister de son travail.", "citation": "on doit prendre garde, sur toutes choses, à ménager le menu peuple, afin qu'il s'accroisse, et qu'il puisse trouver dans son travail de quoi soutenir sa vie et se vêtir avec quelque commodité.", "sources": ["vauban-dime-1897-p78"] },
+      { "etat": "paysannerie", "position": "Décrit dans des termes très sombres la misère paysanne, comparée à une bête de somme accablée.", "citation": "notamment le peuple de la Campagne, qui est comme la Bête de Somme qui porte les plus gros fardeaux dont elle est accablée ; aussi n'a-t-il plus que les os et la peau, et tout lui manque, jusques aux aliments les plus grossiers, de sorte qu'il est réduit à la faim, à la soif, à la nudité, au chaud, au froid, à la prison et à la mendicité, et enfin à la mort.", "sources": ["vauban-carte-1891-p29-31"] },
+      { "etat": "noblesse", "position": "Anticipe l'opposition de la noblesse à sa réforme fiscale, qu'il juge mal informée de son propre intérêt.", "citation": "La Noblesse, qui ne sait pas toujours ce qui lui convient le mieux, s'en plaindra aussi.", "sources": ["vauban-dime-1897-p151"] },
+      { "etat": "clerge", "position": "Critique le report des charges fiscales du haut clergé sur le bas clergé.", "citation": "le haut clergé ne se déchargera plus aux dépens du bas, comme ceux-ci se plaignent qu'ils ont fait jusqu'à présent.", "sources": ["vauban-dime-1897-p151"] }
+    ],
+    "iconographie": [],
+    "statut": "verifie"
+  },
+  {
+    "id": "saint-simon",
+    "nom": "Louis de Rouvroy, duc de Saint-Simon",
+    "wikidata": "",
+    "naissance": "1675-01-15",
+    "mort": "1755",
+    "couche_sociale": "haute noblesse d'épée, pairie récente (érigée en 1635 sous Louis XIII)",
+    "genealogie": {
+      "pere": "Claude de Saint-Simon, duc et pair depuis 1635, favori de Louis XIII",
+      "mere": "Charlotte de l'Aubespine",
+      "conjoints": [
+        "Marie-Gabrielle de Durfort de Lorges, fille aînée du maréchal de Lorges, neveu de Turenne"
+      ],
+      "enfants": [
+        "Une fille, mariée au prince de Chimay, qui l'abandonna",
+        "Un fils aîné, duc de Ruffec, marié à une nièce du duc de Noailles",
+        "Un fils cadet, marquis de Ruffec, marié à la fille du secrétaire d'État d'Angervilliers"
+      ],
+      "notes": "Né dans la nuit du 15 au 16 janvier 1675, il reçoit le titre de vidame de Chartres. Le livre de Doumic souligne le paradoxe entre l'attachement de Saint-Simon à « la plus vieille aristocratie » et le caractère récent de sa propre pairie (1635) ; Saint-Simon revendiquait pour sa part une descendance de la maison de Vermandois et de Charlemagne, contestée par d'autres.",
+      "sources": ["doumic-1921-p9-11", "doumic-1921-p32-33"]
+    },
+    "croyances": {
+      "confession": "catholique, éduqué par le jésuite P. Sanadon puis proche de l'abbé de Rancé (la Trappe) ; devenu gallican et janséniste convaincu à l'époque de la rédaction de ses Mémoires",
+      "convictions": "Défenseur intransigeant des prérogatives de la pairie ducale et de l'étiquette de cour ; hostile aux jésuites et à l'ultramontanisme ; gallican, proche des jansénistes ; hostile à l'Inquisition.",
+      "rapport_au_roi": "Selon Doumic, contrairement à l'image donnée par ses propres Mémoires, Saint-Simon ne fut pas persécuté par Louis XIV, qui « lui témoigna de la bonté en plusieurs circonstances » ; il n'obtint cependant sous ce règne aucune grande charge de Cour ni de part au gouvernement, devenant en revanche un conseiller écouté (sans rôle politique majeur) sous la Régence.",
+      "sources": ["doumic-1921-p12", "doumic-1921-p239-240", "doumic-1921-p32"]
+    },
+    "faits": [
+      { "date": "1675-01-15", "fait": "Naît à Paris, dans la nuit du 15 au 16 janvier, fils de Claude de Saint-Simon (65 ans à son mariage) et de Charlotte de l'Aubespine.", "sources": ["doumic-1921-p9-11"] },
+      { "date": "1691", "fait": "Son père le présente au roi à Versailles ; il devient mousquetaire gris.", "sources": ["doumic-1921-p19"] },
+      { "date": "1692", "fait": "Fait ses premières armes au siège de Namur.", "sources": ["doumic-1921-p19"] },
+      { "date": "1693", "fait": "Achète une compagnie de cavalerie dans le régiment Royal-Roussillon et combat à la bataille de Neerwinden ; la même année, mort de son père et procès de préséance perdu contre le maréchal de Luxembourg.", "sources": ["doumic-1921-p19-20", "doumic-1921-p20-21"] },
+      { "date": "1694-07", "fait": "Commence, en campagne, la rédaction de ses Mémoires, à l'âge de 19 ans.", "sources": ["doumic-1921-p12"] },
+      { "date": "1702", "fait": "N'étant pas compris dans une promotion de brigadiers, donne sa démission de l'armée.", "sources": ["doumic-1921-p20"] },
+      { "date": "1710-01-04", "fait": "Se réconcilie avec Louis XIV lors d'une audience au cabinet du roi.", "sources": ["doumic-1921-p29"] },
+      { "date": "1723", "fait": "La mort du Régent, duc d'Orléans, met fin à sa carrière politique.", "sources": ["doumic-1921-p32"] },
+      { "date": "1755", "fait": "Meurt à l'âge de 80 ans.", "sources": ["doumic-1921-p34"] }
+    ],
+    "regard_sur_les_puissances": [
+      { "pays": "Espagne", "position": "Portrait très critique de l'Inquisition espagnole, jugée cause de l'arriération du pays ; portrait sévère du roi Philippe V.", "citation": "Quels pays que ceux d'Inquisition ! C'est que l'Inquisition furette tout, s'alarme de tout, sévit sur tout avec la dernière attention et cruauté. Elle éteint toute instruction, tout fruit d'étude, toute liberté d'esprit, la plus religieuse même et la plus mesurée. [...] elle abhorre toute lumière, toute science, tout usage de son esprit : elle ne veut que l'ignorance et l'ignorance la plus grossière.", "sources": ["doumic-1921-p206"] },
+      { "pays": "Espagne", "position": "Portrait du roi Philippe V.", "citation": "Philippe V est « froid, silencieux, triste, » d'une piété toute formaliste.", "sources": ["doumic-1921-p204"] },
+      { "pays": "Cour de Rome (Saint-Siège)", "position": "Position gallicane, hostile aux empiétements de la Curie romaine sur les libertés de l'Église de France.", "citation": "la pratique constante de l'Église universelle que celle de France a jalousement conservée et défendue contre les entreprises et les usurpations de la Cour de Rome [...] qu'on ne doit pas filer doux avec la Cour de Rome", "sources": ["doumic-1921-p242"] }
+    ],
+    "regard_sur_les_etats": [
+      { "etat": "bourgeoisie", "position": "Critique le choix par Louis XIV de ministres de basse extraction plutôt que de grands seigneurs.", "citation": "ce long règne de vile bourgeoisie", "sources": ["doumic-1921-p138"] },
+      { "etat": "clerge", "position": "Sévère envers un clergé de bas lieu promu à de hautes fonctions.", "citation": "gens de bas lieu, pauvres, crasseux et huileux à merveille", "sources": ["doumic-1921-p239"] },
+      { "etat": "clerge", "position": "Juge très positivement le jansénisme, en contraste avec sa critique des jésuites.", "citation": "ce que les derniers siècles ont produit de plus saint, de plus pur, de plus savant", "sources": ["doumic-1921-p240"] }
+    ],
+    "iconographie": [],
     "statut": "verifie"
   }
 ]

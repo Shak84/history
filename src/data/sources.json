@@ -47,5 +47,439 @@
     "reference": "Jean-Christian Petitfils, Louis XIV, Perrin, 1995",
     "url": null,
     "page": null
+  },
+  {
+    "id": "wikidata-q192839",
+    "type": "base",
+    "reference": "Wikidata — Sébastien Le Prestre de Vauban (Q192839)",
+    "url": "https://www.wikidata.org/wiki/Q192839",
+    "page": null
+  },
+  {
+    "id": "vauban-abrege-1839-p5",
+    "type": "document primaire",
+    "reference": "Vauban, Abrégé des services du maréchal de Vauban, fait par lui en 1703, publié par M. Augoyat, Paris, 1839",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6318671t",
+    "page": 5
+  },
+  {
+    "id": "vauban-abrege-1839-p6",
+    "type": "document primaire",
+    "reference": "Vauban, Abrégé des services du maréchal de Vauban, fait par lui en 1703, publié par M. Augoyat, Paris, 1839",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6318671t",
+    "page": 6
+  },
+  {
+    "id": "vauban-abrege-1839-p9-10",
+    "type": "document primaire",
+    "reference": "Vauban, Abrégé des services du maréchal de Vauban, fait par lui en 1703, publié par M. Augoyat, Paris, 1839",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6318671t",
+    "page": "9-10"
+  },
+  {
+    "id": "vauban-abrege-1839-p10",
+    "type": "document primaire",
+    "reference": "Vauban, Abrégé des services du maréchal de Vauban, fait par lui en 1703, publié par M. Augoyat, Paris, 1839",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6318671t",
+    "page": 10
+  },
+  {
+    "id": "vauban-abrege-1839-p12-13",
+    "type": "document primaire",
+    "reference": "Vauban, Abrégé des services du maréchal de Vauban, fait par lui en 1703, publié par M. Augoyat, Paris, 1839",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6318671t",
+    "page": "12-13"
+  },
+  {
+    "id": "vauban-abrege-1839-p18",
+    "type": "document primaire",
+    "reference": "Vauban, Abrégé des services du maréchal de Vauban, fait par lui en 1703, publié par M. Augoyat, Paris, 1839",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6318671t",
+    "page": 18
+  },
+  {
+    "id": "vauban-abrege-1839-p19",
+    "type": "document primaire",
+    "reference": "Vauban, Abrégé des services du maréchal de Vauban, fait par lui en 1703, publié par M. Augoyat, Paris, 1839 (tableau récapitulatif de carrière)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6318671t",
+    "page": 19
+  },
+  {
+    "id": "vauban-abrege-1839-p24",
+    "type": "document primaire",
+    "reference": "Vauban, Abrégé des services du maréchal de Vauban, fait par lui en 1703, publié par M. Augoyat, Paris, 1839",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6318671t",
+    "page": 24
+  },
+  {
+    "id": "vauban-abrege-1839-p25",
+    "type": "document primaire / note éditoriale",
+    "reference": "Vauban, Abrégé des services du maréchal de Vauban (1703), éd. Augoyat 1839 — note de l'éditeur citant une histoire locale d'Avallon",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6318671t",
+    "page": 25
+  },
+  {
+    "id": "vauban-abrege-1839-p26",
+    "type": "note éditoriale",
+    "reference": "Vauban, Abrégé des services du maréchal de Vauban (1703), éd. Augoyat 1839 — note de l'éditeur sur la famille de Vauban",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6318671t",
+    "page": 26
+  },
+  {
+    "id": "vauban-abrege-1839-p27",
+    "type": "note éditoriale",
+    "reference": "Vauban, Abrégé des services du maréchal de Vauban (1703), éd. Augoyat 1839",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6318671t",
+    "page": 27
+  },
+  {
+    "id": "vauban-abrege-1839-p28-30",
+    "type": "document primaire",
+    "reference": "Vauban, Abrégé des services du maréchal de Vauban (1703) — lettre de Vauban à Racine, 13 septembre 1696",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6318671t",
+    "page": "28-30"
+  },
+  {
+    "id": "vauban-abrege-1839-p29",
+    "type": "document primaire",
+    "reference": "Vauban, Abrégé des services du maréchal de Vauban (1703) — lettre de Vauban à Racine, 13 septembre 1696",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6318671t",
+    "page": 29
+  },
+  {
+    "id": "vauban-abrege-1839-p30-31",
+    "type": "document primaire",
+    "reference": "Vauban, Abrégé des services du maréchal de Vauban (1703) — lettre de Vauban à Louis XIV, 1696",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6318671t",
+    "page": "30-31"
+  },
+  {
+    "id": "vauban-paris-1821-p8",
+    "type": "source secondaire (éloge biographique)",
+    "reference": "Fontenelle, Éloge de M. le maréchal de Vauban, dans De l'importance que Paris est à la France, Mémoire inédit du maréchal de Vauban, 1821",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k5467733k",
+    "page": 8
+  },
+  {
+    "id": "vauban-paris-1821-p11",
+    "type": "source secondaire (éloge biographique)",
+    "reference": "Fontenelle, Éloge de M. le maréchal de Vauban, dans De l'importance que Paris est à la France, 1821",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k5467733k",
+    "page": 11
+  },
+  {
+    "id": "vauban-paris-1821-p15",
+    "type": "source secondaire (éloge biographique)",
+    "reference": "Fontenelle, Éloge de M. le maréchal de Vauban, dans De l'importance que Paris est à la France, 1821",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k5467733k",
+    "page": 15
+  },
+  {
+    "id": "vauban-paris-1821-p18-31",
+    "type": "document primaire",
+    "reference": "Vauban, De l'importance que Paris est à la France, mémoire inédit sur la fortification de Paris, 1821",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k5467733k",
+    "page": "18-31"
+  },
+  {
+    "id": "vauban-paris-1821-p20",
+    "type": "source secondaire (éloge biographique)",
+    "reference": "Fontenelle, Éloge de M. le maréchal de Vauban, dans De l'importance que Paris est à la France, 1821",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k5467733k",
+    "page": 20
+  },
+  {
+    "id": "vauban-paris-1821-p21",
+    "type": "source secondaire (éloge biographique)",
+    "reference": "Fontenelle, Éloge de M. le maréchal de Vauban, dans De l'importance que Paris est à la France, 1821",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k5467733k",
+    "page": 21
+  },
+  {
+    "id": "vauban-dime-1897-p5-6",
+    "type": "source secondaire (notice éditoriale)",
+    "reference": "Notice sur Vauban, dans Vauban, La dîme royale, éd. Bibliothèque nationale, 1897",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k5727570s",
+    "page": "5-6"
+  },
+  {
+    "id": "vauban-dime-1897-p7",
+    "type": "source secondaire (notice éditoriale)",
+    "reference": "Notice sur Vauban, dans Vauban, La dîme royale, éd. Bibliothèque nationale, 1897",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k5727570s",
+    "page": 7
+  },
+  {
+    "id": "vauban-dime-1897-p8",
+    "type": "source secondaire (notice éditoriale)",
+    "reference": "Notice sur Vauban, dans Vauban, La dîme royale, éd. Bibliothèque nationale, 1897",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k5727570s",
+    "page": 8
+  },
+  {
+    "id": "vauban-dime-1897-p16-17",
+    "type": "document primaire",
+    "reference": "Vauban, La dîme royale, 1707 (éd. 1897)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k5727570s",
+    "page": "16-17"
+  },
+  {
+    "id": "vauban-dime-1897-p23",
+    "type": "document primaire",
+    "reference": "Vauban, La dîme royale, 1707 (éd. 1897)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k5727570s",
+    "page": 23
+  },
+  {
+    "id": "vauban-dime-1897-p78",
+    "type": "document primaire",
+    "reference": "Vauban, La dîme royale, 1707 (éd. 1897)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k5727570s",
+    "page": 78
+  },
+  {
+    "id": "vauban-dime-1897-p151",
+    "type": "document primaire",
+    "reference": "Vauban, La dîme royale, 1707 (éd. 1897)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k5727570s",
+    "page": 151
+  },
+  {
+    "id": "vauban-dime-1897-p160",
+    "type": "document primaire",
+    "reference": "Vauban, La dîme royale, 1707 (éd. 1897) — passage à orthographe reconstituée avec prudence (OCR dégradé)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k5727570s",
+    "page": 160
+  },
+  {
+    "id": "vauban-carte-1891-p5",
+    "type": "document primaire",
+    "reference": "Vauban, « Intérêt présent des États de la chrétienté » (v. 1700), dans A. de Rochas, Projet d'une carte politique de l'Europe par Vauban en 1706, 1891",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k116187s",
+    "page": 5
+  },
+  {
+    "id": "vauban-carte-1891-p7",
+    "type": "document primaire",
+    "reference": "Vauban, « Intérêt présent des États de la chrétienté » (v. 1700), dans A. de Rochas, Projet d'une carte politique de l'Europe par Vauban en 1706, 1891",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k116187s",
+    "page": 7
+  },
+  {
+    "id": "vauban-carte-1891-p7-8",
+    "type": "document primaire",
+    "reference": "Vauban, « Intérêt présent des États de la chrétienté » (v. 1700), dans A. de Rochas, Projet d'une carte politique de l'Europe par Vauban en 1706, 1891",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k116187s",
+    "page": "7-8"
+  },
+  {
+    "id": "vauban-carte-1891-p8",
+    "type": "document primaire",
+    "reference": "Vauban, « Intérêt présent des États de la chrétienté » (v. 1700), dans A. de Rochas, Projet d'une carte politique de l'Europe par Vauban en 1706, 1891",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k116187s",
+    "page": 8
+  },
+  {
+    "id": "vauban-carte-1891-p9",
+    "type": "document primaire",
+    "reference": "Vauban, « Projet de paix fait à plaisir », 2 février 1706, dans A. de Rochas, Projet d'une carte politique de l'Europe par Vauban en 1706, 1891",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k116187s",
+    "page": 9
+  },
+  {
+    "id": "vauban-carte-1891-p13",
+    "type": "document primaire",
+    "reference": "Vauban, « Projet de paix fait à plaisir », 2 février 1706",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k116187s",
+    "page": 13
+  },
+  {
+    "id": "vauban-carte-1891-p19",
+    "type": "document primaire",
+    "reference": "Vauban, « Intérêt présent des États de la chrétienté » (v. 1700)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k116187s",
+    "page": 19
+  },
+  {
+    "id": "vauban-carte-1891-p20",
+    "type": "document primaire",
+    "reference": "Vauban, « Intérêt présent des États de la chrétienté » (v. 1700)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k116187s",
+    "page": 20
+  },
+  {
+    "id": "vauban-carte-1891-p21-22",
+    "type": "document primaire",
+    "reference": "Vauban, « Projet de paix fait à plaisir », 2 février 1706",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k116187s",
+    "page": "21-22"
+  },
+  {
+    "id": "vauban-carte-1891-p23",
+    "type": "document primaire",
+    "reference": "Vauban, « Projet de paix fait à plaisir », 2 février 1706",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k116187s",
+    "page": 23
+  },
+  {
+    "id": "vauban-carte-1891-p23-24",
+    "type": "document primaire",
+    "reference": "Vauban, « Projet de paix fait à plaisir », 2 février 1706",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k116187s",
+    "page": "23-24"
+  },
+  {
+    "id": "vauban-carte-1891-p29-31",
+    "type": "document primaire",
+    "reference": "Vauban, revue des places fortes du royaume, dans A. de Rochas, Projet d'une carte politique de l'Europe par Vauban en 1706, 1891",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k116187s",
+    "page": "29-31"
+  },
+  {
+    "id": "doumic-1921-p9-11",
+    "type": "ouvrage",
+    "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
+    "page": "9-11"
+  },
+  {
+    "id": "doumic-1921-p12",
+    "type": "ouvrage",
+    "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
+    "page": 12
+  },
+  {
+    "id": "doumic-1921-p19",
+    "type": "ouvrage",
+    "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
+    "page": 19
+  },
+  {
+    "id": "doumic-1921-p20",
+    "type": "ouvrage",
+    "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
+    "page": 20
+  },
+  {
+    "id": "doumic-1921-p19-20",
+    "type": "ouvrage",
+    "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
+    "page": "19-20"
+  },
+  {
+    "id": "doumic-1921-p20-21",
+    "type": "ouvrage",
+    "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
+    "page": "20-21"
+  },
+  {
+    "id": "doumic-1921-p26",
+    "type": "ouvrage",
+    "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
+    "page": 26
+  },
+  {
+    "id": "doumic-1921-p29",
+    "type": "ouvrage",
+    "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
+    "page": 29
+  },
+  {
+    "id": "doumic-1921-p32",
+    "type": "ouvrage",
+    "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
+    "page": 32
+  },
+  {
+    "id": "doumic-1921-p34",
+    "type": "ouvrage",
+    "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
+    "page": 34
+  },
+  {
+    "id": "doumic-1921-p32-33",
+    "type": "ouvrage",
+    "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
+    "page": "32-33"
+  },
+  {
+    "id": "doumic-1921-p239-240",
+    "type": "ouvrage",
+    "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
+    "page": "239-240"
+  },
+  {
+    "id": "doumic-1921-p239",
+    "type": "ouvrage",
+    "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
+    "page": 239
+  },
+  {
+    "id": "doumic-1921-p240",
+    "type": "ouvrage",
+    "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
+    "page": 240
+  },
+  {
+    "id": "doumic-1921-p242",
+    "type": "ouvrage",
+    "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
+    "page": 242
+  },
+  {
+    "id": "doumic-1921-p206",
+    "type": "ouvrage",
+    "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921 (citation des Mémoires de Saint-Simon)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
+    "page": 206
+  },
+  {
+    "id": "doumic-1921-p204",
+    "type": "ouvrage",
+    "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921 (citation des Mémoires de Saint-Simon)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
+    "page": 204
+  },
+  {
+    "id": "doumic-1921-p138",
+    "type": "ouvrage",
+    "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921 (citation des Mémoires de Saint-Simon)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
+    "page": 138
+  },
+  {
+    "id": "doumic-1921-p55",
+    "type": "ouvrage",
+    "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921 (citation des Mémoires de Saint-Simon)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
+    "page": 55
+  },
+  {
+    "id": "doumic-1921-p139-140",
+    "type": "ouvrage",
+    "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921 (citation des Mémoires de Saint-Simon)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
+    "page": "139-140"
+  },
+  {
+    "id": "doumic-1921-p111",
+    "type": "ouvrage",
+    "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921 (dernières paroles de Louis XIV à Louis XV, rapportées par Saint-Simon dans ses Mémoires)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
+    "page": 111
   }
 ]
