@@ -96,6 +96,26 @@ for (const s of sources) {
   }
 }
 
+let evenementsMilitaires = []
+try {
+  evenementsMilitaires = lire('geo/evenements-militaires.json')
+} catch {
+  // fichier optionnel, pas encore branché à l'interface
+}
+for (const ev of evenementsMilitaires) {
+  if (!ev.sources || ev.sources.length === 0) {
+    erreurs.push(`geo/evenements-militaires.json / ${ev.id} : sans sources`)
+  }
+  for (const id of ev.sources ?? []) {
+    if (!idsSources.has(id)) {
+      erreurs.push(`geo/evenements-militaires.json / ${ev.id} : source "${id}" absente de sources.json`)
+    }
+  }
+  if (!ev.date_precision || !['explicite', 'contextuelle'].includes(ev.date_precision)) {
+    erreurs.push(`geo/evenements-militaires.json / ${ev.id} : date_precision manquante ou invalide`)
+  }
+}
+
 if (erreurs.length > 0) {
   console.error(`Validation échouée (${erreurs.length} erreur(s)) :\n`)
   for (const e of erreurs) console.error(`  - ${e}`)

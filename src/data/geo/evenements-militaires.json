@@ -1,0 +1,282 @@
+[
+  {
+    "id": "vauban-eval-1706-lorraine",
+    "type": "evaluation_fortification",
+    "lieu": ["Bitche", "Hombourg", "Nancy", "Mont-Royal"],
+    "region": "Lorraine",
+    "date": "1706",
+    "date_precision": "explicite",
+    "detail": "Revue par Vauban lui-même de l'état des places de Lorraine : Bitche et Hombourg démantelées, Mont-Royal démantelée.",
+    "sources": ["vauban-carte-1891-p29-31"]
+  },
+  {
+    "id": "vauban-eval-1706-alsace",
+    "type": "evaluation_fortification",
+    "lieu": ["Philisbourg", "Fort de Kehl", "Vieux-Brisach", "Huningue"],
+    "region": "Alsace",
+    "date": "1706",
+    "date_precision": "explicite",
+    "detail": "Places démantelées ou incomplètes selon Vauban.",
+    "sources": ["vauban-carte-1891-p29-31"]
+  },
+  {
+    "id": "vauban-eval-1706-luxembourg",
+    "type": "evaluation_fortification",
+    "lieu": ["Luxembourg"],
+    "region": "Luxembourg",
+    "date": "1706",
+    "date_precision": "explicite",
+    "detail": "Province perdue par le traité de Ryswick (1697), selon Vauban.",
+    "sources": ["vauban-carte-1891-p29-31"]
+  },
+  {
+    "id": "vauban-eval-1706-meuse",
+    "type": "evaluation_fortification",
+    "lieu": ["Mouzon", "Stenay", "Donchery", "Sedan", "Mézières"],
+    "region": "Meuse / Évêchés",
+    "date": "1706",
+    "date_precision": "explicite",
+    "detail": "Mouzon, Stenay, Donchery démantelées ; Sedan et Mézières « bonnes places, mais très imparfaites » selon Vauban.",
+    "sources": ["vauban-carte-1891-p29-31"]
+  },
+  {
+    "id": "vauban-eval-1706-hainaut",
+    "type": "evaluation_fortification",
+    "lieu": ["Charlemont", "Philippeville", "Rocroy", "Givet", "Maubeuge", "Le Quesnoy", "Avesnes", "Landrecies", "Tournay", "Valenciennes", "Lille", "Condé", "Menin", "Ypres"],
+    "region": "Hainaut",
+    "date": "1706",
+    "date_precision": "explicite",
+    "detail": "Revue détaillée de Vauban : Tournay, Valenciennes, Lille, Condé, Menin et Ypres jugées « les meilleures places de ces pays-là, et en assez bon état ».",
+    "sources": ["vauban-carte-1891-p29-31"]
+  },
+  {
+    "id": "vauban-eval-1706-flandre-maritime",
+    "type": "evaluation_fortification",
+    "lieu": ["Dunkerque", "Bergues", "Furnes", "Gravelines", "Calais"],
+    "region": "Flandre maritime",
+    "date": "1706",
+    "date_precision": "explicite",
+    "detail": "Dunkerque et Bergues jugées bonnes par Vauban ; Furnes et Calais travaux inachevés.",
+    "sources": ["vauban-carte-1891-p29-31"]
+  },
+  {
+    "id": "vauban-eval-1706-pyrenees",
+    "type": "evaluation_fortification",
+    "lieu": ["Bayonne", "Perpignan", "Villefranche", "Mont-Louis", "Salses", "Collioure"],
+    "region": "Roussillon / frontière d'Espagne",
+    "date": "1706",
+    "date_precision": "explicite",
+    "detail": "Perpignan, Villefranche et Mont-Louis jugées bonnes par Vauban ; Bayonne incomplète.",
+    "sources": ["vauban-carte-1891-p29-31"]
+  },
+  {
+    "id": "vauban-eval-1706-mediterranee",
+    "type": "evaluation_fortification",
+    "lieu": ["Antibes", "Toulon", "Marseille"],
+    "region": "Provence",
+    "date": "1706",
+    "date_precision": "explicite",
+    "detail": "Marseille jugée par Vauban « l'un des grands villages de la Chrétienté, mais de nulle défense ».",
+    "sources": ["vauban-carte-1891-p29-31"]
+  },
+  {
+    "id": "vauban-projet-paix-1706",
+    "type": "cession_territoriale_proposee",
+    "lieu": ["Comté de Bourgogne", "Duché de Lorraine", "Duché de Bar", "Luxembourg", "Alsace", "Hainaut", "Flandre", "Artois", "Cambrésis", "Roussillon"],
+    "region": null,
+    "date": "1706-02-02",
+    "date_precision": "explicite",
+    "detail": "« Projet de paix fait à plaisir » : liste des gains territoriaux proposés par Vauban pour la France en vue de mettre fin à la guerre de Succession d'Espagne.",
+    "sources": ["vauban-carte-1891-p13"]
+  },
+  {
+    "id": "siege-mayence-1644",
+    "type": "siege",
+    "lieu": "Mayence (Mainz)",
+    "region": null,
+    "date": "1644-09-16",
+    "date_precision": "explicite",
+    "detail": "Capitulation signée, mentionnée par Turenne dans ses Mémoires (T1).",
+    "sources": ["turenne-t1-p53"]
+  },
+  {
+    "id": "siege-montmedy-1657",
+    "type": "siege",
+    "lieu": "Montmédy",
+    "region": null,
+    "date": "1657-08-06",
+    "date_precision": "explicite",
+    "detail": "Siège mené sous les yeux de Louis XIV, capitulation reçue par Turenne (Mémoires T2).",
+    "sources": ["turenne-t2-p87"]
+  },
+  {
+    "id": "siege-gravelines-1658",
+    "type": "siege",
+    "lieu": "Gravelines",
+    "region": "Flandre",
+    "date": "1658-08-28",
+    "date_precision": "explicite",
+    "detail": "Capitulation après 25-26 jours de tranchée ouverte (Mémoires de Turenne T2).",
+    "sources": ["turenne-t2-p151"]
+  },
+  {
+    "id": "siege-tournai-1667",
+    "type": "siege",
+    "lieu": "Tournai",
+    "region": null,
+    "date": "1667-06-23",
+    "date_precision": "explicite",
+    "detail": "Capitulation signée par le gouverneur, le marquis de Trelon/Trésigny.",
+    "sources": ["quincy-t1"]
+  },
+  {
+    "id": "siege-philisbourg-1688",
+    "type": "siege",
+    "lieu": "Philisbourg (Philippsburg)",
+    "region": null,
+    "date": "1688-10-30",
+    "date_precision": "explicite",
+    "detail": "Défendue par M. de Starhemberg, capitulation le 30 octobre.",
+    "sources": ["quincy-t2"]
+  },
+  {
+    "id": "siege-kaiserslautern-1688",
+    "type": "siege",
+    "lieu": "Kaiserslautern",
+    "region": "Électorat palatin",
+    "date": "1688",
+    "date_precision": "explicite",
+    "detail": "Pris par Boufflers.",
+    "sources": ["quincy-t2"]
+  },
+  {
+    "id": "siege-huy-1688",
+    "type": "siege",
+    "lieu": "Huy",
+    "region": "pays de Liège",
+    "date": "1688",
+    "date_precision": "explicite",
+    "detail": "Pris par le maréchal d'Humières.",
+    "sources": ["quincy-t2"]
+  },
+  {
+    "id": "prise-carmagnole-1691",
+    "type": "siege",
+    "lieu": "Carmagnole",
+    "region": "Piémont",
+    "date": "1691",
+    "date_precision": "explicite",
+    "detail": "Résidence royale de Savoie mise à sac.",
+    "sources": ["quincy-t2"]
+  },
+  {
+    "id": "prise-turckheim-1692",
+    "type": "bataille",
+    "lieu": "Défilé de Turckheim",
+    "region": "Alsace",
+    "date": "1692",
+    "date_precision": "explicite",
+    "detail": "Pris sans obstacle par le maréchal de Lorges.",
+    "sources": ["quincy-t2"]
+  },
+  {
+    "id": "prise-embrun-1692",
+    "type": "siege",
+    "lieu": "Embrun",
+    "region": "Dauphiné",
+    "date": "1692",
+    "date_precision": "explicite",
+    "detail": "Pris par le duc de Savoie, puis rendu par capitulation honorable.",
+    "sources": ["quincy-t2"]
+  },
+  {
+    "id": "xativa-1707",
+    "type": "siege",
+    "lieu": "Xàtiva (Játiva)",
+    "region": "Royaume de Valence",
+    "date": "1707",
+    "date_precision": "explicite",
+    "detail": "Prise « l'épée à la main » par le chevalier d'Asfeld.",
+    "sources": ["quincy-t5"]
+  },
+  {
+    "id": "prise-venasque-1708",
+    "type": "siege",
+    "lieu": "Venasque",
+    "region": "frontière Aragon/Catalogne",
+    "date": "1708",
+    "date_precision": "explicite",
+    "detail": "Pris par le comte d'Estaing après quelques jours d'attaque.",
+    "sources": ["quincy-t6"]
+  },
+  {
+    "id": "prise-tortosa-1708",
+    "type": "siege",
+    "lieu": "Tortosa",
+    "region": "Catalogne",
+    "date": "1708",
+    "date_precision": "explicite",
+    "detail": "Conquête du duc d'Orléans.",
+    "sources": ["quincy-t6"]
+  },
+  {
+    "id": "prise-exilles-1708",
+    "type": "siege",
+    "lieu": ["Exilles", "Fenestrelles", "La Pérouse"],
+    "region": "Alpes (frontière Dauphiné/Piémont)",
+    "date": "1708",
+    "date_precision": "explicite",
+    "detail": "Conquêtes du maréchal de Villars.",
+    "sources": ["quincy-t6"]
+  },
+  {
+    "id": "prise-denia-alicante-1708",
+    "type": "siege",
+    "lieu": ["Denia", "Alicante"],
+    "region": "Royaume de Valence",
+    "date": "1708",
+    "date_precision": "explicite",
+    "detail": "Réduits par le chevalier d'Asfeld.",
+    "sources": ["quincy-t6"]
+  },
+  {
+    "id": "debarquement-cette-agde-1710",
+    "type": "debarquement",
+    "lieu": ["Cette (Sète)", "Agde"],
+    "region": "Languedoc",
+    "date": "1710-07-02",
+    "date_precision": "explicite",
+    "detail": "Débarquement anglo-hollandais d'environ 3000 hommes en soutien aux révoltés des Cévennes ; prise des deux villes ouvertes et sans défense. Événement notable car en France métropolitaine même.",
+    "sources": ["quincy-t6"]
+  },
+  {
+    "id": "siege-cardona-1714",
+    "type": "siege",
+    "lieu": "Cardona",
+    "region": "Catalogne",
+    "date": "1714",
+    "date_precision": "contextuelle",
+    "detail": "Reddition à discrétion sous le maréchal de Berwick, pacification finale de la Catalogne.",
+    "sources": ["quincy-t7"]
+  },
+  {
+    "id": "siege-fribourg-1644",
+    "type": "bataille",
+    "lieu": "Fribourg-en-Brisgau",
+    "region": null,
+    "date": "1644-08",
+    "date_precision": "explicite",
+    "detail": "Siège mentionné dans les Mémoires de Turenne (T1).",
+    "sources": ["turenne-t1-p90"]
+  },
+  {
+    "id": "bataille-zusmarshausen-1648",
+    "type": "bataille",
+    "lieu": "Zusmarshausen",
+    "region": null,
+    "date": "1648-05-17",
+    "date_precision": "explicite",
+    "detail": "Bataille mentionnée dans les Mémoires de Turenne (T1).",
+    "sources": ["turenne-t1-p203"]
+  }
+]

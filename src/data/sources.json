@@ -511,6 +511,20 @@
     "page": 53
   },
   {
+    "id": "turenne-t1-p90",
+    "type": "document primaire",
+    "reference": "Mémoires du maréchal de Turenne, t. I (1643-1653), éd. Paul Marichal, 1909",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k63655797",
+    "page": 90
+  },
+  {
+    "id": "turenne-t1-p203",
+    "type": "document primaire",
+    "reference": "Mémoires du maréchal de Turenne, t. I (1643-1653), éd. Paul Marichal, 1909",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k63655797",
+    "page": 203
+  },
+  {
     "id": "turenne-t2-p87",
     "type": "document primaire",
     "reference": "Mémoires du maréchal de Turenne, t. II (1654-1659), éd. Paul Marichal, 1914",
@@ -537,5 +551,54 @@
     "reference": "Charles Sevin de Quincy, Histoire militaire du règne de Louis-le-Grand, t. V, 1726",
     "url": "https://gallica.bnf.fr/ark:/12148/bpt6k123262x",
     "page": 482
+  },
+  {
+    "id": "quincy-t1",
+    "type": "ouvrage",
+    "reference": "Charles Sevin de Quincy, Histoire militaire du règne de Louis-le-Grand, roi de France, t. I, 1726 (couvre env. la Fronde à 1678)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k123111h",
+    "page": null
+  },
+  {
+    "id": "quincy-t2",
+    "type": "ouvrage",
+    "reference": "Charles Sevin de Quincy, Histoire militaire du règne de Louis-le-Grand, roi de France, t. II, 1726 (couvre env. 1682-1693)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k123123m",
+    "page": null
+  },
+  {
+    "id": "quincy-t4",
+    "type": "ouvrage",
+    "reference": "Charles Sevin de Quincy, Histoire militaire du règne de Louis-le-Grand, roi de France, t. IV, 1726 (couvre env. 1703-1705 ; le tome III, ~1693-1703, n'était pas disponible)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k1232084",
+    "page": null
+  },
+  {
+    "id": "quincy-t5",
+    "type": "ouvrage",
+    "reference": "Charles Sevin de Quincy, Histoire militaire du règne de Louis-le-Grand, roi de France, t. V, 1726 (couvre env. 1705-1707)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k123262x",
+    "page": null
+  },
+  {
+    "id": "quincy-t6",
+    "type": "ouvrage",
+    "reference": "Charles Sevin de Quincy, Histoire militaire du règne de Louis-le-Grand, roi de France, t. VI, 1726 (couvre env. 1707-1710)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k1232639",
+    "page": null
+  },
+  {
+    "id": "quincy-t7",
+    "type": "ouvrage",
+    "reference": "Charles Sevin de Quincy, Histoire militaire du règne de Louis-le-Grand, roi de France, t. VII (numéroté ainsi sur le fac-similé), 1726 (couvre env. 1711-1715)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k123264p",
+    "page": null
+  },
+  {
+    "id": "vauban-carte-1891",
+    "type": "document primaire",
+    "reference": "A. de Rochas, Projet d'une carte politique de l'Europe par Vauban en 1706 (reproduit deux mémoires manuscrits de Vauban), 1891",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k116187s",
+    "page": null
   }
 ]
