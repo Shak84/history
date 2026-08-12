@@ -476,10 +476,66 @@
     "page": "139-140"
   },
   {
+    "id": "wikidata-q303216",
+    "type": "base",
+    "reference": "Wikidata — Henri de La Tour d'Auvergne, vicomte de Turenne (Q303216)",
+    "url": "https://www.wikidata.org/wiki/Q303216",
+    "page": null
+  },
+  {
+    "id": "turenne-t1-p49",
+    "type": "document primaire / note éditoriale",
+    "reference": "Mémoires du maréchal de Turenne, t. I (1643-1653), éd. Paul Marichal, Société de l'histoire de France, 1909 — note de l'éditeur citant le contrat de mariage (Arch. nat., Y190, fol. 104)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k63655797",
+    "page": 49
+  },
+  {
+    "id": "turenne-t2-p404-449",
+    "type": "apparat critique (table alphabétique)",
+    "reference": "Mémoires du maréchal de Turenne, t. II (1654-1659), éd. Paul Marichal, Société de l'histoire de France, 1914 — Table alphabétique",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6365552k",
+    "page": "404-449"
+  },
+  {
     "id": "doumic-1921-p111",
     "type": "ouvrage",
     "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921 (dernières paroles de Louis XIV à Louis XV, rapportées par Saint-Simon dans ses Mémoires)",
     "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
     "page": 111
+  },
+  {
+    "id": "turenne-t1-p53",
+    "type": "document primaire",
+    "reference": "Mémoires du maréchal de Turenne, t. I (1643-1653), éd. Paul Marichal, 1909",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k63655797",
+    "page": 53
+  },
+  {
+    "id": "turenne-t2-p87",
+    "type": "document primaire",
+    "reference": "Mémoires du maréchal de Turenne, t. II (1654-1659), éd. Paul Marichal, 1914",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6365552k",
+    "page": 87
+  },
+  {
+    "id": "turenne-t2-p151",
+    "type": "document primaire",
+    "reference": "Mémoires du maréchal de Turenne, t. II (1654-1659), éd. Paul Marichal, 1914",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6365552k",
+    "page": 151
+  },
+  {
+    "id": "quincy-t1-p466-467",
+    "type": "ouvrage",
+    "reference": "Charles Sevin de Quincy, Histoire militaire du règne de Louis-le-Grand, t. I, 1726",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k123111h",
+    "page": "466-467"
+  },
+  {
+    "id": "quincy-t5-p482",
+    "type": "ouvrage",
+    "reference": "Charles Sevin de Quincy, Histoire militaire du règne de Louis-le-Grand, t. V, 1726",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k123262x",
+    "page": 482
   }
 ]

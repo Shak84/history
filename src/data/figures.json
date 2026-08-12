@@ -200,5 +200,39 @@
     ],
     "iconographie": [],
     "statut": "verifie"
+  },
+  {
+    "id": "turenne",
+    "nom": "Henri de La Tour d'Auvergne, vicomte de Turenne",
+    "wikidata": "Q303216",
+    "naissance": "1611-09-11",
+    "mort": "1675-07-27",
+    "couche_sociale": "haute noblesse (maison de La Tour d'Auvergne, ducs de Bouillon)",
+    "genealogie": {
+      "pere": "Henri de La Tour d'Auvergne, duc de Bouillon",
+      "mere": "Elisabeth de Nassau",
+      "conjoints": ["Charlotte de Caumont (contrat de mariage du 8 juin 1651)"],
+      "enfants": [],
+      "notes": "Frère : Frédéric-Maurice de La Tour, duc de Bouillon. Sœur : Charlotte de La Tour. Aucun enfant trouvé dans les sources dépouillées.",
+      "sources": ["turenne-t1-p49", "turenne-t2-p404-449", "wikidata-q303216"]
+    },
+    "croyances": {
+      "confession": "",
+      "convictions": "",
+      "rapport_au_roi": "",
+      "sources": []
+    },
+    "faits": [
+      { "date": "1611-09-11", "fait": "Naît à Sedan.", "sources": ["wikidata-q303216"] },
+      { "date": "1644-09-16", "fait": "Reçoit la capitulation de Mayence.", "sources": ["turenne-t1-p53"] },
+      { "date": "1651-06-08", "fait": "Épouse Charlotte de Caumont par contrat de mariage.", "sources": ["turenne-t1-p49"] },
+      { "date": "1657-08-06", "fait": "Reçoit la capitulation de Montmédy, siège mené sous les yeux de Louis XIV.", "sources": ["turenne-t2-p87"] },
+      { "date": "1658-08-28", "fait": "Reçoit la capitulation de Gravelines après 25-26 jours de tranchée ouverte.", "sources": ["turenne-t2-p151"] },
+      { "date": "1675-07-27", "fait": "Tué par un boulet de canon en reconnaissant les positions ennemies près de Sasbach, en Alsace, lors d'une campagne contre le comte de Montecuculli ; son corps fut inhumé à Saint-Denis sur ordre de Louis XIV.", "sources": ["wikidata-q303216", "quincy-t1-p466-467"] }
+    ],
+    "regard_sur_les_puissances": [],
+    "regard_sur_les_etats": [],
+    "iconographie": [],
+    "statut": "verifie"
   }
 ]
