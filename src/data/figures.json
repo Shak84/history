@@ -234,5 +234,78 @@
     "regard_sur_les_etats": [],
     "iconographie": [],
     "statut": "verifie"
+  },
+  {
+    "id": "colbert",
+    "nom": "Jean-Baptiste Colbert",
+    "wikidata": "Q188971",
+    "naissance": "1619-08-29",
+    "mort": "1683-09-06",
+    "couche_sociale": "bourgeoisie d'office",
+    "genealogie": {
+      "pere": "",
+      "mere": "",
+      "conjoints": [],
+      "enfants": [],
+      "notes": "Le conseiller d'État Henri Pussort, juge au procès Fouquet, était l'oncle de Colbert. Un intendant d'Orléans non nommé dans le texte consulté était son beau-frère (époux d'une sœur de Colbert, ou frère de son épouse). Aucune autre donnée généalogique (parents, épouse, enfants) n'a été trouvée avec citation exacte et page dans le tome consulté (Lettres, t. II, Finances) ; le tome I du même recueil, non consulté ici, contient probablement une préface biographique à explorer.",
+      "sources": ["colbert-lettres-t2-p39", "colbert-lettres-t2-p84"]
+    },
+    "croyances": {
+      "confession": "",
+      "convictions": "",
+      "rapport_au_roi": "",
+      "sources": []
+    },
+    "faits": [],
+    "regard_sur_les_puissances": [
+      { "pays": "Provinces-Unies (Hollande)", "position": "Feint la résignation face à la puissance commerciale hollandaise dans une lettre destinée à être montrée au Grand Pensionnaire de Witt, tout en développant les manufactures françaises comme réponse de long terme.", "citation": "M. de Witt a grand'raison de ne se point étonner de la diminution du commerce ; elle est la mesme partout, et nous en resentons beaucoup plus de dommages [...]. Il y à lieu d'espérer qu'il se restablira, et alors il n'y a point de puissance ni d'industrie au monde qui puisse empescher que la Hollande ne l'ayt presque tout entier. Tout ce qui se peut faire dans le royaume est de restablir un peu nos manufactures, et, quoyqu'elles soulagent les sujets du roy, elles ne peuvent jamais faire aucun tort aux grands establissemens de la Hollande.", "sources": ["colbert-lettres-t2-p135"] },
+      { "pays": "Espagne", "position": "Intérêt mercantiliste marqué pour l'or et l'argent rapportés par la flotte espagnole des Indes, avec la volonté explicite d'obtenir pour les marchands français un traitement plus favorable que les autres nations en Espagne.", "citation": "J'attends des nouvelles de ce qui sera passé à la décharge des galions et des vaisseaux de la flotte, ne doutant pas que vous n'ayez tenu fortement la main à ce que les François ayent esté autant et plus favorablement traités que toutes les autres nations.", "sources": ["colbert-lettres-t2-p182"] }
+    ],
+    "regard_sur_les_etats": [
+      { "etat": "paysannerie", "position": "Alerte le roi sur les ravages causés aux campagnes par les marches de troupes, et sur l'exode de paysans de Champagne vers l'étranger.", "citation": "Si Vostre Majesté estoit bien informée de tous les désordres que les marches impérieuses de troupes causent dans les provinces, combien vos peuples en sont dépourvus, combien de paysans de Champagne et des villes frontières ont desjà passé et se disposent de passer dans les pays estrangers, elle verroit bien de quelle importance il luy est de remédier à un si grand mal.", "sources": ["colbert-lettres-t2-p123"] },
+      { "etat": "noblesse", "position": "Indifférence calculée face à l'attitude complaisante de la noblesse et des notables bourgeois envers un mouvement de résistance fiscale à Limoges : seule la punition des meneurs identifiés lui importe.", "citation": "Sur ce que vous dites que la noblesse et les principaux bourgeois n'estoient pas faschés de ce petit désordre, cela ne mérite pas de réflexion, parce qu'il suffit seulement que ceux qui en seront reconnus les auteurs soyent punis.", "sources": ["colbert-lettres-t2-p659"] }
+    ],
+    "iconographie": [],
+    "statut": "verifie"
+  },
+  {
+    "id": "louvois",
+    "nom": "François-Michel Le Tellier, marquis de Louvois",
+    "wikidata": "Q441378",
+    "naissance": "1639-01-18",
+    "mort": "1691-07-16",
+    "couche_sociale": "noblesse de robe puis d'épée (famille de magistrats parisiens, anoblie)",
+    "genealogie": {
+      "pere": "Michel Le Tellier, issu d'une famille de magistrats parisiens ; intendant du Piémont en 1639, puis secrétaire d'État à la Guerre grâce à Mazarin",
+      "mere": "",
+      "conjoints": [],
+      "enfants": [
+        "Le marquis de Courtenvaux, fils aîné",
+        "Le marquis de Barbezieux"
+      ],
+      "notes": "Louvois avait un frère, plus tard archevêque de Reims (très probablement Charles-Maurice Le Tellier, mais ce nom n'est pas donné explicitement dans le passage consulté de Merchier — non confirmé textuellement). Aucune mention d'épouse ni de date de mariage trouvée dans le chapitre consulté.",
+      "sources": ["merchier-1889-p97-99", "merchier-1889-p100"]
+    },
+    "croyances": {
+      "confession": "",
+      "convictions": "",
+      "rapport_au_roi": "",
+      "sources": []
+    },
+    "faits": [
+      { "date": "1639-01-18", "fait": "Naît à Paris. Son biographe Albert Merchier (1889) retrouve son acte de naissance en l'église Saint-Benoît et corrige ainsi la date de 1641 donnée par « la plupart de ses biographes » — dont Wikidata, qui indique aujourd'hui encore le 18 janvier 1641 (même jour et mois, année différente).", "sources": ["merchier-1889-p99", "wikidata-q441378"] },
+      { "date": "1655", "fait": "Obtient la survivance de la charge de son père à l'âge de 15 ans.", "sources": ["merchier-1889-p104"] },
+      { "date": "1672-02-01", "fait": "Entre effectivement au Conseil comme ministre.", "sources": ["merchier-1889-p104"] },
+      { "date": "1691-07-16", "fait": "Meurt subitement, à Versailles, après un malaise et deux saignées, le lendemain d'une altercation avec le roi chez Madame de Maintenon ; des rumeurs d'empoisonnement circulèrent, jugées non prouvées par Merchier.", "sources": ["merchier-1889-p181-182", "wikidata-q441378"] }
+    ],
+    "regard_sur_les_puissances": [
+      { "pays": "Espagne", "position": "Envisage l'enlèvement ou l'assassinat du comte de Lisola, représentant espagnol au congrès de Cologne, dont l'habileté diplomatique contrariait les plans de Louis XIV.", "citation": "[Il trouve] que même il n'y aurait pas grand inconvénient de le tuer, pour peu que lui ou ceux qui seraient avec lui se défendissent. [...] Vous ne sauriez croire combien vous feriez votre cour à Sa Majesté si vous pouviez exécuter ce projet.", "sources": ["merchier-1889-p104"] },
+      { "pays": "Saint-Empire (ville libre de Strasbourg)", "position": "Passe en un mois d'une position conciliante à l'idée d'attaquer Strasbourg, ville qui sera occupée par surprise en 1681.", "citation": "Sa Majesté ne juge pas à propos de faire une pareille entreprise.", "sources": ["merchier-1889-p160"] }
+    ],
+    "regard_sur_les_etats": [
+      { "etat": "noblesse", "position": "Ordonne, dans le cadre des dragonnades, de punir spécifiquement la noblesse protestante réfractaire du Poitou par un désordre volontairement toléré des troupes logées chez elle. Cette citation vise la noblesse protestante en particulier, pas la noblesse française en général.", "citation": "Le roi ordonne [...] qu'au lieu de vivre avec le bon ordre qu'ils (les dragons) ont fait jusqu'à présent, l'on leur laisse faire le plus de désordre qu'il se pourra pour punir cette noblesse de sa désobéissance.", "sources": ["merchier-1889-p141-142"] }
+    ],
+    "iconographie": [],
+    "statut": "verifie"
   }
 ]

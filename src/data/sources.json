@@ -600,5 +600,131 @@
     "reference": "A. de Rochas, Projet d'une carte politique de l'Europe par Vauban en 1706 (reproduit deux mémoires manuscrits de Vauban), 1891",
     "url": "https://gallica.bnf.fr/ark:/12148/bpt6k116187s",
     "page": null
+  },
+  {
+    "id": "wikidata-q188971",
+    "type": "base",
+    "reference": "Wikidata — Jean-Baptiste Colbert (Q188971)",
+    "url": "https://www.wikidata.org/wiki/Q188971",
+    "page": null
+  },
+  {
+    "id": "wikidata-q441378",
+    "type": "base",
+    "reference": "Wikidata — François-Michel Le Tellier, marquis de Louvois (Q441378)",
+    "url": "https://www.wikidata.org/wiki/Q441378",
+    "page": null
+  },
+  {
+    "id": "colbert-lettres-t2-p39",
+    "type": "document primaire / apparat critique",
+    "reference": "Colbert, Lettres, instructions et mémoires de Colbert, t. II (Finances), éd. Pierre Clément, 1863",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k51548m",
+    "page": 39
+  },
+  {
+    "id": "colbert-lettres-t2-p84",
+    "type": "apparat critique (introduction de l'éditeur)",
+    "reference": "Colbert, Lettres, instructions et mémoires de Colbert, t. II (Finances), éd. Pierre Clément, 1863",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k51548m",
+    "page": 84
+  },
+  {
+    "id": "colbert-lettres-t2-p123",
+    "type": "document primaire",
+    "reference": "Colbert, Lettres, instructions et mémoires de Colbert, t. II (Finances), éd. Pierre Clément, 1863 — mémoire de Colbert au roi, 23 juillet 1666",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k51548m",
+    "page": 123
+  },
+  {
+    "id": "colbert-lettres-t2-p135",
+    "type": "document primaire",
+    "reference": "Colbert, Lettres, instructions et mémoires de Colbert, t. II (Finances), éd. Pierre Clément, 1863 — lettre de Colbert, 13 septembre 1669",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k51548m",
+    "page": 135
+  },
+  {
+    "id": "colbert-lettres-t2-p182",
+    "type": "document primaire",
+    "reference": "Colbert, Lettres, instructions et mémoires de Colbert, t. II (Finances), éd. Pierre Clément, 1863 — lettres de Colbert, 1670 et 1679",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k51548m",
+    "page": 182
+  },
+  {
+    "id": "colbert-lettres-t2-p659",
+    "type": "document primaire",
+    "reference": "Colbert, Lettres, instructions et mémoires de Colbert, t. II (Finances), éd. Pierre Clément, 1863 — lettre de Colbert à l'intendant de Limoges, 21 décembre 1676",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k51548m",
+    "page": 659
+  },
+  {
+    "id": "merchier-1889-p97-99",
+    "type": "ouvrage",
+    "reference": "Albert Merchier, Les Conseillers du grand roi : Colbert, Louvois, Vauban, 1889",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k930107h",
+    "page": "97-99"
+  },
+  {
+    "id": "merchier-1889-p99",
+    "type": "ouvrage",
+    "reference": "Albert Merchier, Les Conseillers du grand roi : Colbert, Louvois, Vauban, 1889 — acte de naissance de Louvois retrouvé en l'église Saint-Benoît",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k930107h",
+    "page": 99
+  },
+  {
+    "id": "merchier-1889-p100",
+    "type": "ouvrage",
+    "reference": "Albert Merchier, Les Conseillers du grand roi : Colbert, Louvois, Vauban, 1889",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k930107h",
+    "page": 100
+  },
+  {
+    "id": "merchier-1889-p103",
+    "type": "ouvrage",
+    "reference": "Albert Merchier, Les Conseillers du grand roi : Colbert, Louvois, Vauban, 1889 — citation de Louvois (D.G. 485, 28 novembre 1676)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k930107h",
+    "page": 103
+  },
+  {
+    "id": "merchier-1889-p104",
+    "type": "ouvrage",
+    "reference": "Albert Merchier, Les Conseillers du grand roi : Colbert, Louvois, Vauban, 1889 — lettre de Louvois à d'Estrades, 16 janvier 1674 (D.G. 379)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k930107h",
+    "page": 104
+  },
+  {
+    "id": "merchier-1889-p137",
+    "type": "ouvrage",
+    "reference": "Albert Merchier, Les Conseillers du grand roi : Colbert, Louvois, Vauban, 1889 — lettre de Louvois, 2 mai 1681 (D.G. 654 bis)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k930107h",
+    "page": 137
+  },
+  {
+    "id": "merchier-1889-p141-142",
+    "type": "ouvrage",
+    "reference": "Albert Merchier, Les Conseillers du grand roi : Colbert, Louvois, Vauban, 1889 — lettre de Louvois à l'intendant de Poitou, octobre 1685 (D.G.)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k930107h",
+    "page": "141-142"
+  },
+  {
+    "id": "merchier-1889-p160",
+    "type": "ouvrage",
+    "reference": "Albert Merchier, Les Conseillers du grand roi : Colbert, Louvois, Vauban, 1889 — lettre de Louvois à Créqui, 27 juillet 1678",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k930107h",
+    "page": 160
+  },
+  {
+    "id": "merchier-1889-p161",
+    "type": "ouvrage",
+    "reference": "Albert Merchier, Les Conseillers du grand roi : Colbert, Louvois, Vauban, 1889 — lettre de Louvois à Créqui, 15 août 1678 (D.G. 608)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k930107h",
+    "page": 161
+  },
+  {
+    "id": "merchier-1889-p181-182",
+    "type": "ouvrage",
+    "reference": "Albert Merchier, Les Conseillers du grand roi : Colbert, Louvois, Vauban, 1889 — Dangeau, Journal, 16 juillet 1691, et lettre du marquis de Barbezieux à Tessé",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k930107h",
+    "page": "181-182"
   }
 ]
