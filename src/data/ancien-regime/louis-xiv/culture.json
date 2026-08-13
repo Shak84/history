@@ -1,1 +1,373 @@
-[]
+[
+  {
+    "id": "vauban-port-dunkerque",
+    "type": "fait",
+    "titre": "Le port de Dunkerque, « chef-d'œuvre » de Vauban",
+    "resume": "1678 · grands travaux portuaires",
+    "corps": [
+      "En 1678, après la paix de Nimègue, [[figure:vauban]] fait ouvrir et commencer l'exécution du projet du port de Dunkerque, qu'il avait dressé quelques années auparavant.",
+      "Fontenelle, dans son éloge posthume, en fait le « chef-d'œuvre » technique de Vauban."
+    ],
+    "citations": [
+      { "texte": "En 1678, il fut employé à la visite des places de Flandre, et ensuite à l'exécution du projet de ce beau et grand port de Dunkerque, tel qu'il est aujourd'hui (dont il avait fait le projet quelque année auparavant) il le fit ouvrir et commencer à même temps.", "source": "vauban-abrege-1839-p12-13", "page": 12 },
+      { "texte": "La paix de Nimegue lui ôta le pénible emploi de prendre des places ; mais elle lui en donna un plus grand nombre à fortifier. Il fit le fameux port de Dunkerque, son chef-d'œuvre, et celui de son art.", "source": "vauban-paris-1821-p15", "page": 15 }
+    ],
+    "figures_liees": ["vauban"],
+    "sources": ["vauban-abrege-1839-p12-13", "vauban-paris-1821-p15"],
+    "statut": "verifie"
+  },
+  {
+    "id": "vauban-ecluses-bruche-strasbourg",
+    "type": "fait",
+    "titre": "Les écluses de la Bruche à Strasbourg",
+    "resume": "1682-1683 · navigation fluviale",
+    "corps": [
+      "Outre les fortifications de Strasbourg, [[figure:vauban]] fait achever, pour la navigation de la rivière de Bruche, des écluses d'une exécution si difficile qu'il en dirige personnellement les travaux plutôt que de les confier à un subordonné."
+    ],
+    "citations": [
+      { "texte": "il fit achever les écluses qu'il avait ordonnées à la rivière de Bruche, pour sa navigation, qui était un ouvrage de très difficile exécution, qu'il fit achever lui présent, et mettre cette navigation dans sa perfection avant que de la quitter de vue", "source": "vauban-abrege-1839-p14", "page": 14 },
+      { "texte": "Outre les grandes et magnifiques fortifications de Strasbourg, il y fit faire pour la navigation de la Bruche, des écluses dont l'exécution étoit si difficile, qu'il n'osa la confier à personne, et la dirigea toujours par lui-même.", "source": "vauban-paris-1821-p15", "page": 15 }
+    ],
+    "figures_liees": ["vauban"],
+    "sources": ["vauban-abrege-1839-p14", "vauban-paris-1821-p15"],
+    "statut": "verifie"
+  },
+  {
+    "id": "vauban-aqueduc-maintenon",
+    "type": "fait",
+    "titre": "Le projet de l'aqueduc de Maintenon",
+    "resume": "1685-1686 · grand ouvrage hydraulique pour Versailles",
+    "corps": [
+      "En 1685 et 1686, [[figure:vauban]] est chargé de dresser le projet du grand aqueduc de Maintenon, destiné à alimenter le canal de Versailles. Fontenelle le range parmi les plus brillantes « fonctions de paix » de Vauban après la trêve de 1684."
+    ],
+    "citations": [
+      { "texte": "En 1685 et 1686, il fut occupé à faire le projet de ce grand et magnifique ouvrage de l'aqueduc de Maintenon, et à la visite des côtes de Bretagne et des places de Normandie, Picardie et de Flandre", "source": "vauban-abrege-1839-p14-15", "page": "14-15" },
+      { "texte": "il reprit ses fonctions de paix, dont les plus brillantes furent l'aqueduc de Maintenon, de nouveaux travaux qui perfectionnent le canal de la communication des mers, Mont-royal et Landau.", "source": "vauban-paris-1821-p15-16", "page": "15-16" }
+    ],
+    "figures_liees": ["vauban"],
+    "sources": ["vauban-abrege-1839-p14-15", "vauban-paris-1821-p15-16"],
+    "statut": "verifie"
+  },
+  {
+    "id": "vauban-canal-deux-mers-cette",
+    "type": "fait",
+    "titre": "Le canal des deux mers et le port de Cette",
+    "resume": "1687 · perfectionnement du canal royal du Languedoc",
+    "corps": [
+      "En 1687, [[figure:vauban]] visite le canal de la communication des mers (canal royal du Languedoc, achevé par Riquet en 1681) et le port de Cette (Sète), et dresse les projets nécessaires pour parfaire ce grand ouvrage — projets exécutés depuis, du moins pour la plus grande partie. Vauban ne se présente pas comme le constructeur d'origine du canal, mais comme l'ingénieur chargé d'en visiter l'état et d'en perfectionner l'achèvement."
+    ],
+    "citations": [
+      { "texte": "En 1687, il fit la visite du canal de la communication des mers et du port de Cette, et tous les projets nécessaires pour mettre ce grand et bel ouvrage dans sa perfection, qui ont été depuis exécutés du moins la plus grande partie.", "source": "vauban-abrege-1839-p15", "page": 15 }
+    ],
+    "figures_liees": ["vauban"],
+    "sources": ["vauban-abrege-1839-p15"],
+    "statut": "verifie"
+  },
+  {
+    "id": "vauban-neuf-brisach",
+    "type": "fait",
+    "titre": "Neuf-Brisach, place neuve « sur un nouveau système »",
+    "resume": "1698-1702 · fortification frontalière",
+    "corps": [
+      "En 1698, sur ordre du roi, [[figure:vauban]] dresse le projet de Neuf-Brisach, construite face à l'ancien Brisach passé à l'Empire en 1697, sur ce qu'il présente lui-même comme « un nouveau système » de fortification, sans le détailler techniquement. Il retourne visiter le chantier au début de 1702."
+    ],
+    "citations": [
+      { "texte": "En 1698, il fut, par ordre du roi, faire le projet du nouveau Brisach, sur un nouveau système, qui est une des plus belles et des meilleures places de l'Europe, et visita les autres de la frontière, depuis Bâle jusqu'à Lille en Flandre.", "source": "vauban-abrege-1839-p17", "page": 17 },
+      { "texte": "Au commencement de l'année 1702, le roi l'envoya visiter le Neuf-Brisach, Huningue et les autres places de cette frontière", "source": "vauban-abrege-1839-p18", "page": 18 }
+    ],
+    "figures_liees": ["vauban"],
+    "sources": ["vauban-abrege-1839-p17", "vauban-abrege-1839-p18"],
+    "statut": "verifie"
+  },
+  {
+    "id": "vauban-villes-neuves-alsace-lorraine",
+    "type": "fait",
+    "titre": "Les villes neuves d'Alsace et de Lorraine",
+    "resume": "1679-1680 · Huningue, Phalsbourg, Sarrelouis, Longwy, Menin, Maubeuge",
+    "corps": [
+      "[[figure:vauban]] dresse, lors d'une même tournée, les projets des villes neuves d'Huningue, Phalsbourg, Sarrelouis et Longwy, ainsi que ceux de Menin et de Maubeuge, tous exécutés depuis. Aucun détail technique (plan, dimensions, coût) n'est donné pour ces places dans le récit qu'il en fait lui-même."
+    ],
+    "citations": [
+      { "texte": "il s'en alla faire les projets des villes d'Huningue, Phalsbourg, Sar-Louis et Longwy, qui ont été exécutés depuis.", "source": "vauban-abrege-1839-p13", "page": 13 },
+      { "texte": "Ensuite de quoi il fit les beaux et grands projets des villes de Menin et de Maubeuge, qui ont été exécutés depuis, qui furent suivis de celui de Longwy, d'où il se rendit à la cour.", "source": "vauban-abrege-1839-p13", "page": 13 }
+    ],
+    "figures_liees": ["vauban"],
+    "sources": ["vauban-abrege-1839-p13"],
+    "statut": "verifie"
+  },
+  {
+    "id": "vauban-montroyal-landau",
+    "type": "fait",
+    "titre": "Montroyal et Landau",
+    "resume": "fin 1687 · places fortes approuvées et exécutées",
+    "corps": [
+      "À la fin de 1687, [[figure:vauban]] dresse le projet de la place de Montroyal (confluent Moselle-Sarre), puis celui de Landau (Palatinat) ; les deux projets sont approuvés puis exécutés."
+    ],
+    "citations": [
+      { "texte": "après avoir fait le projet de cette grande et magnifique place de Montroyal, sur la fin de la même année, il fit celui de Landau, l'un et l'autre desquels furent approuvés et depuis exécutés.", "source": "vauban-abrege-1839-p15", "page": 15 }
+    ],
+    "figures_liees": ["vauban"],
+    "sources": ["vauban-abrege-1839-p15", "vauban-paris-1821-p15-16"],
+    "statut": "verifie"
+  },
+  {
+    "id": "vauban-mont-dauphin",
+    "type": "fait",
+    "titre": "Le projet de Mont-Dauphin",
+    "resume": "1692 · fortification alpine",
+    "corps": [
+      "En 1692, à l'occasion d'un déplacement en Dauphiné après le siège de Namur, [[figure:vauban]] dresse le projet de la place de Mont-Dauphin, au confluent du Guil et de la Durance."
+    ],
+    "citations": [
+      { "texte": "il passa de là à Pignerol et retourna par là en Provence. Ce fut aussi l'année qu'il fit le projet du fameux Mont-Dauphin.", "source": "vauban-abrege-1839-p16", "page": 16 }
+    ],
+    "figures_liees": ["vauban"],
+    "sources": ["vauban-abrege-1839-p16"],
+    "statut": "verifie"
+  },
+  {
+    "id": "vauban-fortifications-normandie-1681",
+    "type": "fait",
+    "titre": "Fortifications côtières de Normandie, commencées puis rasées",
+    "resume": "1681 · Saint-Malo, Granville, Cherbourg, Dieppe, Boulogne",
+    "corps": [
+      "En 1681, lors d'une visite des côtes de Normandie, [[figure:vauban]] dresse les dessins et projets des fortifications de Saint-Malo, Granville, Cherbourg, Dieppe et Boulogne. Les travaux sont commencés et fort avancés, puis rasés au début d'une guerre ultérieure que le texte ne précise pas."
+    ],
+    "citations": [
+      { "texte": "L'année 1681 commença par la visite des côtes de Normandie, où il fit les dessins et projets des fortifications de Saint-Malo, Granville, Cherbourg, Dieppe et Boulogne, qui furent commencées, fort avancées et ensuite rasées au commencement de la dernière guerre.", "source": "vauban-abrege-1839-p13", "page": 13 }
+    ],
+    "figures_liees": ["vauban"],
+    "sources": ["vauban-abrege-1839-p13"],
+    "statut": "verifie"
+  },
+  {
+    "id": "vauban-places-littoral-diverses",
+    "type": "fait",
+    "titre": "Vauban, projeteur de « 160 places et plus »",
+    "resume": "carrière de Vauban · bilan de son activité de projeteur",
+    "corps": [
+      "Vauban lui-même énumère, sans les détailler individuellement, une série de places et ports sur lesquels il a fait travailler : Belle-Île, Port-Louis, l'île de Ré, l'île d'Oléron, Brest, Concarneau, le château du Taureau, Bitche et Hombourg en Lorraine, plusieurs places du Roussillon et le fort des Bains.",
+      "Il chiffre globalement son activité de projeteur à « 160 places et plus », ainsi que plusieurs ports de mer, dont le roi lui confie la conduite avec pleine autorité sur tous les ingénieurs."
+    ],
+    "citations": [
+      { "texte": "il a fait plusieurs autres projets de places qui ont été approuvés, qui ne sont pas ici énoncés, et sur lesquels on a travaillé, comme ceux de Belle-Ile, de Port-Louis, de l'île de Ré et de l'île d'Oleron avec leurs forts de Brest, de Concarneau, du château du Taureau, en Lorraine, Bitche et Hombourg, très bonnes places en Roussillon, le fort des Bains et plusieurs autres qu'on ne rapporte pas ici, de peur d'être trop long.", "source": "vauban-abrege-1839-p18", "page": 18 },
+      { "texte": "il a fait les projets de 160 places et plus, et de plusieurs ports de mer, de la conduite desquels le roi lui a donné la principale direction et pleine autorité sur tous les ingénieurs", "source": "vauban-abrege-1839-p21", "page": 21 }
+    ],
+    "figures_liees": ["vauban"],
+    "sources": ["vauban-abrege-1839-p18", "vauban-abrege-1839-p21"],
+    "statut": "verifie"
+  },
+  {
+    "id": "vauban-bilan-posthume-fontenelle",
+    "type": "fait",
+    "titre": "Le bilan posthume de la carrière de Vauban selon Fontenelle",
+    "resume": "1707 · 300 places anciennes, 33 places neuves, 53 sièges",
+    "corps": [
+      "Dans une note biographique postérieure à la mort de [[figure:vauban]] (30 mars 1707), Fontenelle dresse un bilan chiffré global de sa carrière militaire : il aurait fait travailler à trois cents places anciennes et en aurait fait construire trente-trois neuves, conduit cinquante-trois sièges et pris part à cent quarante actions de vigueur.",
+      "Ce chiffre diffère de celui que Vauban donne lui-même dans son propre récit de 1703 (« 160 places et plus » de projets, 48 sièges dans son tableau récapitulatif), sans que les deux textes se recoupent exactement — probablement en raison de périodes de comptage différentes."
+    ],
+    "citations": [
+      { "texte": "Si l'on veut voir toute sa vie militaire en abrégé, il a fait travailler à trois cents places anciennes, et en a fait trente-trois neuves ; il a conduit cinquante-trois sièges, dont trente ont été faits sous les ordres du roi en personne, ou de monseigneur le duc de Bourgogne, et les vingt-trois autres sous différens généraux ; il s'est trouvé à cent quarante actions de vigueur.", "source": "vauban-paris-1821-p21", "page": 21 }
+    ],
+    "figures_liees": ["vauban"],
+    "sources": ["vauban-paris-1821-p21", "vauban-abrege-1839-p21"],
+    "statut": "verifie"
+  },
+  {
+    "id": "colbert-batiments-versailles-louvre",
+    "type": "fait",
+    "titre": "Colbert, surintendant des bâtiments : Versailles contre le Louvre",
+    "resume": "1664-1683 · bâtiments et résidences royales",
+    "corps": [
+      "En tant que surintendant des bâtiments, [[figure:colbert]] supervise les grandes constructions civiles du règne : l'Observatoire (1667), l'hôtel des Invalides, les arcs de triomphe parisiens, la colonnade du Louvre confiée à Claude Perrault après l'échec du projet du chevalier Bernin, venu d'Italie à grands frais.",
+      "Colbert juge cependant que [[figure:louis-xiv]] néglige le Louvre pour Versailles, et le lui reproche par lettre.",
+      "Un incident rapporté en 1683, quelques mois avant la mort de Colbert, illustre la tension entre le ministre gestionnaire et le goût du roi pour le faste : le coût de la grille dorée fermant l'accès du château de Versailles sur la place d'Armes."
+    ],
+    "citations": [
+      { "texte": "Pendant que Votre Majesté a dépensé de très grandes sommes en cette maison (Versailles), elle a négligé le Louvre, qui est assurément le plus superbe palais qu'il y ait au monde et le plus digne de la grandeur de Votre Majesté.", "source": "merchier-1889-p80", "page": 80 },
+      { "texte": "On fit pour cela venir d'Italie à grands frais le chevalier Bernini ou le Bernin, réputé le plus grand architecte du temps. Il laissa un plan qui ne fut pas d'ailleurs exécuté. On lui préféra celui d'un Français, Claude Perrault : c'est ainsi que cette magnifique colonnade tournée vers Saint-Germain-l'Auxerrois peut être réputée un monument entièrement national.", "source": "merchier-1889-p82", "page": 82 },
+      { "texte": "Un jour que Colbert lui rendait compte de ce qu'avait coûté cette somptueuse grille dorée qui ferme l'accès du château de Versailles sur la place d'Armes, il trouva cette dépense beaucoup trop élevée, et, après plusieurs remarques désobligeantes, déclara qu'il y avait de la friponnerie. — « Sire, répondit Colbert, je me flatte au moins que ce mot ne s'étend pas jusqu'à moi. — Non, repartit le roi ; mais il fallait y avoir plus d'attention. »", "source": "merchier-1889-p91", "page": 91 }
+    ],
+    "figures_liees": ["colbert", "louis-xiv"],
+    "sources": ["merchier-1889-p80", "merchier-1889-p82", "merchier-1889-p91"],
+    "statut": "verifie"
+  },
+  {
+    "id": "deux-journees-versailles-maintenon",
+    "type": "fait",
+    "titre": "Deux journées à Versailles : le roi et Madame de Maintenon",
+    "resume": "vers 1690-1710 · étiquette et société de cour",
+    "corps": [
+      "Saint-Simon décrit avec minutie l'emploi du temps réglé de [[figure:louis-xiv]] et celui de Madame de Maintenon, organisés en miroir : le roi se rend chez elle chaque jour à heure fixe, jamais l'inverse.",
+      "Madame de Maintenon elle-même confirme, dans ses entretiens avec les dames de Saint-Cyr, ce rythme éprouvant, où audiences, travail ministériel et dévotion s'enchaînent dès le matin.",
+      "Une scène observée par Saint-Simon lui-même, au camp de Compiègne en 1698, illustre la place à part de Madame de Maintenon dans le protocole de cour : seule à demeurer assise dans sa chaise à porteurs vitrée, quand le roi, debout, se penche sans cesse pour lui parler devant l'armée rassemblée."
+    ],
+    "citations": [
+      { "texte": "J'étais dans le demi-cercle, fort près du roi, à trois pas au plus, et personne devant moi. [...] À la glace droite de la chaise, le roi debout, et, un peu en arrière, un demi-cercle de ce qu'il y avait en hommes de plus distingué.", "source": "doumic-1921-p170", "page": 170 },
+      { "texte": "Rentrée à Versailles, le roi vient chez elle plusieurs fois dans la journée : elle ne va jamais chez lui.", "source": "doumic-1921-p171", "page": 171 },
+      { "texte": "On commence à entrer chez moi vers sept heures et demie [...]. J'ai encore ma coiffure de nuit ; cependant ma chambre est comme une église ; il s'y fait comme une procession.", "source": "doumic-1921-p173", "page": 173 }
+    ],
+    "figures_liees": ["louis-xiv"],
+    "sources": ["doumic-1921-p170", "doumic-1921-p171", "doumic-1921-p173"],
+    "statut": "verifie"
+  },
+  {
+    "id": "colbert-mecene-academies",
+    "type": "fait",
+    "titre": "Colbert, mécène des lettres et fondateur des académies",
+    "resume": "1663-1671 · vie culturelle sous Louis XIV",
+    "corps": [
+      "[[figure:colbert]] organise le mécénat royal à des fins politiques : la liste des pensions de 1663 distingue Molière, Corneille et Chapelain, ce dernier jugé alors le plus grand poète français et le mieux rémunéré.",
+      "La Fontaine, écarté de ces pensions pour son attachement à Fouquet, s'en vengea en vers après avoir appris la guérison de Colbert par le quinquina.",
+      "Colbert institutionnalise la vie savante : l'Académie des sciences est fondée en 1666 sous son impulsion, l'Académie d'architecture est instituée en 1671, et il est lui-même reçu à l'Académie française en 1667."
+    ],
+    "citations": [
+      { "texte": "Ce n'était pas par sentiment [...] que Colbert aimait les artistes et les savants ; c'était comme homme d'État qu'il les protégeait, puisqu'il avait reconnu que les beaux-arts sont seuls capables de former et d'immortaliser les grands empires.", "source": "merchier-1889-p71", "page": 71 },
+      { "texte": "Le sieur Molière, excellent poète comique [...] Le sieur Chapelain, le plus grand poète français qui ait jamais été, et du plus solide jugement.", "source": "merchier-1889-p71", "page": 71 },
+      { "texte": "Le 21 du courant, le duc de Saint-Aignan, ayant été prendre le sieur Colbert en son logis, le conduisit en l'Académie française [...] il fit un discours à la louange du roi, avec tant de grâce et de succès qu'il en fut admiré de toute la savante compagnie.", "source": "merchier-1889-p75", "page": 75 }
+    ],
+    "figures_liees": ["colbert"],
+    "sources": ["merchier-1889-p71", "merchier-1889-p75"],
+    "statut": "verifie"
+  },
+  {
+    "id": "le-notre-jardins-versailles",
+    "type": "fait",
+    "titre": "Le Nôtre, jardinier de Versailles",
+    "resume": "vers 1698-1700 · anecdotes de fin de vie rapportées par Saint-Simon",
+    "corps": [
+      "André Le Nôtre, qui dessina les jardins de Versailles, est prêté par le roi au pape pour quelques mois ; reçu par celui-ci, il rompt l'étiquette en le prenant dans ses bras plutôt que de s'agenouiller.",
+      "Un mois avant sa mort, [[figure:louis-xiv]], qui aimait le faire causer, le promène dans ses jardins en le faisant rouler dans une chaise à côté de la sienne — faveur que Le Nôtre rapporte avec émotion au souvenir de son propre père."
+    ],
+    "citations": [
+      { "texte": "Le pape pria le roi de le lui prêter pour quelques mois. En entrant dans la chambre du pape, au lieu de se mettre à genoux, il courut à lui : « Eh ! bonjour, lui dit-il, mon Révérend Père, » en lui sautant au cou et l'embrassant, et le baisant des deux côtés. « Eh que vous avez bon visage et que je suis aise de vous voir et en si bonne santé ! »", "source": "doumic-1921-p266-267", "page": "266-267" },
+      { "texte": "Un mois avant sa mort, le roi, qui aimait à le voir et à le faire causer, le mena dans ses jardins, et, à cause de son grand âge, le fit mettre dans une chaise que des porteurs roulaient à côté de la sienne, et Lenôtre disait là : « Ah mon pauvre père, si tu vivais et que tu puisses voir un pauvre jardinier comme moi, ton fils, se promener en chaise à côté du plus grand roi du monde, rien ne manquerait à ma joie ».", "source": "doumic-1921-p267", "page": 267 }
+    ],
+    "figures_liees": ["louis-xiv"],
+    "sources": ["doumic-1921-p266-267", "doumic-1921-p267"],
+    "statut": "verifie"
+  },
+  {
+    "id": "colbert-declin-manufactures-1663",
+    "type": "fait",
+    "titre": "Colbert et le déclin des manufactures françaises",
+    "resume": "1663 · diagnostic et programme pour les manufactures du royaume",
+    "corps": [
+      "En 1663, [[figure:colbert]] rédige de sa main un « Discours sur les manufactures du royaume » : un diagnostic du recul de l'industrie textile française face à l'Angleterre et à la Hollande, suivi d'un programme de mesures (règlements, aides financières, nouvelles manufactures de tapisserie et de dentelle, soutien aux compagnies de commerce)."
+    ],
+    "citations": [
+      { "texte": "Avant l'année 1600, et mesme jusqu'en 1620 et plus avant, il ne se faisoit aucune manufacture de draps en Angleterre ni en Hollande.", "source": "colbert-lettres-t2-p261", "page": 261 }
+    ],
+    "figures_liees": ["colbert"],
+    "sources": ["colbert-lettres-t2-p261"],
+    "statut": "verifie"
+  },
+  {
+    "id": "conseil-commerce-1664",
+    "type": "fait",
+    "titre": "Le Conseil de commerce du 3 août 1664",
+    "resume": "3 août 1664 · mémoire de Colbert pour le premier Conseil de commerce",
+    "corps": [
+      "Pour le premier Conseil de commerce tenu par [[figure:louis-xiv]] le 3 août 1664, [[figure:colbert]] rédige de sa main un mémoire justifiant l'intervention du roi dans l'économie : selon lui, relever les manufactures du royaume permettrait de faire travailler un peuple entier laissé dans l'oisiveté et de soutenir les compagnies des Indes orientales et occidentales."
+    ],
+    "citations": [
+      { "texte": "Outre les avantages que produira l'entrée d'une plus grande quantité d'argent comptant dans le royaume, il est certain que, par les manufactures, un million de peuples qui languissent dans la fainéantise gagneront leur vie.", "source": "colbert-lettres-t2-p274", "page": 274 },
+      { "texte": "Appuyer fortement les compagnies de[s] Indes orientales et occidentales ; exciter tout le monde à y entrer.", "source": "colbert-lettres-t2-p276", "page": 276 }
+    ],
+    "figures_liees": ["colbert", "louis-xiv"],
+    "sources": ["colbert-lettres-t2-p274", "colbert-lettres-t2-p276"],
+    "statut": "verifie"
+  },
+  {
+    "id": "abbeville-beauvais-manufactures",
+    "type": "fait",
+    "titre": "Abbeville et Beauvais, vitrines des manufactures royales",
+    "resume": "16 mai 1670 · manufactures de draps et de tapisseries",
+    "corps": [
+      "Le 16 mai 1670, [[figure:colbert]] écrit à [[figure:louis-xiv]], alors en déplacement, pour lui suggérer d'évoquer publiquement les manufactures d'Abbeville (draps) et de Beauvais (tapisseries), qu'il présente comme ses réalisations les plus importantes en la matière. Le roi lui répond depuis Courtrai qu'il en parlera comme convenu."
+    ],
+    "citations": [
+      { "texte": "Les deux plus grandes et plus considérables manufactures que Vostre Majesté ayt establies sont celles d'Abbeville pour les draps, et de Beauvais pour les tapisseries.", "source": "colbert-lettres-t2-p277", "page": 277 }
+    ],
+    "figures_liees": ["colbert", "louis-xiv"],
+    "sources": ["colbert-lettres-t2-p277"],
+    "statut": "verifie"
+  },
+  {
+    "id": "manufacture-royale-gobelins",
+    "type": "fait",
+    "titre": "La manufacture royale des Gobelins",
+    "resume": "vers 1664-1671 · fondation de la manufacture des Gobelins",
+    "corps": [
+      "Dans le grand mémoire qu'il compose pour servir à l'histoire du règne, [[figure:colbert]] présente l'installation de la manufacture royale de tapisseries dans l'hôtel des Gobelins, avec Charles Le Brun chargé des dessins, comme une des réalisations majeures du règne pour les arts."
+    ],
+    "citations": [
+      { "texte": "Elle a estably la manufacture des tapisseries de la couronne en la maison des Gobelins, et elle fait travailler aux dessins par le sieur Le Brun, son premier [peintre], qui est assurément [reconnu] pour le premier de l'Europe.", "source": "colbert-lettres-t2-p353", "page": 353 }
+    ],
+    "figures_liees": ["colbert"],
+    "sources": ["colbert-lettres-t2-p353"],
+    "statut": "verifie"
+  },
+  {
+    "id": "points-de-france-dentelle",
+    "type": "fait",
+    "titre": "La dentelle de France contre la dentelle de Venise",
+    "resume": "1666-1673 · manufactures de points de France à Sedan et Auxerre",
+    "corps": [
+      "Pour protéger la jeune manufacture des « points de France » (dentelle), créée en 1665 avec un privilège exclusif de dix ans, [[figure:colbert]] fait écrire au gouverneur de Sedan, le 6 novembre 1666, pour mettre en garde contre la concurrence des dentelles vénitiennes.",
+      "Propriétaire de la terre de Seignelay près d'Auxerre, il y installe une manufacture de points de France et multiplie les lettres aux édiles de la ville pour les presser d'y employer les pauvres. En 1673, las de leur inertie, il finit par renoncer, invoquant sa propre fatigue et sa santé déclinante."
+    ],
+    "citations": [
+      { "texte": "[Colbert était] obligé de prendre les plus grandes précautions contre la malice des marchands qui avoient accoustumé de faire travailler à Venise et de débiter dans sa cour et dans son royaume les ouvrages de cette ville-là.", "source": "colbert-lettres-t2-p145", "page": 145 },
+      { "texte": "Les maire et échevins ne sçavent ce qu'ils font... Mais comme la ville d'Auxerre veut retourner dans la fainéantise et l'anéantissement dans lesquels elle a esté, et qu'elle ne veut pas profiter des moyens que je luy ay donnés pour sortir de ce meschant estat, les autres affaires dont je suis chargé et ma santé, qui n'est pas telle que je puisse autant travailler que j'ay fait autrefois, m'obligent à l'abandonner à sa mauvaise conduite.", "source": "colbert-lettres-t2-p146", "page": 146 }
+    ],
+    "figures_liees": ["colbert"],
+    "sources": ["colbert-lettres-t2-p145", "colbert-lettres-t2-p146"],
+    "statut": "verifie"
+  },
+  {
+    "id": "manufacture-glaces-saint-gobain",
+    "type": "fait",
+    "titre": "La manufacture de glaces, ancêtre de Saint-Gobain",
+    "resume": "1670-1673 · manufacture de glaces (avenir de Saint-Gobain)",
+    "corps": [
+      "Selon Pierre Clément, éditeur de sa correspondance, [[figure:colbert]] écrit le 13 juin 1670 à l'ambassadeur de France à Venise que la manufacture de glaces établie à Paris vers 1665 n'a plus besoin d'ouvriers vénitiens ; en 1673, il refuse d'étendre les privilèges d'une manufacture concurrente pour ne pas fragiliser cet établissement, à l'origine de la future manufacture de Saint-Gobain."
+    ],
+    "citations": [],
+    "figures_liees": ["colbert"],
+    "sources": ["colbert-lettres-t2-p147"],
+    "statut": "verifie"
+  },
+  {
+    "id": "compagnie-du-nord",
+    "type": "fait",
+    "titre": "La Compagnie du Nord",
+    "resume": "1669-1674 · création et soutien de la Compagnie du Nord (commerce baltique)",
+    "corps": [
+      "En 1669, une compagnie de commerce dite « du Nord » est créée pour développer les échanges avec la Baltique (sel, eau-de-vie, bois de marine) et concurrencer la mainmise hollandaise sur ce commerce ; l'édit royal qui l'institue, probablement préparé par [[figure:colbert]] sans être signé de son nom, en expose les motifs.",
+      "Colbert suit ensuite personnellement les affaires de la compagnie : en janvier 1674, alors que les directeurs renoncent à distribuer un dividende de 4 %, il leur écrit pour les inciter à le maintenir malgré tout, jugeant qu'une distribution, même modeste, est le meilleur moyen d'attirer de nouveaux actionnaires."
+    ],
+    "citations": [
+      { "texte": "Comme le commerce... est le moyen le plus propre pour concilier les différentes nations et entretenir les esprits les plus opposés dans une bonne et mutuelle correspondance, qu'il apporte et répand l'abondance par les voyes les plus innocentes, rend les peuples heureux et les Estats plus florissans [...] nous avons estimé à propos d'exciter nos sujets à s'associer pour l'entreprendre et de leur accorder à cet effet des grâces et priviléges considérables.", "source": "colbert-lettres-t2-p172", "page": 172 },
+      { "texte": "Je ne trouve pas les raisons que vous alléguez pour empescher la répartition de 4 p. 0/0 assez fortes ; j'estime, au contraire, qu'il faut toujours faire naistre quelque profit à ceux qui ont mis des fonds dans vostre compagnie, n'y ayant rien peut-estre qui porte davantage les personnes qui ne sont pas accoustumées au commerce à s'y appliquer, que cette distribution.", "source": "colbert-lettres-t2-p174", "page": 174 }
+    ],
+    "figures_liees": ["colbert"],
+    "sources": ["colbert-lettres-t2-p172", "colbert-lettres-t2-p174"],
+    "statut": "verifie"
+  },
+  {
+    "id": "sucre-antilles-raffinage",
+    "type": "fait",
+    "titre": "Rapatrier le raffinage du sucre antillais",
+    "resume": "juillet 1669 · sucre des îles françaises d'Amérique",
+    "corps": [
+      "En juillet 1669, [[figure:colbert]] constate que la France ne possède encore aucune raffinerie de sucre et que tout le sucre des îles françaises d'Amérique doit être envoyé en Hollande pour y être raffiné avant de revenir sur le marché français."
+    ],
+    "citations": [
+      { "texte": "Tous les sucres des Îles... alloient en Hollande pour y estre raffinés ; nous n'avions de sucres raffinés que par la Hollande, l'Angleterre et le Portugal.", "source": "colbert-lettres-t2-p188", "page": 188 }
+    ],
+    "figures_liees": ["colbert"],
+    "sources": ["colbert-lettres-t2-p188"],
+    "statut": "verifie"
+  }
+]

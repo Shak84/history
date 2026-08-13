@@ -13,5 +13,226 @@
     "figures_liees": ["vauban"],
     "sources": ["vauban-dime-1897-p78"],
     "statut": "verifie"
+  },
+  {
+    "id": "colbert-resistance-naturelle-impot",
+    "type": "fait",
+    "titre": "Colbert et la « résistance naturelle des peuples » à l'impôt",
+    "resume": "1676 · fiscalité et attitudes populaires",
+    "corps": [
+      "Dans une lettre à Colbert de Croissy, intendant de la généralité de Paris, sur le recouvrement du droit des francs-fiefs, [[figure:colbert]] pose comme une donnée acquise de l'administration fiscale l'existence d'une résistance populaire à l'impôt, qu'il faut « surmonter » sans laisser les collecteurs commettre d'abus."
+    ],
+    "citations": [
+      { "texte": "les maximes générales qui sont de donner toutes les facilités pour les recouvremens et pour surmonter la résistance naturelle des peuples et des taxés, mais aussy d'empescher les abus et les vexations que les commis et sous-traitans peuvent faire pour leur intérest particulier", "source": "colbert-lettres-t2-p644", "page": 644 }
+    ],
+    "figures_liees": ["colbert"],
+    "sources": ["colbert-lettres-t2-p644"],
+    "statut": "verifie"
+  },
+  {
+    "id": "bretagne-plaintes-fiscales-1673",
+    "type": "fait",
+    "titre": "Bretagne : plaintes et soumission contrastée face à l'impôt",
+    "resume": "vers décembre 1673 · fiscalité et attitudes provinciales",
+    "corps": [
+      "Dans une lettre au duc de Chaulnes, gouverneur de Bretagne, [[figure:colbert]] oppose, au nom du roi, deux attitudes populaires observées face aux mêmes édits fiscaux : dans les autres provinces d'états, une acceptation sans protestation ; en Bretagne, des « grandes plaintes » et une « mauvaise disposition » des esprits, que Colbert impute à des rumeurs plutôt qu'à un grief réel."
+    ],
+    "citations": [
+      { "texte": "il n'y a aucune province dans le royaume qu'elle ait si bien traitée que la Bretagne [...] Cependant, de toutes celles qui sont régies par les Estats, quoique Sa Majesté y fasse exécuter tous les édits avec beaucoup de circonstances qui leur sont plus à charge qu'en Bretagne, elle n'en reçoit néanmoins que des remerciements sans aucun murmure et sans aucune instance [...]. Néanmoins, dans la province de Bretagne, les mesmes causes produisent des effets tout contraires, et pour fondement de ces grandes plaintes et de la mauvaise disposition qui est en effet dans les esprits [...]", "source": "colbert-lettres-t2-p607", "page": 607 }
+    ],
+    "figures_liees": ["colbert"],
+    "sources": ["colbert-lettres-t2-p607"],
+    "statut": "verifie"
+  },
+  {
+    "id": "haine-populaire-collecteurs-impots",
+    "type": "fait",
+    "titre": "La « haine universelle » des peuples envers les collecteurs d'impôts",
+    "resume": "1683 · fiscalité et attitudes populaires",
+    "corps": [
+      "Dans une lettre à l'intendant de Moulins, [[figure:colbert]] met en garde contre l'usage de témoignages populaires pour incriminer les commis chargés de la levée des droits, tout en constatant lui-même la propension du peuple à se plaindre et la haine qu'il porte à ces agents."
+    ],
+    "citations": [
+      { "texte": "les peuples estant fort disposés à se plaindre et à rendre tesmoignage contre ceux qui sont commis à la levée des droits qu'ils payent, les dépositions qui seront faites soyent certaines et qu'elles n'ayent point pour motif la hayne universelle des peuples contre ces gens-là", "source": "colbert-lettres-t2-p497", "page": 497 }
+    ],
+    "figures_liees": ["colbert"],
+    "sources": ["colbert-lettres-t2-p497"],
+    "statut": "verifie"
+  },
+  {
+    "id": "emeutes-fiscales-guyenne-1674-1675",
+    "type": "fait",
+    "titre": "Résistances fiscales et émeutes en Guyenne et dans le royaume (1674-1675)",
+    "resume": "1674-1675 · révoltes populaires contre les hausses fiscales",
+    "corps": [
+      "En octobre 1674, [[figure:colbert]] évoque, dans une lettre à l'intendant de Bordeaux, des « mouvemens séditieux » réprimés à Sarlat contre les agents chargés du recouvrement, avec la crainte que ces « commencemens de sédition » ne s'étendent à toute la Guyenne ; une note de l'éditeur relie cet épisode à une révolte populaire violente survenue l'année suivante.",
+      "L'historien Albert Merchier résume, à partir d'archives, une vague d'émeutes consécutive aux hausses fiscales de 1674 (droit de marque sur l'étain, monopole du tabac, impôt du timbre) : soulèvement à Bordeaux, révolte sanglante en Bretagne, émeutes à Pau, La Réole, Périgueux et Le Mans, suivies d'une répression jugée impitoyable."
+    ],
+    "citations": [
+      { "texte": "Bientôt des désordres éclatèrent sur divers points du royaume, trahissant une dangereuse irritation. A Bordeaux, on se souleva à propos du droit de marque sur la vaisselle d'étain ; le monopole du tabac et l'impôt du timbre provoquèrent une révolte qui ensanglanta la Bretagne. Pau, La Réole, Périgueux, le Mans, eurent aussi leurs émeutes. Partout la répression fut impitoyable. Une foule de malheureux, coupables d'un instant d'égarement, périrent dans les supplices.", "source": "merchier-1889-p89-90", "page": "89-90" }
+    ],
+    "figures_liees": ["colbert"],
+    "sources": ["colbert-lettres-t2-p645", "merchier-1889-p89-90"],
+    "statut": "verifie"
+  },
+  {
+    "id": "dragonnades-poitou-reactions",
+    "type": "fait",
+    "titre": "Dragonnades au Poitou : soumission par peur ou par argent",
+    "resume": "1681-1685 · logement des troupes chez les protestants et conversions forcées",
+    "corps": [
+      "À partir de 1681, le logement effectif des dragons chez les protestants du Poitou, sous l'intendant Marillac, provoque des réactions différenciées dans la population : une partie cède par peur, une autre s'exempte en payant.",
+      "Le procédé consistant à faire durer les violences jusqu'à ce que le protestant se déclare converti donne son nom aux dragonnades."
+    ],
+    "citations": [
+      { "texte": "Les peureux avaient capitulé ; les plus riches s'étaient rachetés à prix d'argent, les violences n'avaient été que relatives.", "source": "merchier-1889-p138", "page": 138 },
+      { "texte": "Cela durait jusqu'au moment où le patient se déclarait converti. [...] De là le nom de dragonnades consacré par l'histoire.", "source": "merchier-1889-p139", "page": 139 }
+    ],
+    "figures_liees": ["louvois"],
+    "sources": ["merchier-1889-p138", "merchier-1889-p139"],
+    "statut": "verifie"
+  },
+  {
+    "id": "deputation-paysans-poitou-1685",
+    "type": "fait",
+    "titre": "La députation des habitants du Poitou auprès du roi (1685)",
+    "resume": "1685-11 · démarche collective face aux dragonnades",
+    "corps": [
+      "Face aux désordres volontairement laissés libres cours par les dragons du Poitou sur ordre de [[figure:louvois]], des habitants réagissent par une démarche légale et collective : l'envoi d'une députation directement auprès du roi pour demander justice. Trois gentilshommes, porteurs de la doléance, sont arrêtés sur ordre du roi et conduits à la Bastille."
+    ],
+    "citations": [
+      { "texte": "Les pauvres gens envoient une députation au roi pour demander justice. Louvois écrit aussitôt à l'intendant pour lui apprendre que trois gentilshommes porteurs des doléances \"ont été arrêtés par ordre du roi et conduits prisonniers à la Bastille\".", "source": "merchier-1889-p141-142", "page": "141-142" }
+    ],
+    "figures_liees": ["louvois"],
+    "sources": ["merchier-1889-p141-142"],
+    "statut": "verifie"
+  },
+  {
+    "id": "colbert-bois-recette-etat",
+    "type": "fait",
+    "titre": "Le bois, une recette d'État sous Colbert",
+    "resume": "gestion fiscale des forêts royales",
+    "corps": [
+      "Dans un mémoire sur l'organisation des finances royales, [[figure:colbert]] classe « Bois et forests » parmi les grandes catégories de recettes de la Couronne, à côté des gabelles et des aides. La vente du bois royal est décrite comme une procédure publique et encadrée : les coupes sont vendues aux enchères par les receveurs généraux des bois et forêts, au siège des maîtrises, après publication."
+    ],
+    "citations": [
+      { "texte": "La recette des bois est faite sur les ventes et adjudications, qui sont faites par les receveurs généraux des bois et forests, dans le siège des maistrises, publiquement et après en avoir fait l'assiette et publication.", "source": "colbert-lettres-t2-p85", "page": 85 }
+    ],
+    "figures_liees": ["colbert"],
+    "sources": ["colbert-lettres-t2-p85"],
+    "statut": "verifie"
+  },
+  {
+    "id": "colbert-inventaire-bois-normandie",
+    "type": "fait",
+    "titre": "Colbert exige un inventaire chiffré des bois de Normandie",
+    "resume": "1673 · administration fiscale des forêts",
+    "corps": [
+      "Le 20 janvier 1673, [[figure:colbert]] écrit à son cousin Michel Colbert, intendant à Alençon, pour lui demander un détail exact de la quantité de bois assujettis au droit du « tiers et danger » en Normandie, ainsi que de la quantité de bois exemptée de ce droit, justifiant cette demande de données chiffrées comme utile au service du roi.",
+      "Dans une lettre ultérieure au même intendant, Colbert invoque l'ordonnance de 1669 comme fondement juridique pour mettre les fermiers du domaine royal en possession de ces bois — sans toutefois exposer le contenu normatif de cette ordonnance elle-même."
+    ],
+    "citations": [
+      { "texte": "Ce sont là des curiosités utiles au service du roy, et que les commissaires départis doivent avoir et approfondir, non-seulement pour leur instruction, mais mesme pour faire connoistre au Roy et au Conseil ce qu'ils valent, et quels services ils sont capables de rendre dans les occasions.", "source": "colbert-lettres-t2-p263", "page": 263 },
+      { "texte": "d'en mettre les fermiers des domaines en possession dans tous les bois de Normandie que vous y avez assujettis par la chartre normande, et par l'ordonnance de 1669 qui y est conforme.", "source": "colbert-lettres-t2-p273", "page": 273 }
+    ],
+    "figures_liees": ["colbert"],
+    "sources": ["colbert-lettres-t2-p263", "colbert-lettres-t2-p273"],
+    "statut": "verifie"
+  },
+  {
+    "id": "bois-marine-bourgogne-bretagne",
+    "type": "fait",
+    "titre": "Coupes de bois en Bourgogne et Bretagne pour la marine",
+    "resume": "contexte 1661-1662 · ressources forestières et construction navale",
+    "corps": [
+      "Dans ses mémoires sur les affaires de finances rédigés pour servir à l'histoire, [[figure:colbert]] relate qu'au moment du redressement de la marine, des bois ont été coupés dans les forêts de Bourgogne et de Bretagne pour la construction de vaisseaux commencée à Toulon et à Brest.",
+      "Une note de tournée d'intendance, d'attribution incertaine (Colbert ou un subordonné), rapporte par ailleurs le bon état de bois réservés au bord de l'eau pour l'approvisionnement de la marine."
+    ],
+    "citations": [
+      { "texte": "En mesme temps, il a fait couper des bois dans les forests de Bourgogne et Bretagne, et a commencé à faire bastir des vaisseaux à Toulon et à Brest.", "source": "colbert-lettres-t2-p50", "page": 50 },
+      { "texte": "Les bois paroissent beaux. J'ay veu ceux qui sont sur le bord de l'eau, pour la marine ; ils sont beaux et bien arrangés pour se conserver.", "source": "colbert-lettres-t2-p228", "page": 228 }
+    ],
+    "figures_liees": ["colbert"],
+    "sources": ["colbert-lettres-t2-p50", "colbert-lettres-t2-p228"],
+    "statut": "verifie"
+  },
+  {
+    "id": "vauban-classification-terres-royaume",
+    "type": "fait",
+    "titre": "Vauban mesure et classe les terres du royaume",
+    "resume": "1707 · superficies et catégories d'usage du sol",
+    "corps": [
+      "Au début de La Dîme royale, [[figure:vauban]] mesure, « par un mesurage fait sur les meilleures cartes de ce royaume », que la France contient environ 30 000 lieues carrées, réparties en terres vagues et vaines, places à bâtir, chemins, étangs, terres labourables, prés, jardins, vignes et bois.",
+      "À partir de ce calcul, il évalue qu'une lieue carrée cultivée peut nourrir 700 à 800 personnes, soit une capacité démographique du royaume de 21 à 24 millions d'habitants s'il était peuplé à la limite de ce que son sol peut produire."
+    ],
+    "citations": [
+      { "texte": "Ces 4,688 arpents 82 perches et demie divisés proportionnellement en terres vagues et vaines, places à bâtir, chemins, haies et fossés, étangs, rivières et ruisseaux, en terres labourables, prés, jardins, vignes, bois, et en toutes les parties qui peuvent composer un petit pays habitable de cette étendue.", "source": "vauban-dime-1897-p21", "page": 21 },
+      { "texte": "ces terres, enfin, cultivées, ensemencées, et la récolte faite, doivent produire par commune année de quoi nourrir 7 ou 800 personnes de tous âges et de tous sexes, sur le pied de 3 setiers de blé, mesure de Paris, par tête, le setier pesant net 240 livres, le poids du sac défalqué.", "source": "vauban-dime-1897-p21", "page": 21 }
+    ],
+    "figures_liees": ["vauban"],
+    "sources": ["vauban-dime-1897-p21"],
+    "statut": "verifie"
+  },
+  {
+    "id": "vauban-petit-peuple-campagnes",
+    "type": "fait",
+    "titre": "Le petit peuple des campagnes selon Vauban",
+    "resume": "1707 · rôle économique et démographique de la paysannerie",
+    "corps": [
+      "[[figure:vauban]] écrit que le petit peuple des campagnes fournit à lui seul tous les soldats et matelots des armées de terre et de mer, ainsi que les laboureurs, vignerons et manouvriers, et qu'il garde et nourrit les bestiaux, sème et récolte les blés, cultive les vignes et fait le vin — un groupe qu'il juge « si utile et si méprisé »."
+    ],
+    "citations": [
+      { "texte": "c'est elle qui fournit tous les soldats et matelots de ses armées de terre et de mer... qui fournit tous les laboureurs, vignerons et manoeuvriers de la campagne ; qui garde et nourrit les bestiaux ; qui sème les blés et les recueille ; qui façonne les vignes et fait le vin.", "source": "vauban-dime-1897-p23", "page": 23 }
+    ],
+    "figures_liees": ["vauban"],
+    "sources": ["vauban-dime-1897-p23"],
+    "statut": "verifie"
+  },
+  {
+    "id": "vauban-inventaire-terres-dime",
+    "type": "fait",
+    "titre": "L'inventaire des terres pour asseoir la Dîme royale",
+    "resume": "1707 · recensement des usages agricoles du sol par élection",
+    "corps": [
+      "Dans son projet de réforme fiscale, [[figure:vauban]] demande aux agents chargés de son système de recenser précisément, dans chaque élection, la quantité de terres à labour, vignes, prés, pâtures, bois, étangs, pêcheries, moulins et autres biens sujets à la Dîme royale, ainsi que leur rendement moyen."
+    ],
+    "citations": [
+      { "texte": "de prendre une aussi grande connaissance qu'ils le pourront, de la quantité des terres a labour, vignes, prés, pâtures, bois, étangs, pêcheries, maisons, moulins, et de tous autres biens sujets à la Dîme royale ci-devant spécifiés, que contiendront ces élections ; et ce que ces terres, vignes, prés, bois, etc., peuvent rendre une année portant l'autre.", "source": "vauban-dime-1897-p107", "page": 107 }
+    ],
+    "figures_liees": ["vauban"],
+    "sources": ["vauban-dime-1897-p107"],
+    "statut": "verifie"
+  },
+  {
+    "id": "vauban-cycles-coupe-bois",
+    "type": "fait",
+    "titre": "Vauban et les cycles de coupe des bois",
+    "resume": "1707 · rythmes de coupe forestière et fiscalité du bois",
+    "corps": [
+      "[[figure:vauban]] explique qu'il est difficile de lever la dîme royale en nature sur les bois car les coupes n'arrivent que tous les neuf, dix, quinze ou vingt ans selon les pays. Il propose donc d'« abonner » cette dîme sous forme de taxe par arpent, calculée sur le prix de vente habituel d'une coupe."
+    ],
+    "citations": [
+      { "texte": "il y aura de la difficulté pour la Dîme des bois, dont il faudra attendre les coupes, qui n'arrivent que de neuf en neuf ans, ou de dix en dix, ou de quinze en quinze, ou de vingt en vingt ans, comme en mon pays.", "source": "vauban-dime-1897-p108", "page": 108 },
+      { "texte": "Il faut donc nécessairement l'abonner, ce qui doit se faire comme une taxe sur chaque arpent de bois, accommodée au prix de ce que la coupe vaut par arpent dans chaque pays, car cela est fort différent.", "source": "vauban-dime-1897-p108", "page": 108 }
+    ],
+    "figures_liees": ["vauban"],
+    "sources": ["vauban-dime-1897-p108"],
+    "statut": "verifie"
+  },
+  {
+    "id": "vezelay-bois-landes",
+    "type": "fait",
+    "titre": "Vézelay, un pays de bois et de landes",
+    "resume": "1699-1707 · usage des terres et repeuplement dans l'Élection de Vézelay",
+    "corps": [
+      "[[figure:vauban]] note que l'Élection de Vézelay est l'un des pays du royaume où il y a le moins de terres labourables : près des deux tiers de son étendue sont couverts de bois ou de terres vagues et vaines, et les terres cultivées, de fertilité inférieure à la moyenne, ne produisent que du seigle, de l'orge et de l'avoine.",
+      "Il établit un lien entre démographie rurale et mise en culture des terres : plus le pays se repeuple, plus le labourage progresse et plus les terres abandonnées sont défrichées."
+    ],
+    "citations": [
+      { "texte": "l'Election de Vézelay est un des pays du royaume où il y a le moins de terres labourables ; que près des deux tiers de son étendue sont remplis de bois, ou terres vagues et vaines, que les terres en culture, étant d'une fertilité bien au-dessous de la médiocre, ne produisent que des seigles, orges et avoines, et tout au plus le tiers de froment.", "source": "vauban-dime-1897-p114", "page": 114 }
+    ],
+    "figures_liees": ["vauban"],
+    "sources": ["vauban-dime-1897-p114"],
+    "statut": "verifie"
   }
 ]

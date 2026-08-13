@@ -119,6 +119,13 @@
     "page": "12-13"
   },
   {
+    "id": "vauban-abrege-1839-p17",
+    "type": "document primaire",
+    "reference": "Vauban, Abrégé des services du maréchal de Vauban, fait par lui en 1703, publié par M. Augoyat, Paris, 1839 — projet de Neuf-Brisach (1698)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6318671t",
+    "page": 17
+  },
+  {
     "id": "vauban-abrege-1839-p18",
     "type": "document primaire",
     "reference": "Vauban, Abrégé des services du maréchal de Vauban, fait par lui en 1703, publié par M. Augoyat, Paris, 1839",
@@ -754,5 +761,313 @@
     "reference": "Albert Merchier, Les Conseillers du grand roi : Colbert, Louvois, Vauban, 1889 — Dangeau, Journal, 16 juillet 1691, et lettre du marquis de Barbezieux à Tessé",
     "url": "https://gallica.bnf.fr/ark:/12148/bpt6k930107h",
     "page": "181-182"
+  },
+  {
+    "id": "colbert-lettres-t2-p497",
+    "type": "document primaire",
+    "reference": "Colbert, Lettres, instructions et mémoires de Colbert, t. II (Finances), éd. Pierre Clément, 1863 — lettre n°168 à M. de Bouville, intendant à Moulins, Paris, 8 septembre [16]83 (dernier chiffre de l'année mal lisible à l'OCR, très probablement 1683)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k51548m",
+    "page": 497
+  },
+  {
+    "id": "colbert-lettres-t2-p607",
+    "type": "document primaire",
+    "reference": "Colbert, Lettres, instructions et mémoires de Colbert, t. II (Finances), éd. Pierre Clément, 1863 — lettre au duc de Chaulnes, gouverneur de Bretagne, vers la mi-décembre 1673 (jour du mois mal lisible à l'OCR)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k51548m",
+    "page": 607
+  },
+  {
+    "id": "colbert-lettres-t2-p644",
+    "type": "document primaire",
+    "reference": "Colbert, Lettres, instructions et mémoires de Colbert, t. II (Finances), éd. Pierre Clément, 1863 — lettre n°307 à Colbert de Croissy, intendant de la généralité de Paris, Versailles, 18 octobre 1676",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k51548m",
+    "page": 644
+  },
+  {
+    "id": "colbert-lettres-t2-p645",
+    "type": "document primaire",
+    "reference": "Colbert, Lettres, instructions et mémoires de Colbert, t. II (Finances), éd. Pierre Clément, 1863 — lettre n°308 à M. de Sève, intendant à Bordeaux, Versailles, 14 octobre 1674, et note de l'éditeur sur les mouvements séditieux de Sarlat ; OCR très dégradé sur ce passage",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k51548m",
+    "page": 645
+  },
+  {
+    "id": "colbert-lettres-t2-p85",
+    "type": "document primaire",
+    "reference": "Colbert, Lettres, instructions et mémoires de Colbert, t. II (Finances), éd. Pierre Clément, 1863 — mémoire sur l'organisation des finances royales, rubrique « Bois et forests » ; page vérifiée par lecture directe de l'en-tête imprimé",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k51548m",
+    "page": 85
+  },
+  {
+    "id": "colbert-lettres-t2-p263",
+    "type": "document primaire",
+    "reference": "Colbert, Lettres, instructions et mémoires de Colbert, t. II (Finances), éd. Pierre Clément, 1863 — lettre à Michel Colbert, intendant à Alençon, 20 janvier 1673 ; page vérifiée par lecture directe de l'en-tête imprimé",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k51548m",
+    "page": 263
+  },
+  {
+    "id": "colbert-lettres-t2-p273",
+    "type": "document primaire",
+    "reference": "Colbert, Lettres, instructions et mémoires de Colbert, t. II (Finances), éd. Pierre Clément, 1863 — lettre à l'intendant d'Alençon, 17 février [1673], référence à « l'ordonnance de 1669 » ; page vérifiée par lecture directe de l'en-tête imprimé",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k51548m",
+    "page": 273
+  },
+  {
+    "id": "colbert-lettres-t2-p50",
+    "type": "document primaire",
+    "reference": "Colbert, Mémoires sur les affaires de finances de France pour servir à l'histoire (chap. V, contexte 1661-1662), dans Lettres, instructions et mémoires de Colbert, t. II, éd. Pierre Clément, 1863 ; page vérifiée par lecture directe de l'en-tête imprimé",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k51548m",
+    "page": 50
+  },
+  {
+    "id": "colbert-lettres-t2-p228",
+    "type": "document primaire (attribution incertaine)",
+    "reference": "Colbert, Lettres, instructions et mémoires de Colbert, t. II (Finances), éd. Pierre Clément, 1863 — note de tournée d'intendance sur des bois réservés à la marine (été 1683 d'après le contexte) ; l'auteur exact de la phrase (Colbert ou un subordonné) n'est pas certain à l'OCR",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k51548m",
+    "page": 228
+  },
+  {
+    "id": "colbert-lettres-t2-p261",
+    "type": "document primaire",
+    "reference": "Colbert, « Discours sur les manufactures du royaume » (minute autographe, 1663), Annexes, dans Lettres, instructions et mémoires de Colbert, t. II, éd. Pierre Clément, 1863",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k51548m",
+    "page": 261
+  },
+  {
+    "id": "colbert-lettres-t2-p274",
+    "type": "document primaire",
+    "reference": "Colbert, « Mémoire sur le commerce » (minute autographe pour le Conseil de commerce du 3 août 1664), Annexes, dans Lettres, instructions et mémoires de Colbert, t. II, éd. Pierre Clément, 1863",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k51548m",
+    "page": 274
+  },
+  {
+    "id": "colbert-lettres-t2-p276",
+    "type": "document primaire",
+    "reference": "Colbert, « Mémoire sur le commerce » (minute autographe pour le Conseil de commerce du 3 août 1664), Annexes, dans Lettres, instructions et mémoires de Colbert, t. II, éd. Pierre Clément, 1863",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k51548m",
+    "page": 276
+  },
+  {
+    "id": "colbert-lettres-t2-p277",
+    "type": "document primaire",
+    "reference": "Colbert, lettre à Louis XIV, Paris, 16 mai 1670, avec réponse autographe de Louis XIV en marge, Annexes, dans Lettres, instructions et mémoires de Colbert, t. II, éd. Pierre Clément, 1863",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k51548m",
+    "page": 277
+  },
+  {
+    "id": "colbert-lettres-t2-p353",
+    "type": "document primaire",
+    "reference": "Colbert, Mémoires sur les affaires de finances de France pour servir à l'histoire (pièce n° 14), Annexes, dans Lettres, instructions et mémoires de Colbert, t. II, éd. Pierre Clément, 1863",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k51548m",
+    "page": 353
+  },
+  {
+    "id": "colbert-lettres-t2-p145",
+    "type": "apparat critique (introduction de l'éditeur)",
+    "reference": "Pierre Clément, « Introduction », dans Colbert, Lettres, instructions et mémoires de Colbert, t. II, 1863 — citant une lettre de Colbert au gouverneur de Sedan, 6 novembre 1666",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k51548m",
+    "page": 145
+  },
+  {
+    "id": "colbert-lettres-t2-p146",
+    "type": "apparat critique (introduction de l'éditeur)",
+    "reference": "Pierre Clément, « Introduction », dans Colbert, Lettres, instructions et mémoires de Colbert, t. II, 1863 — citant une lettre de Colbert aux édiles d'Auxerre, 15 septembre 1673",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k51548m",
+    "page": 146
+  },
+  {
+    "id": "colbert-lettres-t2-p172",
+    "type": "apparat critique (introduction de l'éditeur)",
+    "reference": "Pierre Clément, « Introduction », dans Colbert, Lettres, instructions et mémoires de Colbert, t. II, 1863 — citant le préambule de l'édit royal créant la Compagnie du Nord, 1669",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k51548m",
+    "page": 172
+  },
+  {
+    "id": "colbert-lettres-t2-p174",
+    "type": "apparat critique (introduction de l'éditeur)",
+    "reference": "Pierre Clément, « Introduction », dans Colbert, Lettres, instructions et mémoires de Colbert, t. II, 1863 — citant une lettre de Colbert aux directeurs de la Compagnie du Nord, 23 janvier 1674",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k51548m",
+    "page": 174
+  },
+  {
+    "id": "colbert-lettres-t2-p188",
+    "type": "apparat critique (introduction de l'éditeur)",
+    "reference": "Pierre Clément, « Introduction », dans Colbert, Lettres, instructions et mémoires de Colbert, t. II, 1863 — citant une lettre de Colbert, 26 juillet 1669, sur le raffinage du sucre des Antilles",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k51548m",
+    "page": 188
+  },
+  {
+    "id": "colbert-lettres-t2-p147",
+    "type": "apparat critique (introduction de l'éditeur)",
+    "reference": "Pierre Clément, « Introduction », dans Colbert, Lettres, instructions et mémoires de Colbert, t. II, 1863 — résumé (style indirect, sans citation directe) de lettres de Colbert du 13 juin 1670 et du 6 janvier 1673 sur la manufacture de glaces de Paris",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k51548m",
+    "page": 147
+  },
+  {
+    "id": "merchier-1889-p89-90",
+    "type": "ouvrage",
+    "reference": "Albert Merchier, Les Conseillers du grand roi : Colbert, Louvois, Vauban, 1889 — chapitre « Colbert », émeutes fiscales de 1674 (Bordeaux, Bretagne, Pau, La Réole, Périgueux, Le Mans)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k930107h",
+    "page": "89-90"
+  },
+  {
+    "id": "merchier-1889-p138",
+    "type": "ouvrage",
+    "reference": "Albert Merchier, Les Conseillers du grand roi : Colbert, Louvois, Vauban, 1889 — chapitre « Louvois », logement des dragons chez les protestants du Poitou sous l'intendant Marillac, 1681",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k930107h",
+    "page": 138
+  },
+  {
+    "id": "merchier-1889-p139",
+    "type": "ouvrage",
+    "reference": "Albert Merchier, Les Conseillers du grand roi : Colbert, Louvois, Vauban, 1889 — chapitre « Louvois », mécanisme des dragonnades",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k930107h",
+    "page": 139
+  },
+  {
+    "id": "merchier-1889-p71",
+    "type": "ouvrage",
+    "reference": "Albert Merchier, Les Conseillers du grand roi : Colbert, Louvois, Vauban, 1889 — chapitre V, mécénat de Colbert et liste des pensions de 1663 (président Hénault cité)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k930107h",
+    "page": 71
+  },
+  {
+    "id": "merchier-1889-p75",
+    "type": "ouvrage",
+    "reference": "Albert Merchier, Les Conseillers du grand roi : Colbert, Louvois, Vauban, 1889 — chapitre V, fondation des académies et réception de Colbert à l'Académie française (21 avril 1667), citant la Gazette de France du 30 avril 1667",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k930107h",
+    "page": 75
+  },
+  {
+    "id": "merchier-1889-p80",
+    "type": "ouvrage",
+    "reference": "Albert Merchier, Les Conseillers du grand roi : Colbert, Louvois, Vauban, 1889 — chapitre VI, lettre de Colbert à Louis XIV reprochant les dépenses de Versailles au détriment du Louvre",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k930107h",
+    "page": 80
+  },
+  {
+    "id": "merchier-1889-p82",
+    "type": "ouvrage",
+    "reference": "Albert Merchier, Les Conseillers du grand roi : Colbert, Louvois, Vauban, 1889 — chapitre VI, concours du Louvre (Bernin puis Claude Perrault) et constructions parisiennes attribuées à Colbert",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k930107h",
+    "page": 82
+  },
+  {
+    "id": "merchier-1889-p91",
+    "type": "ouvrage",
+    "reference": "Albert Merchier, Les Conseillers du grand roi : Colbert, Louvois, Vauban, 1889 — chapitre VII, scène de la grille dorée de Versailles, 1683",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k930107h",
+    "page": 91
+  },
+  {
+    "id": "doumic-1921-p170",
+    "type": "ouvrage",
+    "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921 (citation des Mémoires de Saint-Simon, scène de la chaise à porteurs au camp de Compiègne, 13 septembre 1698)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
+    "page": 170
+  },
+  {
+    "id": "doumic-1921-p171",
+    "type": "ouvrage",
+    "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921 (citation des Mémoires de Saint-Simon, journée de Mme de Maintenon à Versailles)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
+    "page": 171
+  },
+  {
+    "id": "doumic-1921-p173",
+    "type": "ouvrage",
+    "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921 (citation des Entretiens de Mme de Maintenon avec les dames de Saint-Cyr)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
+    "page": 173
+  },
+  {
+    "id": "doumic-1921-p266-267",
+    "type": "ouvrage",
+    "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921, chap. VIII (citation des Mémoires de Saint-Simon, anecdote du pape et de Le Nôtre)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
+    "page": "266-267"
+  },
+  {
+    "id": "doumic-1921-p267",
+    "type": "ouvrage",
+    "reference": "René Doumic, Saint-Simon : la France de Louis XIV, 2e éd., Hachette, 1921, chap. VIII (citation des Mémoires de Saint-Simon, dernière promenade de Le Nôtre dans les jardins de Versailles)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k9669348k",
+    "page": 267
+  },
+  {
+    "id": "vauban-abrege-1839-p13",
+    "type": "document primaire",
+    "reference": "Vauban, Abrégé des services du maréchal de Vauban, fait par lui en 1703, publié par M. Augoyat, Paris, 1839 — projets des villes neuves d'Huningue, Phalsbourg, Sarrelouis, Longwy (1679-1680) et fortifications côtières de Normandie (1681)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6318671t",
+    "page": 13
+  },
+  {
+    "id": "vauban-abrege-1839-p14",
+    "type": "document primaire",
+    "reference": "Vauban, Abrégé des services du maréchal de Vauban, fait par lui en 1703, publié par M. Augoyat, Paris, 1839 — écluses de la Bruche à Strasbourg",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6318671t",
+    "page": 14
+  },
+  {
+    "id": "vauban-abrege-1839-p14-15",
+    "type": "document primaire",
+    "reference": "Vauban, Abrégé des services du maréchal de Vauban, fait par lui en 1703, publié par M. Augoyat, Paris, 1839 — projet de l'aqueduc de Maintenon (1685-1686)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6318671t",
+    "page": "14-15"
+  },
+  {
+    "id": "vauban-abrege-1839-p15",
+    "type": "document primaire",
+    "reference": "Vauban, Abrégé des services du maréchal de Vauban, fait par lui en 1703, publié par M. Augoyat, Paris, 1839 — visite du canal des deux mers et du port de Cette (1687) ; projets de Montroyal et Landau (fin 1687)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6318671t",
+    "page": 15
+  },
+  {
+    "id": "vauban-abrege-1839-p16",
+    "type": "document primaire",
+    "reference": "Vauban, Abrégé des services du maréchal de Vauban, fait par lui en 1703, publié par M. Augoyat, Paris, 1839 — projet de Mont-Dauphin (1692)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6318671t",
+    "page": 16
+  },
+  {
+    "id": "vauban-abrege-1839-p21",
+    "type": "document primaire",
+    "reference": "Vauban, Abrégé des services du maréchal de Vauban, fait par lui en 1703, publié par M. Augoyat, Paris, 1839 — bilan chiffré de sa carrière de projeteur (« 160 places et plus »)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k6318671t",
+    "page": 21
+  },
+  {
+    "id": "vauban-paris-1821-p15-16",
+    "type": "source secondaire (éloge biographique)",
+    "reference": "Fontenelle, Éloge de M. le maréchal de Vauban, dans De l'importance que Paris est à la France, 1821 — liste des « fonctions de paix » de Vauban après 1684 (aqueduc de Maintenon, canal des deux mers, Montroyal, Landau)",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k5467733k",
+    "page": "15-16"
+  },
+  {
+    "id": "vauban-dime-1897-p21",
+    "type": "document primaire",
+    "reference": "Vauban, La dîme royale, 1707 (éd. 1897) — mesure des terres du royaume par catégories d'usage et estimation de sa capacité démographique",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k5727570s",
+    "page": 21
+  },
+  {
+    "id": "vauban-dime-1897-p107",
+    "type": "document primaire",
+    "reference": "Vauban, La dîme royale, 1707 (éd. 1897) — recensement des usages agricoles du sol par élection pour l'assiette de la Dîme royale",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k5727570s",
+    "page": 107
+  },
+  {
+    "id": "vauban-dime-1897-p108",
+    "type": "document primaire",
+    "reference": "Vauban, La dîme royale, 1707 (éd. 1897) — cycles de coupe des bois et fiscalité forestière",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k5727570s",
+    "page": 108
+  },
+  {
+    "id": "vauban-dime-1897-p114",
+    "type": "document primaire",
+    "reference": "Vauban, La dîme royale, 1707 (éd. 1897) — l'Élection de Vézelay, usage des terres et repeuplement",
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k5727570s",
+    "page": 114
   }
 ]
