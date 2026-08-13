@@ -13,5 +13,124 @@
     "figures_liees": ["vauban"],
     "sources": ["vauban-carte-1891-p7"],
     "statut": "verifie"
+  },
+  {
+    "id": "vauban-revue-frontieres-1706",
+    "type": "fait",
+    "titre": "La revue des frontières du royaume par Vauban (1706)",
+    "resume": "1706 · État des places fortes",
+    "corps": [
+      "En 1706, [[figure:vauban]] dresse pour le roi un inventaire critique, secteur par secteur, de l'état des places fortes du royaume. En Lorraine, Bitche, Hombourg et Mont-Royal sont démantelées. En Alsace, Philisbourg, le fort de Kehl, Vieux-Brisach et Huningue sont démantelées ou incomplètes. Le Luxembourg est perdu depuis le traité de Ryswick (1697). Dans la Meuse, Mouzon, Stenay et Donchery sont démantelées, tandis que Sedan et Mézières restent « bonnes places, mais très imparfaites ». En Hainaut, Vauban juge Tournay, Valenciennes, Lille, Condé, Menin et Ypres « les meilleures places de ces pays-là, et en assez bon état ». Sur la côte, Dunkerque et Bergues sont jugées bonnes, mais Furnes et Calais restent inachevées."
+    ],
+    "citations": [
+      { "texte": "les meilleures places de ces pays-là, et en assez bon état", "source": "vauban-carte-1891-p29-31", "page": "29-31" }
+    ],
+    "figures_liees": ["vauban"],
+    "sources": ["vauban-carte-1891-p29-31"],
+    "statut": "verifie"
+  },
+  {
+    "id": "vauban-projet-paix-1706",
+    "type": "fait",
+    "titre": "Le « Projet de paix fait à plaisir » de Vauban",
+    "resume": "1706-02-02 · Diplomatie",
+    "corps": [
+      "Le 2 février 1706, [[figure:vauban]] rédige un mémoire manuscrit envisageant les cessions et gains territoriaux qui pourraient mettre fin à la guerre de Succession d'Espagne, portant notamment sur le Comté de Bourgogne, les duchés de Lorraine et de Bar, le Luxembourg, l'Alsace, le Hainaut, la Flandre, l'Artois, le Cambrésis et le Roussillon."
+    ],
+    "citations": [],
+    "figures_liees": ["vauban"],
+    "sources": ["vauban-carte-1891-p13"],
+    "statut": "verifie"
+  },
+  {
+    "id": "campagnes-turenne-allemagne",
+    "type": "fait",
+    "titre": "Les campagnes de Turenne en Allemagne (1644-1648)",
+    "resume": "1644-1648 · Guerre de Trente Ans",
+    "corps": [
+      "Le maréchal de [[figure:turenne]] mène plusieurs campagnes en Allemagne dans les dernières années de la guerre de Trente Ans : capitulation de Mayence le 16 septembre 1644, siège de Fribourg-en-Brisgau en août 1644, puis bataille de Zusmarshausen le 17 mai 1648, l'une des dernières grandes actions du conflit avant les traités de Westphalie."
+    ],
+    "citations": [],
+    "figures_liees": ["turenne"],
+    "sources": ["turenne-t1-p53", "turenne-t1-p90", "turenne-t1-p203"],
+    "statut": "verifie"
+  },
+  {
+    "id": "turenne-nord-1657-1658",
+    "type": "fait",
+    "titre": "Turenne dans le Nord : Montmédy et Gravelines",
+    "resume": "1657-1658 · Guerre franco-espagnole",
+    "corps": [
+      "[[figure:turenne]] reçoit la capitulation de Montmédy le 6 août 1657, siège mené sous les yeux de [[figure:louis-xiv]], puis celle de Gravelines le 28 août 1658 après 25 à 26 jours de tranchée ouverte."
+    ],
+    "citations": [],
+    "figures_liees": ["turenne", "louis-xiv"],
+    "sources": ["turenne-t2-p87", "turenne-t2-p151"],
+    "statut": "verifie"
+  },
+  {
+    "id": "siege-tournai-1667",
+    "type": "fait",
+    "titre": "Le siège de Tournai (guerre de Dévolution)",
+    "resume": "1667-06-23 · Guerre de Dévolution",
+    "corps": [
+      "Dans le cadre de la guerre de Dévolution, la ville de Tournai capitule le 23 juin 1667, capitulation signée par son gouverneur, le marquis de Trelon (ou Trésigny)."
+    ],
+    "citations": [],
+    "figures_liees": [],
+    "sources": ["quincy-t1"],
+    "statut": "verifie"
+  },
+  {
+    "id": "guerre-ligue-augsbourg-empire",
+    "type": "fait",
+    "titre": "La guerre de la Ligue d'Augsbourg dans l'Empire et en Italie",
+    "resume": "1688-1692 · Guerre de la Ligue d'Augsbourg",
+    "corps": [
+      "Entre 1688 et 1692, les troupes françaises prennent Philisbourg (30 octobre 1688, défendue par M. de Starhemberg), Kaiserslautern (par Boufflers) et Huy (par le maréchal d'Humières). En 1691, la résidence royale de Savoie à Carmagnole est mise à sac. En 1692, le défilé de Turckheim est pris sans obstacle par le maréchal de Lorges en Alsace, tandis qu'à Embrun, en Dauphiné, le duc de Savoie s'empare de la place avant de la rendre par capitulation honorable."
+    ],
+    "citations": [],
+    "figures_liees": [],
+    "sources": ["quincy-t2"],
+    "statut": "verifie"
+  },
+  {
+    "id": "succession-espagne-catalogne-valence",
+    "type": "fait",
+    "titre": "La guerre de Succession d'Espagne en Catalogne et à Valence",
+    "resume": "1707-1708 · Guerre de Succession d'Espagne",
+    "corps": [
+      "En 1707, le chevalier d'Asfeld prend Xàtiva (Játiva), dans le royaume de Valence, « l'épée à la main ». En 1708, le comte d'Estaing prend Venasque à la frontière de l'Aragon et de la Catalogne, le duc d'Orléans conquiert Tortosa en Catalogne, et le chevalier d'Asfeld réduit Denia et Alicante dans le royaume de Valence. La même année, le maréchal de Villars conquiert Exilles, Fenestrelles et La Pérouse dans les Alpes, à la frontière du Dauphiné et du Piémont."
+    ],
+    "citations": [],
+    "figures_liees": [],
+    "sources": ["quincy-t5", "quincy-t6"],
+    "statut": "verifie"
+  },
+  {
+    "id": "debarquement-cette-agde-1710",
+    "type": "fait",
+    "titre": "Le débarquement anglo-hollandais de Cette et Agde",
+    "resume": "1710-07-02 · Guerre de Succession d'Espagne, en France métropolitaine",
+    "corps": [
+      "Le 2 juillet 1710, environ 3000 soldats anglo-hollandais débarquent à Cette (Sète) et Agde, en Languedoc, en soutien aux révoltés des Cévennes, et s'emparent des deux villes ouvertes et sans défense. C'est l'un des rares épisodes de la guerre de Succession d'Espagne à toucher directement le territoire métropolitain français."
+    ],
+    "citations": [],
+    "figures_liees": [],
+    "sources": ["quincy-t6"],
+    "statut": "verifie"
+  },
+  {
+    "id": "pacification-catalogne-1714",
+    "type": "fait",
+    "titre": "La pacification finale de la Catalogne",
+    "resume": "1714 · Fin de la guerre de Succession d'Espagne",
+    "corps": [
+      "En 1714, la place de Cardona se rend à discrétion sous le maréchal de Berwick, marquant la pacification finale de la Catalogne à l'issue de la guerre de Succession d'Espagne."
+    ],
+    "citations": [],
+    "figures_liees": [],
+    "sources": ["quincy-t7"],
+    "statut": "a_verifier"
   }
 ]
