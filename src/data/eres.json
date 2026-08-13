@@ -1,0 +1,11 @@
+[
+  { "id": "gaule", "nom": "Gaule romaine", "siecle": "-52 → 486", "disponible": false },
+  { "id": "merovingiens", "nom": "Mérovingiens", "siecle": "Ve → VIIIe", "disponible": false },
+  { "id": "carolingiens", "nom": "Carolingiens", "siecle": "VIIIe → Xe", "disponible": false },
+  { "id": "capetiens", "nom": "Capétiens", "siecle": "Xe → XIVe", "disponible": false },
+  { "id": "valois", "nom": "Valois", "siecle": "XIVe → XVIe", "disponible": false },
+  { "id": "ancien-regime", "nom": "Ancien Régime", "siecle": "XVIe → XVIIIe", "disponible": true },
+  { "id": "revolution-empire", "nom": "Révolution & Empire", "siecle": "1789 → 1815", "disponible": false },
+  { "id": "monarchies-2e-empire", "nom": "Monarchies & 2ᵈ Empire", "siecle": "1815 → 1870", "disponible": false },
+  { "id": "republiques", "nom": "Républiques", "siecle": "1870 → …", "disponible": false }
+]

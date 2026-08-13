@@ -1,0 +1,194 @@
+[
+  {
+    "id": "louis-xiv",
+    "nom": "Louis XIV",
+    "wikidata": "Q7742",
+    "naissance": "1638-09-05",
+    "mort": "1715-09-01",
+    "couche_sociale": "roi de France et de Navarre",
+    "fonctions": [],
+    "genealogie": {
+      "pere": "Louis XIII",
+      "mere": "Anne d'Autriche",
+      "conjoints": [
+        "Marie-Thérèse d'Autriche, infante d'Espagne (mariage de 1660 à sa mort en 1683)",
+        "Françoise d'Aubigné, marquise de Maintenon (épouse secrète à partir de 1683)"
+      ],
+      "enfants": [
+        "Louis de France, dit le Grand Dauphin (1661-1711), fils de Marie-Thérèse"
+      ],
+      "notes": "Louis XIV et Marie-Thérèse ont eu plusieurs enfants ; le Grand Dauphin est le seul à avoir atteint l'âge adulte.",
+      "sources": ["wikidata-q7742"]
+    },
+    "traits_de_caractere": [],
+    "realisations": [
+      { "date": "1643-05-14", "realisation": "Devient roi de France et de Navarre", "description": "À la mort de Louis XIII, à l'âge de 4 ans.", "sources": ["wikidata-q7742"] },
+      { "date": "1661", "realisation": "Début du règne personnel", "description": "À la mort de [[figure:mazarin]], annonce qu'il gouvernera sans premier ministre.", "sources": ["wikidata-q7742", "wikidata-q166056"] },
+      { "date": "1685-10-18", "realisation": "Édit de Fontainebleau", "description": "Révoque l'édit de Nantes.", "sources": ["wikidata-q512443"] }
+    ],
+    "ambitions": [],
+    "craintes": [],
+    "regard_sur_les_etats": [],
+    "regard_sur_les_puissances": [
+      {
+        "pays": "ses voisins (puissances européennes, non nommées individuellement)",
+        "position": "Sur son lit de mort, appelle son successeur à rechercher la paix avec les puissances voisines plutôt que la guerre.",
+        "citation": "Mon enfant, vous allez être un grand roi : ne m'imitez pas dans le goût que j'ai eu pour les bâtiments, ni dans celui que j'ai eu pour la guerre ; tâchez, au contraire, d'avoir la paix avec vos voisins.",
+        "sources": ["doumic-1921-p111"]
+      }
+    ],
+    "iconographie": [
+      {
+        "titre": "Portrait of Louis XIV of France",
+        "artiste": "Hyacinthe Rigaud",
+        "date": "1701",
+        "conservation": "Musée du Louvre, Paris",
+        "url_image": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Rigaud_Louis_XIV_1701.jpg",
+        "url_iiif": "",
+        "url_notice": "https://commons.wikimedia.org/wiki/File:Rigaud_Louis_XIV_1701.jpg",
+        "domaine_public": true,
+        "credit": "Wikimedia Commons"
+      }
+    ],
+    "statut": "verifie"
+  },
+  {
+    "id": "mazarin",
+    "nom": "Jules Mazarin",
+    "wikidata": "Q166056",
+    "naissance": "1602-07-14",
+    "mort": "1661-03-09",
+    "couche_sociale": "cardinal-ministre",
+    "fonctions": [],
+    "genealogie": { "pere": "", "mere": "", "conjoints": [], "enfants": [], "notes": "Cardinal, Mazarin n'a pas eu de descendance légitime connue.", "sources": [] },
+    "traits_de_caractere": [],
+    "realisations": [
+      { "date": "1642-12-05", "realisation": "Devient premier ministre de France", "description": "", "sources": ["wikidata-q166056"] },
+      { "date": "1661-03-09", "realisation": "Meurt en exercice, à Vincennes", "description": "", "sources": ["wikidata-q166056"] }
+    ],
+    "ambitions": [],
+    "craintes": [],
+    "regard_sur_les_etats": [],
+    "regard_sur_les_puissances": [],
+    "iconographie": [
+      {
+        "titre": "Portrait of cardinal Jules Mazarin",
+        "artiste": "Pierre Mignard",
+        "date": "vers 1658-1660",
+        "conservation": "Musée Condé, Chantilly",
+        "url_image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Cardinal_Mazarin_by_Pierre_Mignard_%28Mus%C3%A9e_Cond%C3%A9%29.jpg",
+        "url_iiif": "",
+        "url_notice": "https://commons.wikimedia.org/wiki/File:Cardinal_Mazarin_by_Pierre_Mignard_(Mus%C3%A9e_Cond%C3%A9).jpg",
+        "domaine_public": true,
+        "credit": "Wikimedia Commons"
+      }
+    ],
+    "statut": "verifie"
+  },
+  {
+    "id": "colbert",
+    "nom": "Jean-Baptiste Colbert",
+    "wikidata": "Q188971",
+    "naissance": "1619-08-29",
+    "mort": "1683-09-06",
+    "couche_sociale": "bourgeoisie d'office",
+    "fonctions": [
+      { "titre": "Contrôleur général des finances", "debut": "1665-12-12", "fin": "1683-09-06", "sources": ["wikidata-q188971"] }
+    ],
+    "genealogie": {
+      "pere": "",
+      "mere": "",
+      "conjoints": [],
+      "enfants": [],
+      "notes": "Le conseiller d'État Henri Pussort, juge au procès Fouquet, était l'oncle de Colbert.",
+      "sources": ["colbert-lettres-t2-p39"]
+    },
+    "traits_de_caractere": [],
+    "realisations": [],
+    "ambitions": [],
+    "craintes": [],
+    "regard_sur_les_etats": [
+      {
+        "etat": "paysannerie",
+        "position": "Alerte le roi sur les ravages causés aux campagnes par les marches de troupes, et sur l'exode de paysans de Champagne vers l'étranger.",
+        "citation": "Si Vostre Majesté estoit bien informée de tous les désordres que les marches impérieuses de troupes causent dans les provinces, combien vos peuples en sont dépourvus, combien de paysans de Champagne et des villes frontières ont desjà passé et se disposent de passer dans les pays estrangers, elle verroit bien de quelle importance il luy est de remédier à un si grand mal.",
+        "sources": ["colbert-lettres-t2-p123"]
+      }
+    ],
+    "regard_sur_les_puissances": [
+      {
+        "pays": "Provinces-Unies (Hollande)",
+        "position": "Feint la résignation face à la puissance commerciale hollandaise dans une lettre destinée à être montrée au Grand Pensionnaire de Witt.",
+        "citation": "M. de Witt a grand'raison de ne se point étonner de la diminution du commerce [...]. Il y à lieu d'espérer qu'il se restablira, et alors il n'y a point de puissance ni d'industrie au monde qui puisse empescher que la Hollande ne l'ayt presque tout entier.",
+        "sources": ["colbert-lettres-t2-p135"]
+      }
+    ],
+    "iconographie": [],
+    "statut": "verifie"
+  },
+  {
+    "id": "vauban",
+    "nom": "Sébastien Le Prestre, seigneur de Vauban",
+    "wikidata": "Q192839",
+    "naissance": "1633-05",
+    "mort": "1707-03-30",
+    "couche_sociale": "petite noblesse du Nivernais",
+    "fonctions": [
+      { "titre": "Ingénieur ordinaire du roi", "debut": "1655-05-03", "fin": "", "sources": ["vauban-dime-1897-p5-6"] },
+      { "titre": "Maréchal de France", "debut": "1703", "fin": "1707-03-30", "sources": ["vauban-abrege-1839-p18"] }
+    ],
+    "genealogie": {
+      "pere": "Désigné « Urbain le Prêtre » par Fontenelle, « Albin Leprestre » selon une note de l'éditeur Augoyat (1839) — désaccord de sources non tranché.",
+      "mere": "Aimée de Carmagnol (selon Fontenelle)",
+      "conjoints": ["Jeanne d'Osnay (ou d'Aunay), mariage en 1660"],
+      "enfants": ["Madame la marquise d'Ussé"],
+      "notes": "Naissance disputée entre le 1er mai (Fontenelle) et le 15 mai 1633 (note Augoyat) ; Wikidata indique un baptême le 15 mai 1633.",
+      "sources": ["vauban-abrege-1839-p25", "vauban-paris-1821-p8", "wikidata-q192839"]
+    },
+    "traits_de_caractere": [
+      {
+        "trait": "dévoué au roi, peu courtisan",
+        "evidence": "Jugement de Fontenelle dans son éloge posthume.",
+        "citation": "Il étoit passionnément attaché au roi, sujet plein d'une fidélité ardente et zélée, et nullement courtisan ; il auroit infiniment mieux aimé servir que plaire.",
+        "sources": ["vauban-paris-1821-p15"]
+      }
+    ],
+    "realisations": [
+      { "date": "1673", "realisation": "Méthode des attaques par parallèles", "description": "Mise en usage pour la première fois au siège de Maëstricht.", "sources": ["vauban-abrege-1839-p10"] },
+      { "date": "1678", "realisation": "Commissaire-général des fortifications de France", "description": "", "sources": ["vauban-abrege-1839-p12-13"] },
+      { "date": "1707", "realisation": "Publication de La Dîme royale", "description": "Traité proposant un impôt unique, publié sans nom d'auteur.", "sources": ["vauban-abrege-1839-p24", "vauban-dime-1897-p7"] }
+    ],
+    "ambitions": [],
+    "craintes": [],
+    "regard_sur_les_etats": [
+      {
+        "etat": "paysannerie",
+        "position": "Appelle à ménager le petit peuple des campagnes pour qu'il puisse subsister de son travail.",
+        "citation": "on doit prendre garde, sur toutes choses, à ménager le menu peuple, afin qu'il s'accroisse, et qu'il puisse trouver dans son travail de quoi soutenir sa vie et se vêtir avec quelque commodité.",
+        "sources": ["vauban-dime-1897-p78"]
+      },
+      {
+        "etat": "noblesse",
+        "position": "Anticipe l'opposition de la noblesse à sa réforme fiscale, qu'il juge mal informée de son propre intérêt.",
+        "citation": "La Noblesse, qui ne sait pas toujours ce qui lui convient le mieux, s'en plaindra aussi.",
+        "sources": ["vauban-dime-1897-p151"]
+      }
+    ],
+    "regard_sur_les_puissances": [
+      {
+        "pays": "Provinces-Unies (Hollande)",
+        "position": "Position hostile : juge cette nation à contenir strictement dans ses limites commerciales.",
+        "citation": "afin de réduire cette insolente nation à l'étendue du pays nécessaire à son commerce et rien de plus",
+        "sources": ["vauban-carte-1891-p8"]
+      },
+      {
+        "pays": "Angleterre",
+        "position": "Préconise d'exploiter les divisions religieuses et commerciales anglaises au profit de la France.",
+        "citation": "les intérêts de la France sont de balancer l'autorité du roi et du parlement, de fomenter les jalousies entre les presbytériens et les épiscopaux, de protéger les Hollandois contre eux quand ils seront rentrés dans le devoir, et de ruiner leur commerce par la course quand on sera en guerre avec eux.",
+        "sources": ["vauban-carte-1891-p7-8"]
+      }
+    ],
+    "iconographie": [],
+    "statut": "verifie"
+  }
+]

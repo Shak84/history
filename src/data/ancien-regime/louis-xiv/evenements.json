@@ -1,0 +1,9 @@
+[
+  { "id": "avenement", "type": "fait", "date": "1643-05-14", "titre": "Avènement de Louis XIV, régence d'Anne d'Autriche", "majeur": true, "figures_liees": ["louis-xiv"], "sources": ["wikidata-q7742"] },
+  { "id": "fronde", "type": "fait", "date": "1648", "titre": "Début de la Fronde", "majeur": true, "figures_liees": ["mazarin"], "sources": ["wikidata-q656186"] },
+  { "id": "mort-mazarin", "type": "fait", "date": "1661-03-09", "titre": "Mort de Mazarin, règne personnel", "majeur": true, "figures_liees": ["mazarin", "louis-xiv"], "sources": ["wikidata-q166056"] },
+  { "id": "revocation", "type": "fait", "date": "1685-10-18", "titre": "Révocation de l'Édit de Nantes", "majeur": true, "figures_liees": ["louis-xiv"], "sources": ["wikidata-q512443"] },
+  { "id": "dime-royale", "type": "fait", "date": "1707", "titre": "Vauban publie la Dîme royale", "majeur": false, "figures_liees": ["vauban"], "sources": ["vauban-abrege-1839-p24"] },
+  { "id": "grand-hiver", "type": "fait", "date": "1709", "titre": "Le Grand Hiver, famine", "majeur": true, "figures_liees": [], "sources": ["wikidata-q600402"] },
+  { "id": "mort-louis-xiv", "type": "fait", "date": "1715-09-01", "titre": "Mort de Louis XIV", "majeur": true, "figures_liees": ["louis-xiv"], "sources": ["wikidata-q7742"] }
+]

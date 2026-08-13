@@ -1,0 +1,17 @@
+[
+  {
+    "id": "vauban-doctrine-frontieres",
+    "type": "fait",
+    "titre": "La doctrine des frontières naturelles de Vauban",
+    "resume": "vers 1700 · Doctrine militaire",
+    "corps": [
+      "Dans un mémoire manuscrit, le maréchal de [[figure:vauban]] défend l'idée que le royaume doit se limiter à ses frontières naturelles plutôt que de chercher à s'étendre davantage."
+    ],
+    "citations": [
+      { "texte": "Toutes les ambitions de la France doivent se renfermer entre le sommet des Alpes et des Pyrénées, des Suisses et des deux mers ; c'est là où elle doit se proposer d'établir ses bornes...", "source": "vauban-carte-1891-p7", "page": 7 }
+    ],
+    "figures_liees": ["vauban"],
+    "sources": ["vauban-carte-1891-p7"],
+    "statut": "verifie"
+  }
+]

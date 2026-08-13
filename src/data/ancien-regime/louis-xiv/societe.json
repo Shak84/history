@@ -1,0 +1,17 @@
+[
+  {
+    "id": "vauban-paysannerie",
+    "type": "fait",
+    "titre": "La paysannerie : ménager le menu peuple",
+    "resume": "Source primaire · Vauban, La Dîme royale, 1707",
+    "corps": [
+      "Le maréchal de [[figure:vauban]] écrit qu'il faut avant tout ménager le petit peuple des campagnes pour qu'il puisse subsister de son travail."
+    ],
+    "citations": [
+      { "texte": "on doit prendre garde, sur toutes choses, à ménager le menu peuple, afin qu'il s'accroisse, et qu'il puisse trouver dans son travail de quoi soutenir sa vie et se vêtir avec quelque commodité.", "source": "vauban-dime-1897-p78", "page": 78 }
+    ],
+    "figures_liees": ["vauban"],
+    "sources": ["vauban-dime-1897-p78"],
+    "statut": "verifie"
+  }
+]

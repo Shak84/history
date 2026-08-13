@@ -1,0 +1,28 @@
+[
+  {
+    "id": "debut-regne-personnel",
+    "type": "fait",
+    "titre": "La prise du pouvoir personnel",
+    "resume": "1661 · Fondement du règne",
+    "corps": [
+      "À la mort du cardinal [[figure:mazarin]], [[figure:louis-xiv]] annonce qu'il gouvernera désormais seul, sans premier ministre."
+    ],
+    "citations": [],
+    "figures_liees": ["louis-xiv", "mazarin"],
+    "sources": ["wikidata-q7742", "wikidata-q166056"],
+    "statut": "verifie"
+  },
+  {
+    "id": "colbert-controleur-general",
+    "type": "fait",
+    "titre": "Colbert, contrôleur général des finances",
+    "resume": "1665 · Administration",
+    "corps": [
+      "[[figure:colbert]] devient contrôleur général des finances le 12 décembre 1665, poste qu'il occupe jusqu'à sa mort en 1683."
+    ],
+    "citations": [],
+    "figures_liees": ["colbert"],
+    "sources": ["wikidata-q188971"],
+    "statut": "verifie"
+  }
+]

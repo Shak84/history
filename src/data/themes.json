@@ -1,0 +1,8 @@
+[
+  { "id": "politique", "nom": "Politique & État", "glyphe": "⚖" },
+  { "id": "societe", "nom": "Strates de la société", "glyphe": "☰" },
+  { "id": "guerres", "nom": "Guerres", "glyphe": "⚔" },
+  { "id": "culture", "nom": "Culture & arts", "glyphe": "❦" },
+  { "id": "figures", "nom": "Personnages clés", "glyphe": "☗" },
+  { "id": "carte", "nom": "La carte du royaume", "glyphe": "◉", "separateurAvant": true }
+]
