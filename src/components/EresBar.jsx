@@ -1,5 +1,6 @@
 import { useAtlasStore } from '../stores/atlasStore'
 import eres from '../data/eres.json'
+import BarreRecherche from './BarreRecherche'
 
 export default function EresBar() {
   const ereActive = useAtlasStore((s) => s.ereActive)
@@ -24,6 +25,7 @@ export default function EresBar() {
           </button>
         ))}
       </div>
+      <BarreRecherche />
     </div>
   )
 }

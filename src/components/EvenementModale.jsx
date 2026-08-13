@@ -1,7 +1,10 @@
 import { useAtlasStore } from '../stores/atlasStore'
 import { chargerFichierPeriode } from '../data/loader'
+import sources from '../data/sources.json'
 import BlocSources from './BlocSources'
 import TexteEnrichi from './TexteEnrichi'
+
+const sourcesParId = Object.fromEntries(sources.map((s) => [s.id, s]))
 
 export default function EvenementModale({ id }) {
   const ereActive = useAtlasStore((s) => s.ereActive)
@@ -13,13 +16,25 @@ export default function EvenementModale({ id }) {
 
   return (
     <div>
-      <div className="modale-souscription">{evenement.date}</div>
+      <div className="modale-souscription">
+        {evenement.date}
+        {evenement.statut === 'a_verifier' && ' · sources à vérifier'}
+      </div>
       <h2>{evenement.titre}</h2>
-      {evenement.description && (
-        <p className="modale-note" style={{ marginTop: '14px' }}>
-          <TexteEnrichi texte={evenement.description} />
+      {(evenement.corps ?? []).map((p, i) => (
+        <p key={i} className="modale-note" style={{ marginTop: i === 0 ? '14px' : '8px', fontStyle: 'normal' }}>
+          <TexteEnrichi texte={p} />
         </p>
-      )}
+      ))}
+      {(evenement.citations ?? []).map((c, i) => (
+        <div key={i} className="citation">
+          « {c.texte} »
+          <cite>
+            {sourcesParId[c.source]?.reference ?? c.source}
+            {c.page ? `, p. ${c.page}` : ''}
+          </cite>
+        </div>
+      ))}
       <div style={{ marginTop: '14px' }}>
         <BlocSources ids={evenement.sources} />
       </div>
