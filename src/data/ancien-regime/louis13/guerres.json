@@ -1,0 +1,15 @@
+[
+  {
+    "id": "entree-guerre-trente-ans",
+    "type": "fait",
+    "titre": "La France entre dans la guerre de Trente Ans",
+    "resume": "1635 · Guerre franco-espagnole",
+    "corps": [
+      "En 1635, la France déclare la guerre à l'Espagne, entrant directement dans le conflit européen connu comme la guerre de Trente Ans. Ce conflit franco-espagnol se prolonge jusqu'en 1659."
+    ],
+    "citations": [],
+    "figures_liees": ["richelieu"],
+    "sources": ["wikidata-q617333"],
+    "statut": "verifie"
+  }
+]

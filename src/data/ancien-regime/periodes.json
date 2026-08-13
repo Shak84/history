@@ -1,7 +1,7 @@
 [
   { "id": "religion", "nom": "Guerres de Religion", "annees": "1562–1598", "disponible": false },
   { "id": "henri4", "nom": "Henri IV", "annees": "1589–1610", "disponible": false },
-  { "id": "louis13", "nom": "Louis XIII & Richelieu", "annees": "1610–1643", "disponible": false },
+  { "id": "louis13", "nom": "Louis XIII & Richelieu", "annees": "1610–1643", "disponible": true },
   { "id": "louis-xiv", "nom": "Louis XIV", "annees": "1643–1715", "disponible": true },
   { "id": "louis15", "nom": "Louis XV", "annees": "1715–1774", "disponible": false },
   { "id": "louis16", "nom": "Louis XVI", "annees": "1774–1789", "disponible": false }

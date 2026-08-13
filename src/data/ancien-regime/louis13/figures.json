@@ -1,0 +1,52 @@
+[
+  {
+    "id": "louis13",
+    "nom": "Louis XIII",
+    "wikidata": "Q737533",
+    "naissance": "1601-09-27",
+    "mort": "1643-05-14",
+    "couche_sociale": "roi de France et de Navarre",
+    "fonctions": [],
+    "genealogie": {
+      "pere": "Henri IV",
+      "mere": "Marie de Médicis",
+      "conjoints": [],
+      "enfants": [],
+      "notes": "",
+      "sources": ["wikidata-q737533"]
+    },
+    "traits_de_caractere": [],
+    "realisations": [
+      { "date": "1610-05-14", "realisation": "Devient roi de France et de Navarre", "description": "À la mort d'Henri IV, à l'âge de 8 ans ; régence de sa mère Marie de Médicis.", "sources": ["wikidata-q737533"] },
+      { "date": "1624", "realisation": "Appelle [[figure:richelieu]] au Conseil", "description": "Richelieu devient chef du gouvernement royal, fonction qu'il occupe jusqu'à sa mort en 1642.", "sources": ["wikidata-q26702"] }
+    ],
+    "ambitions": [],
+    "craintes": [],
+    "regard_sur_les_etats": [],
+    "regard_sur_les_puissances": [],
+    "iconographie": [],
+    "statut": "verifie"
+  },
+  {
+    "id": "richelieu",
+    "nom": "Armand Jean du Plessis, cardinal de Richelieu",
+    "wikidata": "Q26702",
+    "naissance": "1585-09-09",
+    "mort": "1642-12-04",
+    "couche_sociale": "haute noblesse d'épée, prélat",
+    "fonctions": [
+      { "titre": "Évêque de Luçon", "debut": "1605", "fin": "1624", "sources": ["wikidata-q26702"] },
+      { "titre": "Cardinal", "debut": "1622-09-05", "fin": "1642-12-04", "sources": ["wikidata-q26702"] },
+      { "titre": "Chef du gouvernement de [[figure:louis13]]", "debut": "1624", "fin": "1642-12-04", "sources": ["wikidata-q26702"] }
+    ],
+    "genealogie": { "pere": "", "mere": "", "conjoints": [], "enfants": [], "notes": "", "sources": [] },
+    "traits_de_caractere": [],
+    "realisations": [],
+    "ambitions": [],
+    "craintes": [],
+    "regard_sur_les_etats": [],
+    "regard_sur_les_puissances": [],
+    "iconographie": [],
+    "statut": "verifie"
+  }
+]

@@ -45,7 +45,9 @@ export default function FigureModale({ id }) {
               {f.debut}
               {f.fin ? ` – ${f.fin}` : ''}
             </div>
-            <div className="modale-entree-titre">{f.titre}</div>
+            <div className="modale-entree-titre">
+              <TexteEnrichi texte={f.titre} />
+            </div>
             <BlocSources ids={f.sources} />
           </div>
         ))}
@@ -81,7 +83,9 @@ export default function FigureModale({ id }) {
         {figure.realisations?.map((r, i) => (
           <div key={i} className="modale-entree">
             <div className="modale-entree-meta">{r.date}</div>
-            <div className="modale-entree-titre">{r.realisation}</div>
+            <div className="modale-entree-titre">
+              <TexteEnrichi texte={r.realisation} />
+            </div>
             {r.description && (
               <p>
                 <TexteEnrichi texte={r.description} />

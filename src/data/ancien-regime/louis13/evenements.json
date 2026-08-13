@@ -1,0 +1,72 @@
+[
+  {
+    "id": "regence-marie-medicis",
+    "type": "fait",
+    "date": "1610-05-14",
+    "titre": "Régence de Marie de Médicis",
+    "majeur": true,
+    "corps": [
+      "[[figure:louis13]] devient roi à la mort d'Henri IV, à l'âge de 8 ans. La régence est assurée par sa mère, Marie de Médicis."
+    ],
+    "citations": [],
+    "figures_liees": ["louis13"],
+    "sources": ["wikidata-q737533"],
+    "statut": "verifie"
+  },
+  {
+    "id": "richelieu-conseil",
+    "type": "fait",
+    "date": "1624",
+    "titre": "Richelieu entre au Conseil",
+    "majeur": true,
+    "corps": [
+      "Le cardinal de [[figure:richelieu]] devient chef du gouvernement de [[figure:louis13]], fonction qu'il conserve jusqu'à sa mort en 1642."
+    ],
+    "citations": [],
+    "figures_liees": ["richelieu", "louis13"],
+    "sources": ["wikidata-q26702"],
+    "statut": "verifie"
+  },
+  {
+    "id": "entree-guerre-trente-ans",
+    "type": "fait",
+    "date": "1635",
+    "titre": "Entrée dans la guerre de Trente Ans",
+    "majeur": true,
+    "corps": [
+      "La France déclare la guerre à l'Espagne, engageant directement le royaume dans le conflit européen de la guerre de Trente Ans."
+    ],
+    "citations": [],
+    "figures_liees": ["richelieu"],
+    "sources": ["wikidata-q617333"],
+    "statut": "verifie"
+  },
+  {
+    "id": "mort-richelieu",
+    "type": "fait",
+    "date": "1642-12-04",
+    "titre": "Mort de Richelieu",
+    "majeur": true,
+    "corps": [
+      "Le cardinal de [[figure:richelieu]] meurt à Paris, après dix-huit ans à la tête du gouvernement royal."
+    ],
+    "citations": [],
+    "figures_liees": ["richelieu"],
+    "sources": ["wikidata-q26702"],
+    "statut": "verifie"
+  },
+  {
+    "id": "mort-louis13",
+    "type": "fait",
+    "date": "1643-05-14",
+    "titre": "Mort de Louis XIII",
+    "majeur": true,
+    "corps": [
+      "[[figure:louis13]] meurt à Saint-Germain-en-Laye. Son fils Louis XIV lui succède à l'âge de 4 ans."
+    ],
+    "citations": [],
+    "figures_liees": ["louis13"],
+    "sources": ["wikidata-q737533"],
+    "statut": "verifie"
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "id": "richelieu-au-conseil",
+    "type": "fait",
+    "titre": "Richelieu au Conseil du roi",
+    "resume": "1624 · Fondement du ministériat",
+    "corps": [
+      "En 1624, [[figure:louis13]] appelle le cardinal de [[figure:richelieu]] au Conseil. Celui-ci en devient le chef de fait jusqu'à sa mort en 1642, consolidant l'autorité royale face aux grands du royaume."
+    ],
+    "citations": [],
+    "figures_liees": ["louis13", "richelieu"],
+    "sources": ["wikidata-q26702"],
+    "statut": "verifie"
+  }
+]
