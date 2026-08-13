@@ -13,4 +13,12 @@ export const useAtlasStore = create((set) => ({
   setTheme: (id) => set({ themeActif: id }),
   setEvenementActif: (id) => set({ evenementActif: id }),
   setAnneeCarte: (annee) => set({ anneeCarte: annee }),
+
+  ouvrirModale: (modale) =>
+    set((state) => ({ modaleStack: [...state.modaleStack, modale] })),
+  fermerModale: () =>
+    set((state) => ({ modaleStack: state.modaleStack.slice(0, -1) })),
+  revenirA: (index) =>
+    set((state) => ({ modaleStack: state.modaleStack.slice(0, index + 1) })),
+  fermerToutesLesModales: () => set({ modaleStack: [] }),
 }))

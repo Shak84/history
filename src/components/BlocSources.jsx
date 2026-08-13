@@ -8,27 +8,19 @@ export default function BlocSources({ ids }) {
   if (!ids || ids.length === 0) return null
 
   return (
-    <div className="mt-3 text-sm">
-      <button
-        onClick={() => setOuvert((o) => !o)}
-        className="text-stone-500 hover:text-stone-800 underline"
-      >
-        Sources {ouvert ? '▲' : '▼'}
-      </button>
+    <>
+      <span className="sources-toggle" onClick={() => setOuvert((o) => !o)}>
+        ◈ {ouvert ? 'Masquer les sources' : 'Voir les sources'}
+      </span>
       {ouvert && (
-        <ul className="mt-2 space-y-1 text-stone-600 list-disc list-inside">
+        <ul className="sources-liste">
           {ids.map((id) => {
             const s = sourcesParId[id]
             if (!s) return null
             return (
               <li key={id}>
                 {s.url ? (
-                  <a
-                    href={s.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-blue-700 hover:underline"
-                  >
+                  <a href={s.url} target="_blank" rel="noreferrer">
                     {s.reference}
                   </a>
                 ) : (
@@ -40,6 +32,6 @@ export default function BlocSources({ ids }) {
           })}
         </ul>
       )}
-    </div>
+    </>
   )
 }

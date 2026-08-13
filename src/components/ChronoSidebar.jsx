@@ -6,6 +6,7 @@ export default function ChronoSidebar() {
   const periodeActive = useAtlasStore((s) => s.periodeActive)
   const evenementActif = useAtlasStore((s) => s.evenementActif)
   const setEvenementActif = useAtlasStore((s) => s.setEvenementActif)
+  const ouvrirModale = useAtlasStore((s) => s.ouvrirModale)
 
   const periode = chargerPeriodes(ereActive).find((p) => p.id === periodeActive)
   const evenements = chargerFichierPeriode(ereActive, periodeActive, 'evenements') ?? []
@@ -21,7 +22,10 @@ export default function ChronoSidebar() {
           <div
             key={e.id}
             className={`evt ${e.majeur ? '' : 'mineur'} ${e.id === evenementActif ? 'actif' : ''}`}
-            onClick={() => setEvenementActif(e.id)}
+            onClick={() => {
+              setEvenementActif(e.id)
+              ouvrirModale({ type: 'evenement', id: e.id })
+            }}
           >
             <div className="an">{e.date.slice(0, 4)}</div>
             <div className="titre">{e.titre}</div>

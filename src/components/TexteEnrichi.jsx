@@ -1,41 +1,42 @@
-import { useGameStore } from '../stores/gameStore'
-import figures from '../data/figures.json'
-import evenements from '../data/evenements.json'
+import { useAtlasStore } from '../stores/atlasStore'
+import { chargerFichierPeriode } from '../data/loader'
 
-const LIEN_REGEX = /\[\[(figure|evenement):([a-z0-9-]+)\]\]/g
-
-const labelsParType = {
-  figure: (id) => figures.find((f) => f.id === id)?.nom ?? id,
-  evenement: (id) => evenements.find((e) => e.id === id)?.titre ?? id,
-}
+const LIEN_REGEX = /\[\[(figure|evenement|province):([a-z0-9-]+)\]\]/g
 
 export default function TexteEnrichi({ texte }) {
-  const ouvrirModale = useGameStore((s) => s.ouvrirModale)
+  const ereActive = useAtlasStore((s) => s.ereActive)
+  const periodeActive = useAtlasStore((s) => s.periodeActive)
+  const ouvrirModale = useAtlasStore((s) => s.ouvrirModale)
+
+  const figures = chargerFichierPeriode(ereActive, periodeActive, 'figures') ?? []
+  const evenements = chargerFichierPeriode(ereActive, periodeActive, 'evenements') ?? []
+  const provinces = chargerFichierPeriode(ereActive, periodeActive, 'provinces') ?? []
+
+  const labelsParType = {
+    figure: (id) => figures.find((f) => f.id === id)?.nom ?? id,
+    evenement: (id) => evenements.find((e) => e.id === id)?.titre ?? id,
+    province: (id) => provinces.find((p) => p.id === id)?.nom ?? id,
+  }
 
   const parties = []
   let dernierIndex = 0
   let match
   LIEN_REGEX.lastIndex = 0
-
   while ((match = LIEN_REGEX.exec(texte)) !== null) {
     const [complet, type, id] = match
-    if (match.index > dernierIndex) {
-      parties.push(texte.slice(dernierIndex, match.index))
-    }
+    if (match.index > dernierIndex) parties.push(texte.slice(dernierIndex, match.index))
     parties.push(
-      <button
+      <span
         key={`${type}-${id}-${match.index}`}
+        className="personne"
         onClick={() => ouvrirModale({ type, id })}
-        className="text-blue-700 hover:underline font-medium"
       >
         {labelsParType[type](id)}
-      </button>
+      </span>
     )
     dernierIndex = match.index + complet.length
   }
-  if (dernierIndex < texte.length) {
-    parties.push(texte.slice(dernierIndex))
-  }
+  if (dernierIndex < texte.length) parties.push(texte.slice(dernierIndex))
 
   return <>{parties}</>
 }

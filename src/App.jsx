@@ -3,6 +3,7 @@ import PeriodesBar from './components/PeriodesBar'
 import ThemesSidebar from './components/ThemesSidebar'
 import ContentPanel from './components/ContentPanel'
 import ChronoSidebar from './components/ChronoSidebar'
+import ModaleStack from './components/ModaleStack'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <ThemesSidebar />
       <ContentPanel />
       <ChronoSidebar />
+      <ModaleStack />
     </div>
   )
 }
