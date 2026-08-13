@@ -5,6 +5,7 @@ import sources from '../data/sources.json'
 import { chargerFichierPeriode, chargerPeriodes } from '../data/loader'
 import BlocSources from './BlocSources'
 import TexteEnrichi from './TexteEnrichi'
+import CarteRoyaume from './CarteRoyaume'
 
 const sourcesParId = Object.fromEntries(sources.map((s) => [s.id, s]))
 
@@ -72,6 +73,16 @@ export default function ContentPanel() {
         {fil}
         <h2>{theme?.nom}</h2>
         <GrilleFigures figures={figures} ouvrirModale={ouvrirModale} />
+      </main>
+    )
+  }
+
+  if (themeActif === 'carte') {
+    return (
+      <main>
+        {fil}
+        <h2>{theme?.nom}</h2>
+        <CarteRoyaume />
       </main>
     )
   }

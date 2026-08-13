@@ -35,6 +35,13 @@
     "page": null
   },
   {
+    "id": "historical-basemaps",
+    "type": "base",
+    "reference": "Adrien Oureniski (dir.), historical-basemaps (GeoJSON des frontières nationales par année), snapshots 1650/1700/1715 pour le royaume de France. Projet collaboratif en cours (« work in progress », selon ses auteurs) : frontières au niveau du royaume entier, pas de découpage provincial interne. Correction appliquée : le fichier 1715 incluait par erreur la Corse (encore génoise à cette date, cédée à la France seulement en 1768) dans le multipolygone France ; seul le territoire continental a été conservé pour cette carte.",
+    "url": "https://github.com/aourednik/historical-basemaps",
+    "page": null
+  },
+  {
     "id": "wikidata-q656186",
     "type": "base",
     "reference": "Wikidata — la Fronde (Q656186)",

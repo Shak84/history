@@ -203,3 +203,17 @@ main h2 { font-family: 'Fraunces', serif; font-weight: 500; font-size: 32px; col
 .recherche-resultats li:last-child { border-bottom: none; }
 .recherche-resultats li:hover { background: rgba(168,137,76,0.12); }
 .recherche-type { font-family: 'JetBrains Mono', monospace; font-size: 9px; text-transform: uppercase; color: var(--or); margin-right: 6px; }
+
+/* ---- CARTE DU ROYAUME ---- */
+.carte-conteneur { max-width: 600px; }
+.carte-selecteur-annee { display: flex; gap: 8px; margin-bottom: 16px; }
+.carte-selecteur-annee button {
+  font-family: 'JetBrains Mono', monospace; font-size: 12px; padding: 6px 14px;
+  background: var(--parchemin-clair); border: 1px solid var(--ligne); border-radius: 2px;
+  color: var(--encre-douce); cursor: pointer;
+}
+.carte-selecteur-annee button:hover { border-color: var(--or); }
+.carte-selecteur-annee button.actif { background: var(--bleu-france); color: var(--parchemin-clair); border-color: var(--bleu-france); }
+.carte-svg { width: 100%; height: auto; background: var(--parchemin-clair); border: 1px solid var(--ligne); box-shadow: 0 1px 3px var(--ombre); }
+.carte-royaume { fill: rgba(30,58,95,0.18); stroke: var(--bleu-france); stroke-width: 1.5; }
+.carte-legende { font-size: 12.5px; color: var(--encre-douce); font-style: italic; margin-top: 12px; max-width: 55ch; }
