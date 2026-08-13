@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atlas de l'Histoire de France</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Spectral:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+  :root {
+    --parchemin: #ECE3D0;
+    --parchemin-clair: #F4EEDF;
+    --encre: #23201A;
+    --encre-douce: #4A4436;
+    --bleu-france: #1E3A5F;
+    --bleu-profond: #14273F;
+    --or: #A8894C;
+    --or-clair: #C4A868;
+    --sang: #7A2E28;
+    --ligne: #C9BCA0;
+    --ombre: rgba(35, 32, 26, 0.12);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Spectral', serif;
+    background: var(--parchemin);
+    color: var(--encre);
+    height: 100vh; overflow: hidden;
+    font-size: 15px; line-height: 1.6;
+  }
+  .app {
+    display: grid;
+    grid-template-columns: 232px 1fr 300px;
+    grid-template-rows: auto auto 1fr;
+    height: 100vh;
+  }
+
+  /* ---- NIVEAU 1 : LES ÈRES ---- */
+  .eres-bar {
+    grid-column: 1 / -1;
+    background: var(--bleu-profond);
+    color: var(--parchemin-clair);
+    display: flex; align-items: stretch;
+    border-bottom: 1px solid rgba(196,168,104,0.2);
+  }
+  .brand {
+    padding: 10px 20px;
+    border-right: 1px solid rgba(196,168,104,0.25);
+    display: flex; flex-direction: column; justify-content: center;
+    min-width: 232px;
+  }
+  .brand .fleur { color: var(--or-clair); font-size: 12px; letter-spacing: 3px; }
+  .brand h1 { font-family: 'Fraunces', serif; font-weight: 500; font-size: 16px; line-height: 1.1; }
+  .brand .sub { font-size: 10px; color: var(--or-clair); letter-spacing: 1px; text-transform: uppercase; }
+
+  .eres { display: flex; flex: 1; overflow-x: auto; }
+  .ere {
+    padding: 8px 15px; background: none; border: none;
+    border-right: 1px solid rgba(196,168,104,0.12);
+    color: rgba(244,238,223,0.5); cursor: pointer;
+    transition: all 0.2s ease; font-family: 'Spectral', serif;
+    white-space: nowrap; display: flex; flex-direction: column; justify-content: center;
+    min-width: 118px;
+  }
+  .ere:hover { background: rgba(168,137,76,0.1); color: var(--parchemin-clair); }
+  .ere.actif { background: var(--bleu-france); color: var(--parchemin-clair); box-shadow: inset 0 -3px 0 var(--or-clair); }
+  .ere.indispo { opacity: 0.4; cursor: not-allowed; }
+  .ere.indispo:hover { background: none; color: rgba(244,238,223,0.5); }
+  .ere .siecle { font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.5px; color: var(--or-clair); }
+  .ere .nom { font-size: 12.5px; margin-top: 1px; }
+
+  /* ---- NIVEAU 2 : PÉRIODES DANS L'ÈRE ---- */
+  .periodes-bar {
+    grid-column: 1 / -1;
+    background: linear-gradient(var(--parchemin-clair), var(--parchemin));
+    border-bottom: 2px solid var(--or);
+    display: flex; align-items: stretch;
+    min-height: 46px;
+  }
+  .periodes-label {
+    min-width: 232px;
+    padding: 0 20px; display: flex; align-items: center;
+    font-size: 10px; letter-spacing: 2px; text-transform: uppercase;
+    color: var(--or); font-weight: 600;
+    border-right: 1px solid var(--ligne);
+  }
+  .periodes { display: flex; flex: 1; overflow-x: auto; }
+  .periode {
+    padding: 7px 18px; background: none; border: none;
+    border-right: 1px solid var(--ligne); cursor: pointer;
+    transition: all 0.2s ease; font-family: 'Spectral', serif;
+    color: var(--encre-douce); white-space: nowrap;
+    display: flex; flex-direction: column; justify-content: center;
+  }
+  .periode:hover { background: rgba(168,137,76,0.1); }
+  .periode.actif { background: var(--bleu-france); color: var(--parchemin-clair); }
+  .periode.actif .annees { color: var(--or-clair); }
+  .periode .annees { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 500; color: var(--or); }
+  .periode .nom { font-size: 12.5px; margin-top: 1px; }
+
+  /* ---- LATÉRAL GAUCHE : THÈMES ---- */
+  .themes { background: var(--parchemin-clair); border-right: 1px solid var(--ligne); padding: 18px 0; overflow-y: auto; }
+  .themes-titre { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--or); padding: 0 22px 12px; font-weight: 600; }
+  .theme { display: flex; align-items: center; gap: 13px; padding: 11px 22px; cursor: pointer; border-left: 3px solid transparent; transition: all 0.2s ease; color: var(--encre-douce); }
+  .theme:hover { background: rgba(168,137,76,0.08); color: var(--encre); }
+  .theme.actif { border-left-color: var(--or); background: rgba(168,137,76,0.12); color: var(--bleu-france); font-weight: 500; }
+  .theme .glyphe { width: 22px; text-align: center; font-size: 17px; opacity: 0.85; }
+  .theme .lib { font-size: 14.5px; }
+  .themes-sep { height: 1px; background: var(--ligne); margin: 14px 22px; }
+
+  /* ---- CENTRAL ---- */
+  main { overflow-y: auto; padding: 30px 46px 60px; background: radial-gradient(circle at 12% 8%, rgba(168,137,76,0.05), transparent 40%), var(--parchemin); }
+  .fil { font-size: 11px; letter-spacing: 1px; color: var(--or); text-transform: uppercase; margin-bottom: 8px; }
+  .fil .sep { color: var(--ligne); margin: 0 7px; }
+  main h2 { font-family: 'Fraunces', serif; font-weight: 500; font-size: 32px; color: var(--bleu-profond); line-height: 1.1; margin-bottom: 6px; }
+  .chapo { font-size: 16px; color: var(--encre-douce); max-width: 62ch; font-style: italic; border-bottom: 1px solid var(--ligne); padding-bottom: 20px; margin-bottom: 24px; }
+  .article-card { background: var(--parchemin-clair); border: 1px solid var(--ligne); border-radius: 2px; padding: 22px 26px; margin-bottom: 18px; box-shadow: 0 1px 3px var(--ombre); position: relative; }
+  .article-card::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--bleu-france); }
+  .article-card h3 { font-family: 'Fraunces', serif; font-weight: 500; font-size: 20px; color: var(--encre); margin-bottom: 4px; }
+  .article-meta { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--or); margin-bottom: 11px; letter-spacing: 0.5px; }
+  .article-card p { color: var(--encre-douce); margin-bottom: 11px; }
+  .article-card p:last-of-type { margin-bottom: 0; }
+  .personne { color: var(--bleu-france); border-bottom: 1px dotted var(--or); cursor: pointer; font-weight: 500; }
+  .personne:hover { background: rgba(168,137,76,0.14); }
+  .citation { border-left: 2px solid var(--or); padding: 6px 0 6px 18px; margin: 15px 0; font-style: italic; color: var(--encre); font-size: 15px; }
+  .citation cite { display: block; font-style: normal; font-family: 'JetBrains Mono', monospace; font-size: 10.5px; color: var(--or); margin-top: 6px; letter-spacing: 0.5px; }
+  .sources-toggle { margin-top: 14px; font-family: 'JetBrains Mono', monospace; font-size: 10.5px; color: var(--bleu-france); letter-spacing: 0.5px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; padding: 5px 10px; border: 1px solid var(--ligne); border-radius: 2px; background: var(--parchemin); }
+  .sources-toggle:hover { border-color: var(--or); }
+  .placeholder { color: var(--encre-douce); font-style: italic; padding: 40px 0; text-align: center; opacity: 0.7; }
+
+  /* ---- LATÉRAL DROIT : CHRONO ---- */
+  .chrono { background: var(--bleu-profond); color: var(--parchemin-clair); overflow-y: auto; padding: 20px 0 40px; }
+  .chrono-titre { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--or-clair); padding: 0 22px 6px; font-weight: 600; }
+  .chrono-sub { font-size: 12px; color: rgba(244,238,223,0.5); padding: 0 22px 16px; font-style: italic; }
+  .evt { position: relative; padding: 11px 22px 11px 46px; cursor: pointer; transition: background 0.2s ease; }
+  .evt::before { content: ''; position: absolute; left: 27px; top: 16px; width: 8px; height: 8px; border-radius: 50%; background: var(--or); border: 2px solid var(--bleu-profond); z-index: 2; }
+  .evt::after { content: ''; position: absolute; left: 30px; top: 16px; bottom: -11px; width: 1px; background: rgba(196,168,104,0.3); }
+  .evt:last-child::after { display: none; }
+  .evt:hover { background: rgba(168,137,76,0.12); }
+  .evt.actif { background: var(--bleu-france); }
+  .evt.actif::before { background: var(--or-clair); width: 10px; height: 10px; left: 26px; }
+  .evt .an { font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 500; color: var(--or-clair); }
+  .evt .titre { font-size: 13px; color: var(--parchemin-clair); margin-top: 1px; line-height: 1.35; }
+  .evt.mineur .titre { color: rgba(244,238,223,0.6); font-size: 12px; }
+
+  ::-webkit-scrollbar { width: 9px; height: 9px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--ligne); border-radius: 4px; }
+  .chrono::-webkit-scrollbar-thumb { background: rgba(196,168,104,0.3); }
+
+  .hint { position: fixed; bottom: 12px; left: 50%; transform: translateX(-50%); background: var(--encre); color: var(--parchemin); font-family: 'JetBrains Mono', monospace; font-size: 10.5px; padding: 6px 15px; border-radius: 20px; letter-spacing: 0.5px; opacity: 0.9; z-index: 50; }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <!-- NIVEAU 1 : ÈRES -->
+  <div class="eres-bar">
+    <div class="brand">
+      <span class="fleur">⚜ ⚜ ⚜</span>
+      <h1>Atlas de France</h1>
+      <span class="sub">Histoire du royaume à la République</span>
+    </div>
+    <div class="eres" id="eres">
+      <button class="ere indispo" data-e="gaule"><span class="siecle">-52 → 486</span><span class="nom">Gaule romaine</span></button>
+      <button class="ere indispo" data-e="merov"><span class="siecle">Ve → VIIIe</span><span class="nom">Mérovingiens</span></button>
+      <button class="ere indispo" data-e="caro"><span class="siecle">VIIIe → Xe</span><span class="nom">Carolingiens</span></button>
+      <button class="ere indispo" data-e="capet"><span class="siecle">Xe → XIVe</span><span class="nom">Capétiens</span></button>
+      <button class="ere indispo" data-e="valois"><span class="siecle">XIVe → XVIe</span><span class="nom">Valois</span></button>
+      <button class="ere actif" data-e="ancien"><span class="siecle">XVIe → XVIIIe</span><span class="nom">Ancien Régime</span></button>
+      <button class="ere indispo" data-e="revo"><span class="siecle">1789 → 1815</span><span class="nom">Révolution &amp; Empire</span></button>
+      <button class="ere indispo" data-e="xix"><span class="siecle">1815 → 1870</span><span class="nom">Monarchies &amp; 2ᵈ Empire</span></button>
+      <button class="ere indispo" data-e="repu"><span class="siecle">1870 → …</span><span class="nom">Républiques</span></button>
+    </div>
+  </div>
+
+  <!-- NIVEAU 2 : PÉRIODES -->
+  <div class="periodes-bar">
+    <div class="periodes-label">Ancien Régime</div>
+    <div class="periodes" id="periodes">
+      <button class="periode" data-p="religion"><span class="annees">1562–1598</span><span class="nom">Guerres de Religion</span></button>
+      <button class="periode" data-p="henri4"><span class="annees">1589–1610</span><span class="nom">Henri IV</span></button>
+      <button class="periode" data-p="louis13"><span class="annees">1610–1643</span><span class="nom">Louis XIII &amp; Richelieu</span></button>
+      <button class="periode actif" data-p="louis14"><span class="annees">1643–1715</span><span class="nom">Louis XIV</span></button>
+      <button class="periode" data-p="louis15"><span class="annees">1715–1774</span><span class="nom">Louis XV</span></button>
+      <button class="periode" data-p="louis16"><span class="annees">1774–1789</span><span class="nom">Louis XVI</span></button>
+    </div>
+  </div>
+
+  <!-- LATÉRAL GAUCHE -->
+  <nav class="themes">
+    <div class="themes-titre">Thèmes</div>
+    <div class="theme actif" data-t="politique"><span class="glyphe">⚖</span><span class="lib">Politique &amp; État</span></div>
+    <div class="theme" data-t="societe"><span class="glyphe">☰</span><span class="lib">Strates de la société</span></div>
+    <div class="theme" data-t="guerres"><span class="glyphe">⚔</span><span class="lib">Guerres</span></div>
+    <div class="theme" data-t="culture"><span class="glyphe">❦</span><span class="lib">Culture &amp; arts</span></div>
+    <div class="theme" data-t="figures"><span class="glyphe">☗</span><span class="lib">Personnages clés</span></div>
+    <div class="themes-sep"></div>
+    <div class="theme" data-t="carte"><span class="glyphe">◉</span><span class="lib">La carte du royaume</span></div>
+  </nav>
+
+  <!-- CENTRAL -->
+  <main id="contenu"></main>
+
+  <!-- CHRONO -->
+  <aside class="chrono">
+    <div class="chrono-titre">Chronologie</div>
+    <div class="chrono-sub" id="chrono-periode">Louis XIV · 1643–1715</div>
+    <div id="evenements"></div>
+  </aside>
+
+</div>
+
+<div class="hint">Maquette — les ères grisées viendront après le pilote « Louis XIV »</div>
+
+<script>
+  const CONTENU = {
+    politique: {
+      titre: "Le gouvernement par le Conseil",
+      chapo: "À la mort de Mazarin en 1661, Louis XIV annonce qu'il gouvernera seul. Commence le règne le plus centralisé qu'ait connu la monarchie française.",
+      articles: [
+        { h3: "La prise du pouvoir personnel", meta: "1661 · Fondement du règne",
+          corps: ["Au lendemain de la mort de <span class='personne'>Mazarin</span>, le jeune roi convoque ses ministres et déclare vouloir gouverner par lui-même, sans premier ministre.",
+                   "<span class='personne'>Colbert</span> prend les finances, <span class='personne'>Louvois</span> la guerre. Le roi tient les fils."], citation: null },
+        { h3: "Les intendants, bras de l'État en province", meta: "1661–1684 · Administration",
+          corps: ["Trente généralités, trente intendants nommés par le roi et révocables à volonté : ils lèvent l'impôt, rendent la justice, surveillent les gouverneurs nobles."], citation: null }
+      ]
+    },
+    societe: {
+      titre: "Les ordres du royaume",
+      chapo: "Trois ordres — clergé, noblesse, tiers état — mais une réalité vécue radicalement différente d'un duc de Versailles à un manœuvrier de Beauce.",
+      articles: [
+        { h3: "La paysannerie : neuf Français sur dix", meta: "Source primaire · Vauban, 1707",
+          corps: ["Le maréchal de <span class='personne'>Vauban</span> estime qu'un dixième du peuple est réduit à la mendicité, et que cinq autres dixièmes sont trop pauvres pour lui faire l'aumône."],
+          citation: { texte: "prés de la dixiéme partie du peuple est réduite à la mandicité", ref: "Vauban, Dixme Royale, 1707, p. 6" } },
+        { h3: "L'arbitraire de la taille", meta: "Source primaire · Vauban, 1707",
+          corps: ["Une ferme de 3 000 livres peut n'être taxée qu'à 50 livres quand une autre de 400 en paie 100. Les paysans cachent leur aisance pour ne pas être surtaxés."],
+          citation: { texte: "il est obligé de s'en priver, pour n'être pas accablé de taille l'année suivante", ref: "Vauban, Dixme Royale, 1707, p. 14" } }
+      ]
+    },
+    guerres: {
+      titre: "L'expansion militaire",
+      chapo: "De la guerre de Dévolution à la Succession d'Espagne, Louis XIV porte les frontières vers le nord et l'est — au prix de coalitions européennes croissantes.",
+      articles: [
+        { h3: "Le « pré carré » de Vauban", meta: "1673 · Doctrine militaire",
+          corps: ["<span class='personne'>Vauban</span> écrit à <span class='personne'>Louvois</span> pour convaincre le roi de rationaliser ses frontières en une double ligne de places fortes."],
+          citation: { texte: "le roi devrait un peu songer à faire son pré carré", ref: "Vauban, lettre à Louvois, 20 janvier 1673" } }
+      ]
+    },
+    culture: {
+      titre: "Le siècle classique",
+      chapo: "Le roi fait des arts un instrument de gloire. Théâtre, musique, architecture convergent vers la célébration du règne.",
+      articles: [
+        { h3: "Molière et le théâtre du roi", meta: "1661–1673 · Théâtre",
+          corps: ["<span class='personne'>Molière</span>, fils de tapissier, obtient la protection royale. Ses comédies raillent la bourgeoisie qui singe la noblesse."], citation: null }
+      ]
+    },
+    figures: {
+      titre: "Les visages du règne",
+      chapo: "Ministres, militaires, favorites, gens de lettres : le règne se lit à travers ceux qui l'ont fait et subi.",
+      articles: [
+        { h3: "Jean-Baptiste Colbert", meta: "1619–1683 · Contrôleur général",
+          corps: ["Fils d'un marchand de Reims, <span class='personne'>Colbert</span> gravit tous les échelons de l'État. Rival acharné de <span class='personne'>Louvois</span>."], citation: null },
+        { h3: "Madame de Maintenon", meta: "1635–1719 · Épouse secrète",
+          corps: ["Petite-fille du huguenot Agrippa d'Aubigné, née en prison, veuve du poète Scarron, <span class='personne'>Madame de Maintenon</span> devient vers 1683 l'épouse secrète du roi."], citation: null }
+      ]
+    },
+    carte: {
+      titre: "Le royaume sous Louis XIV",
+      chapo: "Des frontières mouvantes, des provinces aux statuts inégaux. La carte se redessine à chaque conquête.",
+      articles: [
+        { h3: "Carte interactive — module à venir", meta: "Cartographie",
+          corps: ["Carte SVG des provinces d'Ancien Régime à partir de fonds GeoJSON historiques. Les frontières évolueront selon l'année. Chaque province cliquable : généralité, gouverneur, conditions de vie locales."], citation: null }
+      ]
+    }
+  };
+
+  const EVENEMENTS = {
+    louis14: [
+      { an: "1643", t: "Avènement · régence d'Anne d'Autriche", maj: true },
+      { an: "1648", t: "Début de la Fronde", maj: true },
+      { an: "1661", t: "Mort de Mazarin, règne personnel", maj: true },
+      { an: "1667", t: "Guerre de Dévolution · siège de Lille", maj: true },
+      { an: "1672", t: "Guerre de Hollande", maj: true },
+      { an: "1682", t: "La Cour s'installe à Versailles", maj: true },
+      { an: "1685", t: "Révocation de l'Édit de Nantes", maj: true },
+      { an: "1707", t: "Vauban publie la Dîme royale", maj: false },
+      { an: "1709", t: "Le Grand Hiver · famine", maj: true },
+      { an: "1715", t: "Mort de Louis XIV", maj: true },
+    ],
+    religion: [
+      { an: "1562", t: "Massacre de Wassy · début des guerres", maj: true },
+      { an: "1572", t: "Saint-Barthélemy", maj: true },
+      { an: "1589", t: "Assassinat d'Henri III", maj: true },
+    ],
+    henri4: [
+      { an: "1589", t: "Henri IV roi de France", maj: true },
+      { an: "1598", t: "Édit de Nantes", maj: true },
+      { an: "1610", t: "Assassinat d'Henri IV", maj: true },
+    ],
+    louis13: [
+      { an: "1610", t: "Régence de Marie de Médicis", maj: true },
+      { an: "1624", t: "Richelieu au Conseil", maj: true },
+      { an: "1635", t: "Entrée dans la guerre de Trente Ans", maj: true },
+      { an: "1642", t: "Mort de Richelieu", maj: true },
+    ],
+    louis15: [
+      { an: "1715", t: "Régence de Philippe d'Orléans", maj: true },
+      { an: "1756", t: "Guerre de Sept Ans", maj: true },
+      { an: "1774", t: "Mort de Louis XV", maj: true },
+    ],
+    louis16: [
+      { an: "1774", t: "Avènement de Louis XVI", maj: true },
+      { an: "1783", t: "Fin de la guerre d'Amérique", maj: false },
+      { an: "1789", t: "Convocation des États généraux", maj: true },
+    ]
+  };
+
+  const NOMS_PERIODES = {
+    religion: "Guerres de Religion · 1562–1598",
+    henri4: "Henri IV · 1589–1610",
+    louis13: "Louis XIII & Richelieu · 1610–1643",
+    louis14: "Louis XIV · 1643–1715",
+    louis15: "Louis XV · 1715–1774",
+    louis16: "Louis XVI · 1774–1789"
+  };
+
+  let periodeActive = "louis14";
+  let themeActif = "politique";
+  const PILOTE = "louis14"; // seule période avec contenu de démo
+
+  function renduContenu() {
+    const nomEre = "Ancien Régime";
+    const nomPeriode = NOMS_PERIODES[periodeActive].split(' · ')[0];
+    const nomTheme = { politique:"Politique & État", societe:"Strates de la société", guerres:"Guerres", culture:"Culture & arts", figures:"Personnages clés", carte:"La carte du royaume" }[themeActif];
+
+    if (periodeActive !== PILOTE) {
+      document.getElementById('contenu').innerHTML =
+        `<div class="fil">${nomEre}<span class="sep">·</span>${nomPeriode}<span class="sep">·</span>${nomTheme}</div>
+         <h2>${nomPeriode}</h2>
+         <div class="placeholder">Contenu à venir.<br>Louis XIV sert de période pilote : une fois sa structure complète et validée, elle sera répliquée sur toutes les autres périodes et ères.</div>`;
+      return;
+    }
+
+    const d = CONTENU[themeActif];
+    let html = `<div class="fil">${nomEre}<span class="sep">·</span>${nomPeriode}<span class="sep">·</span>${nomTheme}</div>`;
+    html += `<h2>${d.titre}</h2><p class="chapo">${d.chapo}</p>`;
+    d.articles.forEach(a => {
+      html += `<div class="article-card"><h3>${a.h3}</h3><div class="article-meta">${a.meta}</div>`;
+      a.corps.forEach(p => html += `<p>${p}</p>`);
+      if (a.citation) html += `<div class="citation">« ${a.citation.texte} »<cite>${a.citation.ref}</cite></div>`;
+      if (a.citation || a.meta.includes("primaire")) html += `<span class="sources-toggle">◈ Voir les sources</span>`;
+      html += `</div>`;
+    });
+    document.getElementById('contenu').innerHTML = html;
+    document.getElementById('contenu').scrollTop = 0;
+  }
+
+  function renduEvenements() {
+    const evts = EVENEMENTS[periodeActive] || [];
+    let html = "";
+    evts.forEach((e, i) => {
+      html += `<div class="evt ${e.maj?'':'mineur'} ${i===0?'actif':''}"><div class="an">${e.an}</div><div class="titre">${e.t}</div></div>`;
+    });
+    document.getElementById('evenements').innerHTML = html || '<div style="padding:20px 22px;color:rgba(244,238,223,0.4);font-style:italic;font-size:12px">Chronologie à compléter</div>';
+    document.getElementById('chrono-periode').textContent = NOMS_PERIODES[periodeActive];
+    document.querySelectorAll('.evt').forEach(el => el.addEventListener('click', () => {
+      document.querySelectorAll('.evt').forEach(x => x.classList.remove('actif'));
+      el.classList.add('actif');
+    }));
+  }
+
+  document.querySelectorAll('.ere').forEach(btn => {
+    btn.addEventListener('click', () => {
+      if (btn.classList.contains('indispo')) return;
+    });
+  });
+  document.querySelectorAll('.periode').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.periode').forEach(b => b.classList.remove('actif'));
+      btn.classList.add('actif');
+      periodeActive = btn.dataset.p;
+      renduEvenements(); renduContenu();
+    });
+  });
+  document.querySelectorAll('.theme').forEach(t => {
+    t.addEventListener('click', () => {
+      document.querySelectorAll('.theme').forEach(x => x.classList.remove('actif'));
+      t.classList.add('actif');
+      themeActif = t.dataset.t;
+      renduContenu();
+    });
+  });
+
+  renduContenu();
+  renduEvenements();
+</script>
+</body>
+</html>

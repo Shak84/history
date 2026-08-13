@@ -1,11 +1,12 @@
-import { readFileSync } from 'node:fs'
+import { readFileSync, existsSync, readdirSync, statSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
 const dataDir = join(dirname(fileURLToPath(import.meta.url)), '..', 'src', 'data')
+const erreurs = []
 
-function lire(nom) {
-  return JSON.parse(readFileSync(join(dataDir, nom), 'utf-8'))
+function lireJson(cheminAbsolu) {
+  return JSON.parse(readFileSync(cheminAbsolu, 'utf-8'))
 }
 
 function estUrlValide(url) {
@@ -17,102 +18,172 @@ function estUrlValide(url) {
   }
 }
 
-const erreurs = []
+function listerDossiers(chemin) {
+  if (!existsSync(chemin)) return []
+  return readdirSync(chemin).filter((nom) => statSync(join(chemin, nom)).isDirectory())
+}
 
-const evenements = lire('evenements.json')
-const figures = lire('figures.json')
-const sources = lire('sources.json')
+// Extrait tous les [[type:id]] présents dans n'importe quelle valeur texte d'un objet/tableau.
+function extraireLiensInternes(valeur, resultat = []) {
+  if (typeof valeur === 'string') {
+    for (const m of valeur.matchAll(/\[\[(figure|evenement|province):([a-z0-9-]+)\]\]/g)) {
+      resultat.push({ type: m[1], id: m[2] })
+    }
+  } else if (Array.isArray(valeur)) {
+    for (const v of valeur) extraireLiensInternes(v, resultat)
+  } else if (valeur && typeof valeur === 'object') {
+    for (const v of Object.values(valeur)) extraireLiensInternes(v, resultat)
+  }
+  return resultat
+}
+
+// Vérifie récursivement tout champ nommé "url"/"url_image"/"url_iiif"/"url_notice".
+function verifierUrls(valeur, contexte) {
+  if (Array.isArray(valeur)) {
+    valeur.forEach((v) => verifierUrls(v, contexte))
+  } else if (valeur && typeof valeur === 'object') {
+    for (const [cle, v] of Object.entries(valeur)) {
+      if (['url', 'url_image', 'url_iiif', 'url_notice'].includes(cle) && v && !estUrlValide(v)) {
+        erreurs.push(`${contexte} : url invalide "${v}" (champ ${cle})`)
+      }
+      verifierUrls(v, contexte)
+    }
+  }
+}
+
+// --- sources.json : bibliographie centralisée, partagée par toutes les périodes ---
+
+const cheminSources = join(dataDir, 'sources.json')
+const sources = existsSync(cheminSources) ? lireJson(cheminSources) : []
 const idsSources = new Set(sources.map((s) => s.id))
-const idsFigures = new Set(figures.map((f) => f.id))
+verifierUrls(sources, 'sources.json')
 
-for (const e of evenements) {
-  if (e.type === 'fait' && (!e.sources || e.sources.length === 0)) {
-    erreurs.push(`evenements.json / ${e.id} : type "fait" sans sources`)
-  }
-  for (const id of e.sources ?? []) {
+function verifierSources(idsUtilises, contexte) {
+  for (const id of idsUtilises ?? []) {
     if (!idsSources.has(id)) {
-      erreurs.push(`evenements.json / ${e.id} : source "${id}" absente de sources.json`)
+      erreurs.push(`${contexte} : source "${id}" absente de sources.json`)
     }
   }
-  for (const id of e.figures ?? []) {
-    if (!idsFigures.has(id)) {
-      erreurs.push(`evenements.json / ${e.id} : figure "${id}" absente de figures.json`)
+}
+
+// --- Champs "regard_sur_les_etats" / "regard_sur_les_puissances" / "ambitions" / "craintes" ---
+// Règle du champ vide : une entrée n'existe que si elle porte une citation ET des sources non vides.
+
+const CHAMPS_A_CITATION = ['regard_sur_les_etats', 'regard_sur_les_puissances', 'ambitions', 'craintes']
+
+function verifierFigure(figure, contexte) {
+  for (const champ of CHAMPS_A_CITATION) {
+    for (const entree of figure[champ] ?? []) {
+      if (!entree.citation) {
+        erreurs.push(`${contexte} / ${champ} : entrée sans citation`)
+      }
+      if (!entree.sources || entree.sources.length === 0) {
+        erreurs.push(`${contexte} / ${champ} : entrée sans sources`)
+      }
+      verifierSources(entree.sources, `${contexte} / ${champ}`)
     }
   }
-  for (const [personnageId, scene] of Object.entries(e.vecu ?? {})) {
-    if (scene.type === 'fiction' && !scene.texte) {
-      erreurs.push(`evenements.json / ${e.id} / vecu.${personnageId} : scène fiction sans texte`)
+  for (const trait of figure.traits_de_caractere ?? []) {
+    verifierSources(trait.sources, `${contexte} / traits_de_caractere`)
+  }
+  for (const realisation of figure.realisations ?? []) {
+    if (!realisation.sources || realisation.sources.length === 0) {
+      erreurs.push(`${contexte} / realisations "${realisation.date}" : sans sources`)
     }
-    if (scene.decision) {
-      if (!scene.decision.question) {
-        erreurs.push(`evenements.json / ${e.id} / vecu.${personnageId} : décision sans question`)
-      }
-      if (!scene.decision.options || scene.decision.options.length < 2) {
-        erreurs.push(`evenements.json / ${e.id} / vecu.${personnageId} : décision avec moins de 2 options`)
-      }
-      for (const opt of scene.decision.options ?? []) {
-        if (!opt.texte || !opt.consequence) {
-          erreurs.push(`evenements.json / ${e.id} / vecu.${personnageId} : option de décision incomplète`)
+    verifierSources(realisation.sources, `${contexte} / realisations`)
+  }
+  verifierSources(figure.genealogie?.sources, `${contexte} / genealogie`)
+  verifierUrls(figure.iconographie, contexte)
+}
+
+// --- Fiches de bataille (guerres.json) ---
+
+function verifierBataille(entree, contexte) {
+  if (['siege', 'bataille'].includes(entree.categorie)) {
+    if (!entree.casus_belli) erreurs.push(`${contexte} : ${entree.categorie} sans casus_belli`)
+    if (!entree.issue) erreurs.push(`${contexte} : ${entree.categorie} sans issue`)
+    if (!entree.sources || entree.sources.length === 0) {
+      erreurs.push(`${contexte} : ${entree.categorie} sans sources`)
+    }
+  }
+}
+
+// --- Parcours de chaque période sous /ancien-regime (et futures ères) ---
+
+const eresDir = dataDir
+for (const ere of listerDossiers(eresDir)) {
+  if (ere === 'geo') continue // fonds cartographiques partagés, pas une ère
+  const ereChemin = join(eresDir, ere)
+  for (const periode of listerDossiers(ereChemin)) {
+    const periodeChemin = join(ereChemin, periode)
+    const fichiers = readdirSync(periodeChemin).filter((f) => f.endsWith('.json'))
+
+    const idsFigures = new Set()
+    const idsEvenements = new Set()
+    const idsProvinces = new Set()
+
+    if (fichiers.includes('figures.json')) {
+      for (const f of lireJson(join(periodeChemin, 'figures.json'))) idsFigures.add(f.id)
+    }
+    if (fichiers.includes('evenements.json')) {
+      for (const e of lireJson(join(periodeChemin, 'evenements.json'))) idsEvenements.add(e.id)
+    }
+    if (fichiers.includes('provinces.json')) {
+      for (const p of lireJson(join(periodeChemin, 'provinces.json'))) idsProvinces.add(p.id)
+    }
+
+    for (const fichier of fichiers) {
+      const chemin = join(periodeChemin, fichier)
+      const contenu = lireJson(chemin)
+      const contexteFichier = `${ere}/${periode}/${fichier}`
+      verifierUrls(contenu, contexteFichier)
+
+      const entrees = Array.isArray(contenu) ? contenu : [contenu]
+      for (const entree of entrees) {
+        const contexte = `${contexteFichier} / ${entree.id ?? '?'}`
+
+        if (entree.type === 'fait' && (!entree.sources || entree.sources.length === 0)) {
+          erreurs.push(`${contexte} : type "fait" sans sources`)
+        }
+        verifierSources(entree.sources, contexte)
+
+        for (const citation of entree.citations ?? []) {
+          if (!citation.texte) erreurs.push(`${contexte} : citation sans texte`)
+          if (citation.source && !idsSources.has(citation.source)) {
+            erreurs.push(`${contexte} : source de citation "${citation.source}" absente de sources.json`)
+          }
+        }
+
+        for (const id of entree.figures_liees ?? []) {
+          if (!idsFigures.has(id)) {
+            erreurs.push(`${contexte} : figure liée "${id}" absente de figures.json`)
+          }
+        }
+
+        for (const id of entree.commandants ?? []) {
+          if (!idsFigures.has(id)) {
+            erreurs.push(`${contexte} : commandant "${id}" absent de figures.json`)
+          }
+        }
+        for (const b of entree.belligerants ?? []) {
+          for (const id of b.commandants ?? []) {
+            if (!idsFigures.has(id)) {
+              erreurs.push(`${contexte} : commandant "${id}" absent de figures.json`)
+            }
+          }
+        }
+
+        if (fichier === 'figures.json') verifierFigure(entree, contexte)
+        if (fichier === 'guerres.json') verifierBataille(entree, contexte)
+
+        for (const lien of extraireLiensInternes(entree)) {
+          const cible = { figure: idsFigures, evenement: idsEvenements, province: idsProvinces }[lien.type]
+          if (!cible.has(lien.id)) {
+            erreurs.push(`${contexte} : lien interne [[${lien.type}:${lien.id}]] introuvable dans ${lien.type}s.json`)
+          }
         }
       }
     }
-  }
-}
-
-for (const f of figures) {
-  for (const fait of f.faits ?? []) {
-    if (!fait.sources || fait.sources.length === 0) {
-      erreurs.push(`figures.json / ${f.id} : fait "${fait.date}" sans sources`)
-    }
-    for (const id of fait.sources ?? []) {
-      if (!idsSources.has(id)) {
-        erreurs.push(`figures.json / ${f.id} : source "${id}" absente de sources.json`)
-      }
-    }
-  }
-  for (const champ of ['regard_sur_les_puissances', 'regard_sur_les_etats']) {
-    for (const entree of f[champ] ?? []) {
-      if (!entree.citation) {
-        erreurs.push(`figures.json / ${f.id} / ${champ} : entrée sans citation`)
-      }
-      if (!entree.sources || entree.sources.length === 0) {
-        erreurs.push(`figures.json / ${f.id} / ${champ} : entrée sans sources`)
-      }
-    }
-  }
-  for (const icone of f.iconographie ?? []) {
-    if (icone.url_image && !estUrlValide(icone.url_image)) {
-      erreurs.push(`figures.json / ${f.id} : url_image invalide "${icone.url_image}"`)
-    }
-    if (icone.url_notice && !estUrlValide(icone.url_notice)) {
-      erreurs.push(`figures.json / ${f.id} : url_notice invalide "${icone.url_notice}"`)
-    }
-  }
-}
-
-for (const s of sources) {
-  if (s.url && !estUrlValide(s.url)) {
-    erreurs.push(`sources.json / ${s.id} : url invalide "${s.url}"`)
-  }
-}
-
-let evenementsMilitaires = []
-try {
-  evenementsMilitaires = lire('geo/evenements-militaires.json')
-} catch {
-  // fichier optionnel, pas encore branché à l'interface
-}
-for (const ev of evenementsMilitaires) {
-  if (!ev.sources || ev.sources.length === 0) {
-    erreurs.push(`geo/evenements-militaires.json / ${ev.id} : sans sources`)
-  }
-  for (const id of ev.sources ?? []) {
-    if (!idsSources.has(id)) {
-      erreurs.push(`geo/evenements-militaires.json / ${ev.id} : source "${id}" absente de sources.json`)
-    }
-  }
-  if (!ev.date_precision || !['explicite', 'contextuelle'].includes(ev.date_precision)) {
-    erreurs.push(`geo/evenements-militaires.json / ${ev.id} : date_precision manquante ou invalide`)
   }
 }
 
