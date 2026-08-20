@@ -224,10 +224,11 @@
     "citations": [
       { "texte": "Ce n'était pas par sentiment [...] que Colbert aimait les artistes et les savants ; c'était comme homme d'État qu'il les protégeait, puisqu'il avait reconnu que les beaux-arts sont seuls capables de former et d'immortaliser les grands empires.", "source": "merchier-1889-p71", "page": 71 },
       { "texte": "Le sieur Molière, excellent poète comique [...] Le sieur Chapelain, le plus grand poète français qui ait jamais été, et du plus solide jugement.", "source": "merchier-1889-p71", "page": 71 },
+      { "texte": "Et toi que le quinquina guérit si promptement, / Colbert, je ne dois pourtant te taire...", "source": "merchier-1889-p73", "page": 73 },
       { "texte": "Le 21 du courant, le duc de Saint-Aignan, ayant été prendre le sieur Colbert en son logis, le conduisit en l'Académie française [...] il fit un discours à la louange du roi, avec tant de grâce et de succès qu'il en fut admiré de toute la savante compagnie.", "source": "merchier-1889-p75", "page": 75 }
     ],
     "figures_liees": ["colbert"],
-    "sources": ["merchier-1889-p71", "merchier-1889-p75"],
+    "sources": ["merchier-1889-p71", "merchier-1889-p73", "merchier-1889-p75"],
     "statut": "verifie"
   },
   {

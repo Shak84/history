@@ -1,0 +1,179 @@
+{
+  "periode": "louis-xiv",
+  "a_propos": "Suivi éditorial de la trame de travail (plan-louis-xiv.md). N'est PAS consommé par l'application ni par scripts/validate.js — vit hors de /src/data pour ne pas interférer avec le loader ni le validateur. 'fait: true' signifie qu'une fiche sourcée et substantielle couvre déjà ce point précis dans les données ; une simple mention en passant dans un autre article ne suffit pas à cocher la case, elle est alors signalée en note.",
+  "mise_a_jour": "2026-08-14",
+  "axes": [
+    {
+      "axe": "1. Politique interne — pouvoir, État, administration",
+      "items": [
+        { "id": "avenement-1643", "importance": "M", "annee": "1643", "label": "Avènement de Louis XIV à 4 ans, régence d'Anne d'Autriche", "fait": true, "notes": "evenements.json (avenement), figures.json (louis-xiv.realisations)" },
+        { "id": "fronde-1648-1653", "importance": "M", "annee": "1648-1653", "label": "La Fronde (parlementaire puis des princes)", "fait": true, "notes": "evenements.json (fronde) ; fiche sommaire, ne distingue pas les deux phases — à étoffer si besoin" },
+        { "id": "mort-mazarin-1661", "importance": "M", "annee": "1661", "label": "Mort de Mazarin, début du règne personnel", "fait": true, "notes": "evenements.json (mort-mazarin), politique.json (debut-regne-personnel)" },
+        { "id": "arrestation-fouquet-1661", "importance": "M", "annee": "1661", "label": "Arrestation de Fouquet, ascension de Colbert", "fait": false, "notes": "Fouquet n'existe nulle part comme fait ou figure ; seule une mention indirecte (l'oncle de Colbert juge au procès Fouquet) dans figures.json" },
+        { "id": "installation-cour-versailles-1682", "importance": "M", "annee": "1682", "label": "Installation officielle de la Cour à Versailles", "fait": false, "notes": "vie de cour bien documentée (culture.json) mais pas l'événement d'installation en 1682 lui-même" },
+        { "id": "code-louis-1667", "importance": "m", "annee": "1667", "label": "Grande Ordonnance civile (Code Louis)", "fait": false, "notes": "" },
+        { "id": "ordonnance-criminelle-1670", "importance": "m", "annee": "1670", "label": "Ordonnance criminelle", "fait": false, "notes": "" },
+        { "id": "edit-remontrances-1673", "importance": "m", "annee": "1673", "label": "Édit limitant le droit de remontrance des parlements", "fait": false, "notes": "" },
+        { "id": "code-noir-1685", "importance": "m", "annee": "1685", "label": "Code Noir", "fait": false, "notes": "" },
+        { "id": "generalisation-intendants", "importance": "m", "annee": "1660-1680", "label": "Généralisation des intendants, recul des gouverneurs", "fait": false, "notes": "des intendants nommés apparaissent en contexte dans plusieurs fiches (Alençon, Moulins, Bordeaux) mais le système lui-même n'est décrit dans aucun fait dédié" },
+        { "id": "ventes-offices", "importance": "m", "annee": "1691, 1704...", "label": "Multiplication des ventes d'offices pour financer les guerres", "fait": false, "notes": "" }
+      ]
+    },
+    {
+      "axe": "2. Politique externe & diplomatie",
+      "items": [
+        { "id": "paix-pyrenees-1659", "importance": "M", "annee": "1659", "label": "Paix des Pyrénées", "fait": false, "notes": "" },
+        { "id": "mariage-marie-therese-1660", "importance": "M", "annee": "1660", "label": "Mariage avec Marie-Thérèse d'Autriche", "fait": false, "notes": "date mentionnée entre parenthèses dans figures.json (genealogie de louis-xiv), sans fait ni source dédiés" },
+        { "id": "paix-nimegue-1678-1679", "importance": "M", "annee": "1678-1679", "label": "Paix de Nimègue", "fait": false, "notes": "mentionnée en passant comme contexte dans culture.json (vauban-port-dunkerque), pas de fait dédié" },
+        { "id": "traites-utrecht-rastatt-1713-1714", "importance": "M", "annee": "1713-1714", "label": "Traités d'Utrecht et Rastatt", "fait": false, "notes": "" },
+        { "id": "achat-dunkerque-1662", "importance": "m", "annee": "1662", "label": "Achat de Dunkerque à l'Angleterre", "fait": false, "notes": "ne pas confondre avec les travaux du port par Vauban en 1678, déjà couverts" },
+        { "id": "paix-aix-la-chapelle-1668", "importance": "m", "annee": "1668", "label": "Paix d'Aix-la-Chapelle", "fait": false, "notes": "" },
+        { "id": "ligue-augsbourg-formation-1686", "importance": "m", "annee": "1686", "label": "Ligue d'Augsbourg formée contre la France", "fait": false, "notes": "la guerre qui suit (1688-1692) est couverte dans guerres.json, pas sa formation diplomatique en 1686" },
+        { "id": "paix-ryswick-1697", "importance": "m", "annee": "1697", "label": "Paix de Ryswick", "fait": false, "notes": "mentionnée en passant dans guerres.json (perte du Luxembourg), pas de fait dédié" },
+        { "id": "testament-charles-ii-1700", "importance": "m", "annee": "1700", "label": "Testament de Charles II léguant l'Espagne à Philippe d'Anjou", "fait": false, "notes": "" }
+      ]
+    },
+    {
+      "axe": "3. Guerres & faits militaires",
+      "items": [
+        { "id": "guerre-devolution-1667-1668", "importance": "M", "annee": "1667-1668", "label": "Guerre de Dévolution", "fait": false, "notes": "un seul épisode couvert (siège de Tournai, guerres.json), pas de fiche de guerre à part entière" },
+        { "id": "guerre-hollande-1672-1678", "importance": "M", "annee": "1672-1678", "label": "Guerre de Hollande", "fait": false, "notes": "" },
+        { "id": "guerre-ligue-augsbourg-1688-1697", "importance": "M", "annee": "1688-1697", "label": "Guerre de la Ligue d'Augsbourg", "fait": true, "notes": "guerres.json (guerre-ligue-augsbourg-empire, 1688-1692)" },
+        { "id": "guerre-succession-espagne-1701-1714", "importance": "M", "annee": "1701-1714", "label": "Guerre de Succession d'Espagne", "fait": true, "notes": "guerres.json (succession-espagne-catalogne-valence, debarquement-cette-agde-1710, pacification-catalogne-1714)" },
+        { "id": "siege-lille-1667", "importance": "m", "annee": "1667", "label": "Siège de Lille par Vauban", "fait": false, "notes": "c'est l'exemple de schéma du CLAUDE.md, mais la donnée réelle couvre le siège de Tournai, pas Lille" },
+        { "id": "siege-maastricht-1673", "importance": "m", "annee": "1673", "label": "Siège de Maastricht", "fait": true, "notes": "figures.json (vauban.realisations, méthode des attaques par parallèles)" },
+        { "id": "defaite-la-hougue-1692", "importance": "m", "annee": "1692", "label": "Défaite navale de La Hougue", "fait": false, "notes": "" },
+        { "id": "bataille-malplaquet-1709", "importance": "m", "annee": "1709", "label": "Bataille de Malplaquet", "fait": false, "notes": "" },
+        { "id": "bataille-denain-1712", "importance": "m", "annee": "1712", "label": "Bataille de Denain", "fait": false, "notes": "" },
+        { "id": "vauban-pre-carre", "importance": "m", "annee": "transversal", "label": "Rôle transversal de Vauban : le « pré carré », la ceinture de fer", "fait": true, "notes": "guerres.json (vauban-doctrine-frontieres, vauban-revue-frontieres-1706) et culture.json (grands travaux de fortification)" }
+      ]
+    },
+    {
+      "axe": "4. Économie, finances, commerce",
+      "items": [
+        { "id": "colbertisme-1661", "importance": "M", "annee": "1661+", "label": "Colbertisme : mercantilisme, manufactures royales, protectionnisme", "fait": true, "notes": "culture.json (colbert-declin-manufactures-1663, conseil-commerce-1664, points-de-france-dentelle, compagnie-du-nord, sucre-antilles-raffinage, etc.)" },
+        { "id": "compagnies-indes-1664", "importance": "M", "annee": "1664", "label": "Création des Compagnies des Indes orientales et occidentales", "fait": false, "notes": "mentionnées en passant dans deux articles de culture.json (soutien de Colbert), pas de fait dédié à leur création" },
+        { "id": "gobelins-1665", "importance": "m", "annee": "1665", "label": "Manufacture des Gobelins réorganisée", "fait": true, "notes": "culture.json (manufacture-royale-gobelins)" },
+        { "id": "abbeville-canal-midi-1666", "importance": "m", "annee": "1666", "label": "Fondation manufacture de draps d'Abbeville, canal du Midi (chantier 1666-1681)", "fait": false, "notes": "Abbeville est mentionnée comme manufacture déjà établie en 1670 (culture.json), pas sa fondation en 1666 ; le chantier du canal du Midi par Riquet n'est pas couvert (seule la visite de Vauban en 1687 l'est)" },
+        { "id": "tarif-douanier-1667", "importance": "m", "annee": "1667", "label": "Tarif douanier protectionniste", "fait": false, "notes": "" },
+        { "id": "mort-colbert-1683", "importance": "m", "annee": "1683", "label": "Mort de Colbert, inflexion vers l'effort de guerre (Louvois)", "fait": false, "notes": "la date de mort est un champ de figures.json, mais aucun fait dédié à l'événement ni à la bascule vers Louvois" },
+        { "id": "capitation-1695", "importance": "m", "annee": "1695", "label": "Création de la capitation", "fait": false, "notes": "" },
+        { "id": "dixieme-1710", "importance": "m", "annee": "1710", "label": "Création du dixième", "fait": false, "notes": "" },
+        { "id": "crise-financiere-fin-regne", "importance": "m", "annee": "fin de règne", "label": "Crise financière, dette colossale, manipulations monétaires", "fait": false, "notes": "" }
+      ]
+    },
+    {
+      "axe": "5. Agriculture, démographie, climat",
+      "items": [
+        { "id": "grande-famine-1693-1694", "importance": "M", "annee": "1693-1694", "label": "Grande famine", "fait": false, "notes": "" },
+        { "id": "grand-hiver-1709", "importance": "M", "annee": "1709", "label": "« Grand Hiver », gel catastrophique, famine massive", "fait": true, "notes": "evenements.json (grand-hiver) — mais statut \"a_verifier\", source wikidata centrée sur le contexte britannique, à recouper avec une source française" },
+        { "id": "poids-taille-paysannerie", "importance": "m", "annee": "transversal", "label": "Poids de la taille sur la paysannerie (Vauban, 1707)", "fait": true, "notes": "societe.json (vauban-petit-peuple-campagnes, vauban-classification-terres-royaume, vezelay-bois-landes, vauban-paysannerie)" },
+        { "id": "economie-rurale-85-pourcent", "importance": "m", "annee": "transversal", "label": "Économie rurale dominante, ~85 % de paysans", "fait": false, "notes": "le sujet est touché (Vauban sur les terres et la paysannerie) mais aucun chiffre précis de 85 % n'est sourcé dans les données actuelles" },
+        { "id": "recul-demographique-fin-regne", "importance": "m", "annee": "transversal", "label": "Stagnation puis recul démographique en fin de règne (guerres + famines)", "fait": false, "notes": "" },
+        { "id": "boisguilbert-1695", "importance": "m", "annee": "1695", "label": "Analyses de Boisguilbert sur la misère rurale (Détail de la France)", "fait": false, "notes": "Boisguilbert absent des données et non dépouillé" }
+      ]
+    },
+    {
+      "axe": "6. Religion & affaires de conscience",
+      "items": [
+        { "id": "revocation-edit-nantes-1685", "importance": "M", "annee": "1685", "label": "Révocation de l'Édit de Nantes", "fait": true, "notes": "evenements.json (revocation), figures.json (louis-xiv.realisations)" },
+        { "id": "jansenisme-port-royal", "importance": "M", "annee": "transversal", "label": "Conflit avec le jansénisme (Port-Royal)", "fait": false, "notes": "" },
+        { "id": "quatre-articles-1682", "importance": "m", "annee": "1682", "label": "Déclaration des Quatre Articles (gallicanisme)", "fait": false, "notes": "" },
+        { "id": "guerre-camisards-1702-1704", "importance": "m", "annee": "1702-1704", "label": "Guerre des Camisards (révolte protestante des Cévennes)", "fait": false, "notes": "" },
+        { "id": "destruction-port-royal-1709-1710", "importance": "m", "annee": "1709-1710", "label": "Destruction de l'abbaye de Port-Royal des Champs", "fait": false, "notes": "" },
+        { "id": "bulle-unigenitus-1713", "importance": "m", "annee": "1713", "label": "Bulle Unigenitus condamnant le jansénisme", "fait": false, "notes": "" },
+        { "id": "bossuet-eglise-gallicane-maintenon", "importance": "m", "annee": "transversal", "label": "Rôle de Bossuet, l'Église gallicane, la cour dévote autour de Maintenon", "fait": false, "notes": "la cour autour de Mme de Maintenon est bien documentée (culture.json) mais sans figure dédiée ; Bossuet et le gallicanisme sont absents" }
+      ]
+    },
+    {
+      "axe": "7. Complots, scandales, affaires",
+      "items": [
+        { "id": "affaire-poisons-1679-1682", "importance": "M", "annee": "1679-1682", "label": "Affaire des Poisons (haute noblesse, Montespan ?)", "fait": false, "notes": "" },
+        { "id": "chute-fouquet-1661", "importance": "m", "annee": "1661", "label": "Chute de Fouquet, procès politique retentissant", "fait": false, "notes": "" },
+        { "id": "conspiration-latreaumont-1674", "importance": "m", "annee": "1674", "label": "Conspiration de Latréaumont / chevalier de Rohan", "fait": false, "notes": "" },
+        { "id": "masque-de-fer", "importance": "m", "annee": "énigme transversale", "label": "L'homme au masque de fer (mort 1703)", "fait": false, "notes": "" },
+        { "id": "succession-favorites", "importance": "m", "annee": "transversal", "label": "Intrigues de cour autour de la succession des favorites (La Vallière, Montespan, Maintenon)", "fait": false, "notes": "Maintenon est présente en texte simple dans culture.json ; La Vallière et Montespan sont absentes" }
+      ]
+    },
+    {
+      "axe": "8. Société & strates sociales",
+      "items": [
+        { "id": "societe-ordres", "importance": "M", "annee": "transversal", "label": "La société d'ordres : clergé, noblesse, tiers état", "fait": true, "notes": "couvert de façon diffuse à travers plusieurs fiches (regard_sur_les_etats de Vauban/Colbert dans figures.json, résistances fiscales dans societe.json), pas de synthèse dédiée à la structure des trois ordres" },
+        { "id": "noblesse-cour-domestiquee", "importance": "M", "annee": "transversal", "label": "La noblesse de cour domestiquée à Versailles (Saint-Simon, La Bruyère)", "fait": true, "notes": "culture.json (deux-journees-versailles-maintenon, le-notre-jardins-versailles), figures.json (saint-simon) — La Bruyère absent mais non nécessaire à la couverture du point" },
+        { "id": "paysannerie-neuf-sur-dix", "importance": "M", "annee": "transversal", "label": "La paysannerie, neuf Français sur dix, sous le poids fiscal (Vauban)", "fait": true, "notes": "societe.json (vauban-petit-peuple-campagnes, vauban-paysannerie, vauban-classification-terres-royaume, vezelay-bois-landes)" },
+        { "id": "bourgeoisie-office-finance", "importance": "m", "annee": "transversal", "label": "La bourgeoisie d'office et de finance (traitants, fermiers généraux)", "fait": false, "notes": "Colbert est étiqueté \"bourgeoisie d'office\" dans figures.json mais aucun fait dédié à ce groupe social" },
+        { "id": "petit-peuple-villes-domestiques", "importance": "m", "annee": "transversal", "label": "Le petit peuple des villes, artisans, domestiques (~1,5 M de domestiques selon Vauban)", "fait": false, "notes": "le petit peuple des campagnes est couvert, pas le petit peuple urbain ni le chiffre des domestiques" },
+        { "id": "condition-femmes", "importance": "m", "annee": "transversal", "label": "Condition des femmes selon les milieux (cour, ville, campagne)", "fait": false, "notes": "Mme de Maintenon documente la cour, mais pas de traitement comparatif ville/campagne" },
+        { "id": "marginaux-mendiants-renfermement", "importance": "m", "annee": "transversal", "label": "Marginaux, mendiants, « renfermement » des pauvres (hôpitaux généraux)", "fait": false, "notes": "" }
+      ]
+    },
+    {
+      "axe": "9. Médecine, sciences, savoirs",
+      "items": [
+        { "id": "academie-sciences-1666", "importance": "M", "annee": "1666", "label": "Fondation de l'Académie royale des sciences", "fait": true, "notes": "culture.json (colbert-mecene-academies)" },
+        { "id": "observatoire-paris-1667", "importance": "m", "annee": "1667", "label": "Fondation de l'Observatoire de Paris", "fait": true, "notes": "culture.json (colbert-batiments-versailles-louvre) — mention brève mais sourcée" },
+        { "id": "medecine-cour-fistule-1686", "importance": "m", "annee": "transversal", "label": "Médecine de cour (les maladies du roi, la fistule opérée en 1686)", "fait": false, "notes": "" },
+        { "id": "etat-medecine-epoque", "importance": "m", "annee": "transversal", "label": "État de la médecine : saignées, purges, forte mortalité infantile", "fait": false, "notes": "" },
+        { "id": "cassini-papin-sciences", "importance": "m", "annee": "transversal", "label": "Cassini et la cartographie, Denis Papin, les débuts scientifiques", "fait": false, "notes": "" },
+        { "id": "edit-corporations-sante-1685", "importance": "m", "annee": "1685", "label": "Édit encadrant les corporations de métiers de santé", "fait": false, "notes": "" }
+      ]
+    },
+    {
+      "axe": "10. Art, lettres, culture",
+      "items": [
+        { "id": "classicisme-art-officiel", "importance": "M", "annee": "transversal", "label": "Le classicisme comme art officiel au service de la gloire royale", "fait": false, "notes": "thème diffus dans culture.json (mécénat, académies, bâtiments) mais pas de fiche de synthèse sur le classicisme comme doctrine" },
+        { "id": "versailles-oeuvre-totale", "importance": "M", "annee": "1682+", "label": "Versailles comme œuvre totale (Le Vau, Hardouin-Mansart, Le Nôtre, Le Brun)", "fait": false, "notes": "Le Nôtre et Le Brun sont couverts (culture.json) ; Le Vau et Hardouin-Mansart sont absents des données" },
+        { "id": "petite-academie-1663", "importance": "m", "annee": "1663", "label": "Fondation de la Petite Académie (future Académie des inscriptions)", "fait": false, "notes": "le rapport source (rapport-culture-versailles.md, §3.2) contient déjà la phrase sourcée à ce sujet (Merchier p.74) ; non reprise dans l'article final par choix de concision — facile à ajouter" },
+        { "id": "fetes-ile-enchantee-1664", "importance": "m", "annee": "1664", "label": "Fêtes des Plaisirs de l'Île enchantée à Versailles", "fait": false, "notes": "" },
+        { "id": "moliere-racine-boileau-lafontaine-lully", "importance": "m", "annee": "transversal", "label": "Molière (mort 1673), Racine, Boileau, La Fontaine, Lully", "fait": false, "notes": "Molière et La Fontaine sont nommés dans culture.json (liste des pensions, anecdote du quinquina) mais aucun n'a de fiche personnage propre ; Racine, Boileau, Lully absents" },
+        { "id": "comedie-francaise-1680", "importance": "m", "annee": "1680", "label": "Création de la Comédie-Française", "fait": false, "notes": "" },
+        { "id": "la-bruyere-caracteres-1688", "importance": "m", "annee": "transversal", "label": "La Bruyère, Les Caractères (1688) — satire sociale", "fait": false, "notes": "" },
+        { "id": "memorialistes-epistoliers", "importance": "m", "annee": "transversal", "label": "Mémorialistes et épistoliers : Sévigné, Saint-Simon, la Palatine", "fait": false, "notes": "Saint-Simon est couvert en profondeur (figures.json) ; Sévigné et la Palatine sont absentes" },
+        { "id": "querelle-anciens-modernes", "importance": "m", "annee": "fin de règne", "label": "Querelle des Anciens et des Modernes", "fait": false, "notes": "" }
+      ]
+    }
+  ],
+  "personnages": [
+    { "id": "louis-xiv", "groupe": "le pouvoir", "fait": true, "notes": "figures.json — fiche complète" },
+    { "id": "anne-d-autriche", "groupe": "le pouvoir", "fait": false, "notes": "" },
+    { "id": "mazarin", "groupe": "le pouvoir", "fait": true, "notes": "figures.json" },
+    { "id": "colbert", "groupe": "le pouvoir", "fait": true, "notes": "figures.json — fiche très étoffée" },
+    { "id": "louvois", "groupe": "le pouvoir", "fait": true, "notes": "figures.json" },
+    { "id": "le-tellier-pere", "groupe": "le pouvoir", "fait": false, "notes": "mentionné seulement comme père de Louvois dans la généalogie, pas de fiche propre" },
+    { "id": "chamillart", "groupe": "le pouvoir", "fait": false, "notes": "" },
+    { "id": "turenne", "groupe": "militaires", "fait": true, "notes": "figures.json" },
+    { "id": "conde", "groupe": "militaires", "fait": false, "notes": "" },
+    { "id": "vauban", "groupe": "militaires", "fait": true, "notes": "figures.json — fiche la plus complète du projet" },
+    { "id": "villars", "groupe": "militaires", "fait": false, "notes": "nommé dans guerres.json (succession-espagne-catalogne-valence) sans fiche ni figures_liees" },
+    { "id": "duquesne", "groupe": "militaires", "fait": false, "notes": "marine, absent" },
+    { "id": "marie-therese", "groupe": "femmes", "fait": false, "notes": "nommée seulement dans la généalogie de louis-xiv, pas de fiche propre" },
+    { "id": "montespan", "groupe": "femmes", "fait": false, "notes": "" },
+    { "id": "madame-de-maintenon", "groupe": "femmes", "fait": false, "notes": "contenu riche et sourcé déjà présent en texte simple dans culture.json (deux-journees-versailles-maintenon), mais pas encore de fiche figure — bon candidat pour la prochaine vague" },
+    { "id": "la-valliere", "groupe": "femmes", "fait": false, "notes": "" },
+    { "id": "sevigne", "groupe": "femmes", "fait": false, "notes": "" },
+    { "id": "palatine", "groupe": "femmes", "fait": false, "notes": "" },
+    { "id": "bossuet", "groupe": "religion & esprit", "fait": false, "notes": "" },
+    { "id": "fenelon", "groupe": "religion & esprit", "fait": false, "notes": "" },
+    { "id": "port-royal-figures", "groupe": "religion & esprit", "fait": false, "notes": "" },
+    { "id": "moliere", "groupe": "arts & lettres", "fait": false, "notes": "nommé dans une citation de culture.json, pas de fiche propre" },
+    { "id": "racine", "groupe": "arts & lettres", "fait": false, "notes": "nommé dans figures.json (vauban.realisations, lettre à Racine) sans fiche propre" },
+    { "id": "la-fontaine", "groupe": "arts & lettres", "fait": false, "notes": "nommé et cité dans culture.json, pas de fiche propre" },
+    { "id": "lully", "groupe": "arts & lettres", "fait": false, "notes": "" },
+    { "id": "le-brun", "groupe": "arts & lettres", "fait": false, "notes": "nommé dans culture.json (manufacture-royale-gobelins), pas de fiche propre" },
+    { "id": "hardouin-mansart", "groupe": "arts & lettres", "fait": false, "notes": "" },
+    { "id": "le-notre", "groupe": "arts & lettres", "fait": false, "notes": "anecdotes riches déjà sourcées en texte simple dans culture.json (le-notre-jardins-versailles), pas encore de fiche figure — bon candidat pour la prochaine vague" },
+    { "id": "la-bruyere", "groupe": "arts & lettres", "fait": false, "notes": "" },
+    { "id": "fouquet", "groupe": "ombres & affaires", "fait": false, "notes": "" },
+    { "id": "la-voisin", "groupe": "ombres & affaires", "fait": false, "notes": "" },
+    { "id": "masque-de-fer", "groupe": "ombres & affaires", "fait": false, "notes": "" }
+  ],
+  "contrepoints_litteraires": [
+    { "id": "la-bruyere-caracteres", "fait": false, "notes": "absent" },
+    { "id": "vauban-dime-royale", "fait": true, "notes": "très largement dépouillé (societe.json, figures.json) — la plus riche source du corpus actuel" },
+    { "id": "saint-simon-memoires", "fait": true, "notes": "dépouillé via la compilation secondaire de Doumic (figures.json, culture.json)" },
+    { "id": "sevigne-lettres", "fait": false, "notes": "absent" },
+    { "id": "palatine-correspondance", "fait": false, "notes": "absent" },
+    { "id": "boisguilbert-detail-france", "fait": false, "notes": "absent" },
+    { "id": "fenelon-lettre-louis-xiv", "fait": false, "notes": "absent" }
+  ]
+}
