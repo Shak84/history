@@ -56,7 +56,7 @@
         { "id": "guerre-ligue-augsbourg", "importance": "M", "annee": "1688-1697", "type": "conflit", "eclaire": ["politique-externe", "economie", "societe", "politique-interne"], "label": "Guerre de la Ligue d'Augsbourg", "fait": true, "notes": "guerres.json (guerre-ligue-augsbourg-empire, 1688-1692) — couvre plusieurs places prises, pas encore structuré en fiche casus belli/issue/conséquences" },
         { "id": "bataille-la-hougue-1692", "importance": "m", "annee": "1692-05", "type": "bataille", "conflit_parent": "guerre-ligue-augsbourg", "label": "Bataille de La Hougue", "fait": false, "notes": "" },
         { "id": "guerre-succession-espagne", "importance": "M", "annee": "1701-1714", "type": "conflit", "eclaire": ["politique-externe", "economie", "societe", "politique-interne"], "label": "Guerre de Succession d'Espagne", "fait": true, "notes": "guerres.json (succession-espagne-catalogne-valence, debarquement-cette-agde-1710, pacification-catalogne-1714)" },
-        { "id": "bataille-malplaquet-1709", "importance": "m", "annee": "1709-09-11", "type": "bataille", "conflit_parent": "guerre-succession-espagne", "label": "Bataille de Malplaquet", "fait": false, "notes": "" },
+        { "id": "bataille-malplaquet-1709", "importance": "m", "annee": "1709-09-11", "type": "bataille", "conflit_parent": "guerre-succession-espagne", "label": "Bataille de Malplaquet", "fait": false, "notes": "absente ; voir chiffres_consolides — les pertes militaires précises de cette bataille et des autres du règne sont jugées peu fiables aux sources d'époque, à laisser en fourchettes larges plutôt qu'en chiffre unique si ajoutée" },
         { "id": "bataille-denain-1712", "importance": "m", "annee": "1712-07-24", "type": "bataille", "conflit_parent": "guerre-succession-espagne", "label": "Bataille de Denain", "fait": false, "notes": "" },
         { "id": "vauban-fortifications", "importance": "M", "annee": "transversal", "type": "transversal", "eclaire": ["politique-externe", "politique-interne", "societe"], "label": "Vauban et le « pré carré »", "fait": true, "notes": "guerres.json (vauban-doctrine-frontieres, vauban-revue-frontieres-1706, vauban-projet-paix-1706) et culture.json (dix fiches de grands travaux de fortification, bilan chiffré)" }
       ]
@@ -68,40 +68,46 @@
       "items": [
         { "id": "revolte-papier-timbre-1675", "importance": "M", "annee": "1675", "eclaire": ["guerre", "economie", "politique-interne", "societe"], "echo_contemporain": true, "label": "La révolte du Papier timbré / des Bonnets rouges", "fait": false, "notes": "absente des données actuelles — épisode distinct des émeutes de 1674-1675 déjà couvertes (societe.json/emeutes-fiscales-guyenne-1674-1675, qui porte sur Bordeaux/Bretagne/Pau/Le Mans via Merchier mais sans le cri « Vive le Roi, sans gabelle et sans édits ! » ni le Code paysan) — bonne priorité de recherche : le Code paysan du 2 juillet 1675 est un texte rarissime où les révoltés parlent eux-mêmes" },
         { "id": "cycle-revoltes-fiscales", "importance": "m", "annee": "transversal", "eclaire": ["societe", "politique-interne", "economie"], "label": "Le cycle des révoltes antifiscales et son extinction", "fait": true, "notes": "societe.json couvre déjà un cycle 1673-1683 (bretagne-plaintes-fiscales-1673, emeutes-fiscales-guyenne-1674-1675, haine-populaire-collecteurs-impots, colbert-resistance-naturelle-impot) — le point sur l'extinction de la révolte après 1675 comme soumission contrainte plutôt qu'adhésion n'est pas explicitement formulé, à nuancer si on complète" },
-        { "id": "logement-troupes", "importance": "m", "annee": "transversal", "eclaire": ["guerre", "societe"], "label": "Le fardeau du logement des soldats", "fait": false, "notes": "societe.json (dragonnades-poitou-reactions) couvre le logement forcé de troupes comme instrument de coercition anti-protestante spécifiquement, pas le fardeau ordinaire du logement militaire en temps de guerre en général" },
+        { "id": "logement-troupes", "importance": "m", "annee": "transversal", "eclaire": ["guerre", "societe"], "label": "Le fardeau du logement des soldats", "fait": false, "notes": "societe.json (dragonnades-poitou-reactions) couvre le logement forcé de troupes comme instrument de coercition anti-protestante spécifiquement, pas le fardeau ordinaire du logement militaire en temps de guerre en général ; voir chiffres_consolides pour les dragonnades du Poitou (~30 000 conversions, ~400 000 confessions signées sous contrainte à l'été 1685, confiance moyenne-élevée) non encore intégrées à l'article existant" },
         { "id": "guerre-camisards-1702", "importance": "m", "annee": "1702-1704", "eclaire": ["religion", "guerre", "societe", "politique-interne"], "label": "La guerre des Camisards", "fait": false, "notes": "absente des données" },
         { "id": "regard-elites-peuple", "importance": "m", "annee": "transversal", "eclaire": ["societe", "guerre"], "label": "Ce que les puissants disaient du peuple", "fait": false, "notes": "figures.json (vauban.regard_sur_les_etats) documente déjà l'alarme de Vauban sur la misère paysanne avec une autre citation (« Bête de Somme ») ; la citation spécifique visée ici (« une extrémité dont il ne se relèvera jamais ») n'est pas celle déjà utilisée — Sévigné sur la répression bretonne est totalement absente" }
       ]
     },
     {
       "axe": "5. Économie, finances, commerce",
+      "source": "axe-economie-louis-xiv.md",
+      "note_narrative": "Trajectoire en deux temps : construction méthodique du système Colbert (1661-1683), puis destruction progressive par le coût des guerres (1683-1715). Axe pivot qui relie guerres, société et religion.",
       "items": [
-        { "id": "colbertisme-1661", "importance": "M", "annee": "1661+", "label": "Colbertisme : mercantilisme, manufactures royales, protectionnisme", "fait": true, "notes": "culture.json (colbert-declin-manufactures-1663, conseil-commerce-1664, points-de-france-dentelle, compagnie-du-nord, sucre-antilles-raffinage, etc.)" },
-        { "id": "compagnies-indes-1664", "importance": "M", "annee": "1664", "label": "Création des Compagnies des Indes orientales et occidentales", "fait": false, "notes": "mentionnées en passant dans deux articles de culture.json (soutien de Colbert), pas de fait dédié à leur création" },
-        { "id": "gobelins-1665", "importance": "m", "annee": "1665", "label": "Manufacture des Gobelins réorganisée", "fait": true, "notes": "culture.json (manufacture-royale-gobelins)" },
-        { "id": "abbeville-canal-midi-1666", "importance": "m", "annee": "1666", "label": "Fondation manufacture de draps d'Abbeville, canal du Midi (chantier 1666-1681)", "fait": false, "notes": "Abbeville est mentionnée comme manufacture déjà établie en 1670 (culture.json), pas sa fondation en 1666 ; le chantier du canal du Midi par Riquet n'est pas couvert (seule la visite de Vauban en 1687 l'est)" },
-        { "id": "tarif-douanier-1667", "importance": "m", "annee": "1667", "label": "Tarif douanier protectionniste", "fait": false, "notes": "axe-guerres-louis-xiv.md précise que ce tarif (1664, 1667) est l'une des causes économiques de la guerre de Hollande, et qu'il a dû être abrogé à Nimègue (1678) — rattachement croisé utile si ajouté" },
-        { "id": "mort-colbert-1683", "importance": "m", "annee": "1683", "label": "Mort de Colbert, inflexion vers l'effort de guerre (Louvois)", "fait": false, "notes": "la date de mort est un champ de figures.json, mais aucun fait dédié à l'événement ni à la bascule vers Louvois" },
-        { "id": "capitation-1695", "importance": "m", "annee": "1695", "label": "Création de la capitation", "fait": false, "notes": "doublon avec axe 1 (capitation-1695) — même case à cocher" },
-        { "id": "dixieme-1710", "importance": "m", "annee": "1710", "label": "Création du dixième", "fait": false, "notes": "doublon avec axe 1 (dixieme-1710) — même case à cocher" },
-        { "id": "crise-financiere-fin-regne", "importance": "m", "annee": "fin de règne", "label": "Crise financière, dette colossale, manipulations monétaires", "fait": false, "notes": "axe-guerres-louis-xiv.md rattache explicitement cette crise à l'épuisement financier de la guerre de Succession d'Espagne" }
+        { "id": "colbertisme", "importance": "M", "annee": "1661+", "eclaire": ["politique-interne", "politique-externe", "guerre"], "echo_contemporain": true, "label": "Le colbertisme, une doctrine d'État", "fait": true, "notes": "culture.json (colbert-declin-manufactures-1663, conseil-commerce-1664, etc.) couvre le programme concret ; la formule « nous ne sommes pas en un règne de petites choses » (1664) et le cadrage doctrinal mercantiliste explicite n'y figurent pas — contrepoint possible : Mémoire sur le commerce de Colbert (3 août 1664), déjà en partie dépouillé (colbert-lettres-t2-p274/p276)" },
+        { "id": "manufactures-royales", "importance": "M", "annee": "1660s-1680s", "eclaire": ["politique-interne", "culture"], "label": "Les manufactures royales", "fait": true, "notes": "culture.json (manufacture-royale-gobelins, points-de-france-dentelle, manufacture-glaces-saint-gobain, abbeville-beauvais-manufactures) — bien couvert ; l'espionnage industriel en Chine pour la porcelaine n'est pas documenté" },
+        { "id": "compagnies-indes-1664", "importance": "M", "annee": "1664", "eclaire": ["politique-externe", "politique-interne"], "label": "Les Compagnies des Indes", "fait": false, "notes": "mentionnées en passant dans deux articles de culture.json (soutien de Colbert), pas de fait dédié à leur création ; le fondement du port de Lorient (1666), la disparition de la Compagnie occidentale (1674) et son lien avec la Compagnie du Sénégal (traite négrière, Code Noir 1685) sont absents — sujet à traiter avec honnêteté" },
+        { "id": "assainissement-finances", "importance": "m", "annee": "1661-1665", "eclaire": ["politique-interne", "societe"], "label": "L'assainissement des finances royales", "fait": false, "notes": "Fouquet est totalement absent des données (voir aussi arrestation-fouquet-1661, axe 1) ; la limite reconnue par ce fait lui-même (noblesse/clergé restent exemptés de la taille) est cohérente avec le contenu Vauban déjà présent dans societe.json" },
+        { "id": "canal-du-midi", "importance": "m", "annee": "1666-1681", "eclaire": ["politique-interne"], "label": "Les grands travaux : le canal du Midi", "fait": false, "notes": "seule la visite/perfectionnement de Vauban en 1687 est couverte (culture.json/vauban-canal-deux-mers-cette) ; le chantier de Riquet lui-même (1666-1681) n'est pas documenté" },
+        { "id": "bascule-1683", "importance": "M", "annee": "1683", "eclaire": ["politique-interne", "guerre"], "label": "1683 : la mort de Colbert, la bascule", "fait": false, "notes": "la date de mort de Colbert est un simple champ de figures.json ; aucun fait dédié au tournant vers l'effort de guerre sous Louvois" },
+        { "id": "impots-guerre", "importance": "m", "annee": "1695, 1710", "eclaire": ["politique-interne", "societe", "guerre"], "label": "Les impôts de guerre : capitation et dixième", "fait": false, "notes": "doublon avec capitation-1695/dixieme-1710 (axes 1 et anciennement 5) — même case à cocher, absente" },
+        { "id": "expedients-financiers", "importance": "m", "annee": "1690-1710", "eclaire": ["politique-interne", "societe"], "label": "Les expédients financiers désespérés", "fait": false, "notes": "doublon avec venalite-offices (axe 1) — même case à cocher, absente" },
+        { "id": "ruine-fin-regne", "importance": "M", "annee": "fin de règne", "eclaire": ["politique-interne", "societe", "guerre", "religion"], "echo_contemporain": true, "label": "La ruine de la fin de règne", "fait": false, "notes": "point de convergence maximal (guerres, Révocation, famines, Dîme royale) mais aucune synthèse dédiée dans les données ; voir chiffres_consolides pour le chiffrage de l'exil huguenot à intégrer le jour où ce fait sera écrit" }
       ]
     },
     {
       "axe": "6. Agriculture, démographie, climat",
+      "source": "axe-agriculture-louis-xiv.md",
+      "note_narrative": "Axe socle : le sol, le pain, le gel, la faim qui décidaient de la vie et de la mort des ~85 % de Français que la cour ne concernait pas directement. Renversement de mémoire à corriger : la famine de 1693-1694, deux fois plus meurtrière que le Grand Hiver de 1709, est bien moins connue que lui — voir chiffres_consolides pour les fourchettes précises par historien.",
       "items": [
-        { "id": "grande-famine-1693-1694", "importance": "M", "annee": "1693-1694", "label": "Grande famine", "fait": false, "notes": "axe-guerres-louis-xiv.md la situe explicitement en pleine guerre de la Ligue d'Augsbourg — bon rattachement croisé si ajoutée" },
-        { "id": "grand-hiver-1709", "importance": "M", "annee": "1709", "label": "« Grand Hiver », gel catastrophique, famine massive", "fait": true, "notes": "evenements.json (grand-hiver) — mais statut \"a_verifier\", source wikidata centrée sur le contexte britannique, à recouper avec une source française" },
-        { "id": "poids-taille-paysannerie", "importance": "m", "annee": "transversal", "label": "Poids de la taille sur la paysannerie (Vauban, 1707)", "fait": true, "notes": "societe.json (vauban-petit-peuple-campagnes, vauban-classification-terres-royaume, vezelay-bois-landes, vauban-paysannerie)" },
+        { "id": "france-agricole", "importance": "M", "annee": "transversal", "eclaire": ["societe", "economie"], "label": "Une économie rurale dominée par la subsistance", "fait": true, "notes": "societe.json (vauban-petit-peuple-campagnes, vauban-classification-terres-royaume) couvre bien le fond du sujet, y compris la formule de Vauban sur le peuple « si utile et si méprisé » ; le cadrage climatique du « petit âge glaciaire » n'est pas mentionné" },
+        { "id": "famine-1693", "importance": "M", "annee": "1693-1694", "eclaire": ["societe", "economie", "guerre", "medecine"], "label": "La grande famine de 1693-1694, la plus meurtrière", "fait": false, "notes": "totalement absente des données — seul le Grand Hiver de 1709 existe (evenements.json) ; voir chiffres_consolides pour le chiffrage (Le Roy Ladurie ~1,3M, Lachiver, comparaison Lebrun avec la Première Guerre mondiale) — priorité de recherche élevée, c'est la crise démographique la plus meurtrière du règne et elle est actuellement invisible dans l'atlas" },
+        { "id": "grand-hiver-1709", "importance": "M", "annee": "1709", "label": "Le Grand Hiver de 1709", "fait": true, "notes": "evenements.json (grand-hiver) existe mais est très sommaire (une phrase, statut \"a_verifier\", source wikidata centrée sur le contexte britannique) — à étoffer fortement avec la chronologie climatique précise, le chiffrage consolidé (voir chiffres_consolides), la vaisselle d'or fondue par Louis XIV, et les citations de Saint-Simon/Maintenon signalées par ce rapport comme non encore récupérées" },
+        { "id": "errance-epidemies", "importance": "m", "annee": "transversal", "eclaire": ["societe", "medecine", "politique-interne"], "label": "Errance, mendicité et épidémies", "fait": false, "notes": "absent" },
+        { "id": "registres-paroissiaux", "importance": "m", "annee": "transversal", "eclaire": ["societe"], "label": "Les registres paroissiaux, mémoire de la faim", "fait": false, "notes": "point de méthode sur la source des chiffres démographiques, absent des données" },
         { "id": "economie-rurale-85-pourcent", "importance": "m", "annee": "transversal", "label": "Économie rurale dominante, ~85 % de paysans", "fait": false, "notes": "le sujet est touché (Vauban sur les terres et la paysannerie) mais aucun chiffre précis de 85 % n'est sourcé dans les données actuelles" },
-        { "id": "recul-demographique-fin-regne", "importance": "m", "annee": "transversal", "label": "Stagnation puis recul démographique en fin de règne (guerres + famines)", "fait": false, "notes": "" },
+        { "id": "recul-demographique-fin-regne", "importance": "m", "annee": "transversal", "label": "Stagnation puis recul démographique en fin de règne (guerres + famines)", "fait": false, "notes": "voir chiffres_consolides (population du royaume ~20-22M, Lebrun)" },
         { "id": "boisguilbert-1695", "importance": "m", "annee": "1695", "label": "Analyses de Boisguilbert sur la misère rurale (Détail de la France)", "fait": false, "notes": "Boisguilbert absent des données et non dépouillé" }
       ]
     },
     {
       "axe": "7. Religion & affaires de conscience",
       "items": [
-        { "id": "revocation-edit-nantes-1685", "importance": "M", "annee": "1685", "label": "Révocation de l'Édit de Nantes", "fait": true, "notes": "evenements.json (revocation), figures.json (louis-xiv.realisations)" },
+        { "id": "revocation-edit-nantes-1685", "importance": "M", "annee": "1685", "label": "Révocation de l'Édit de Nantes", "fait": true, "notes": "evenements.json (revocation), figures.json (louis-xiv.realisations) — l'événement est couvert mais sans le chiffrage de l'exil huguenot ; voir chiffres_consolides (150 000-200 000 exilés sur ~800 000 réformés) à intégrer si la fiche est étoffée" },
         { "id": "jansenisme-port-royal", "importance": "M", "annee": "transversal", "label": "Conflit avec le jansénisme (Port-Royal)", "fait": false, "notes": "" },
         { "id": "quatre-articles-1682", "importance": "m", "annee": "1682", "label": "Déclaration des Quatre Articles (gallicanisme)", "fait": false, "notes": "" },
         { "id": "guerre-camisards-1702-1704", "importance": "m", "annee": "1702-1704", "label": "Guerre des Camisards (révolte protestante des Cévennes)", "fait": false, "notes": "doublon avec axe 4 (guerre-camisards-1702) — même case à cocher" },
@@ -113,7 +119,7 @@
     {
       "axe": "8. Complots, scandales, affaires",
       "items": [
-        { "id": "affaire-poisons-1679-1682", "importance": "M", "annee": "1679-1682", "label": "Affaire des Poisons (haute noblesse, Montespan ?)", "fait": false, "notes": "axe-culturel-louis-xiv.md signale que les Lettres de Mme de Sévigné en donnent un regard contemporain — rattachement croisé utile" },
+        { "id": "affaire-poisons-1679-1682", "importance": "M", "annee": "1679-1682", "label": "Affaire des Poisons (haute noblesse, Montespan ?)", "fait": false, "notes": "axe-culturel-louis-xiv.md signale que les Lettres de Mme de Sévigné en donnent un regard contemporain — rattachement croisé utile ; chiffres déjà consolidés et confirmés, voir chiffres_consolides (442 accusés, 218 arrestations maintenues, 36 exécutions)" },
         { "id": "chute-fouquet-1661", "importance": "m", "annee": "1661", "label": "Chute de Fouquet, procès politique retentissant", "fait": false, "notes": "doublon avec axe 1 (arrestation-fouquet-1661) — même case à cocher" },
         { "id": "conspiration-latreaumont-1674", "importance": "m", "annee": "1674", "label": "Conspiration de Latréaumont / chevalier de Rohan", "fait": false, "notes": "" },
         { "id": "masque-de-fer", "importance": "m", "annee": "énigme transversale", "label": "L'homme au masque de fer (mort 1703)", "fait": false, "notes": "" },
@@ -134,13 +140,14 @@
     },
     {
       "axe": "10. Médecine, sciences, savoirs",
+      "source": "axe-medecine-louis-xiv.md",
+      "note_narrative": "Referme le corpus en reliant le corps du roi et le corps du peuple : la fistule opérée en 1686 relève l'un en expérimentant sur l'autre. Tension entre une médecine réelle impuissante et la naissance de l'institution scientifique moderne.",
       "items": [
-        { "id": "academie-sciences-1666", "importance": "M", "annee": "1666", "label": "Fondation de l'Académie royale des sciences", "fait": true, "notes": "culture.json (colbert-mecene-academies)" },
-        { "id": "observatoire-paris-1667", "importance": "m", "annee": "1667", "label": "Fondation de l'Observatoire de Paris", "fait": true, "notes": "culture.json (colbert-batiments-versailles-louvre) — mention brève mais sourcée" },
-        { "id": "medecine-cour-fistule-1686", "importance": "m", "annee": "transversal", "label": "Médecine de cour (les maladies du roi, la fistule opérée en 1686)", "fait": false, "notes": "" },
-        { "id": "etat-medecine-epoque", "importance": "m", "annee": "transversal", "label": "État de la médecine : saignées, purges, forte mortalité infantile", "fait": false, "notes": "axe-culturel-louis-xiv.md signale Le Médecin malgré lui (1666) et Le Malade imaginaire (1673) de Molière comme documents indirects sur la satire de la médecine — bon contrepoint si ajouté" },
-        { "id": "cassini-papin-sciences", "importance": "m", "annee": "transversal", "label": "Cassini et la cartographie, Denis Papin, les débuts scientifiques", "fait": false, "notes": "" },
-        { "id": "edit-corporations-sante-1685", "importance": "m", "annee": "1685", "label": "Édit encadrant les corporations de métiers de santé", "fait": false, "notes": "" }
+        { "id": "fistule-1686", "importance": "M", "annee": "1686-11-18", "eclaire": ["politique-interne", "societe", "culture"], "label": "La « Grande Opération » de 1686", "fait": false, "notes": "absente des données — épisode riche et bien documenté par le rapport source, citations à récupérer (le mot du roi, le journal de santé)" },
+        { "id": "entrainement-mendiants", "importance": "M", "annee": "1686", "eclaire": ["societe", "politique-interne"], "echo_contemporain": true, "label": "L'entraînement sur les pauvres", "fait": false, "notes": "absent — nombre exact de morts parmi les indigents opérés non fiable selon le rapport source lui-même, à garder en fourchette qualitative (« plusieurs »/« beaucoup »), jamais un chiffre inventé" },
+        { "id": "medecine-pratiques", "importance": "m", "annee": "transversal", "eclaire": ["societe", "culture"], "label": "Saignées, purges et impuissance", "fait": false, "notes": "recoupe medecin-malade-imaginaire (axe 11, Molière) — même contenu, à traiter ensemble" },
+        { "id": "mortalite-epidemies", "importance": "m", "annee": "transversal", "eclaire": ["societe", "agriculture", "politique-interne"], "label": "Épidémies, du peuple à la dynastie", "fait": false, "notes": "recoupe errance-epidemies (axe 6) et succession-crise-1711 (axe 1) — pont entre les deux axes, absent" },
+        { "id": "academie-sciences-1666", "importance": "M", "annee": "1666-1667", "eclaire": ["politique-interne", "culture"], "label": "L'Académie des sciences et les institutions savantes", "fait": true, "notes": "culture.json (colbert-mecene-academies : Académie des sciences 1666 ; colbert-batiments-versailles-louvre : Observatoire 1667) — les savants nommément cités par ce rapport (Cassini, Huygens, Denis Papin) ne sont pas dans les données, seules les institutions elles-mêmes sont sourcées" }
       ]
     },
     {
@@ -227,5 +234,69 @@
     { "id": "retz-memoires", "fait": false, "notes": "absent — signalé par axe-politique-interne-louis-xiv.md comme contrepoint possible pour la Fronde" },
     { "id": "louis-xiv-memoires-dauphin", "fait": false, "notes": "absent — Mémoires de Louis XIV pour l'instruction du Dauphin, signalé par axe-politique-interne-louis-xiv.md pour le début du règne personnel" },
     { "id": "code-paysan-1675", "fait": false, "notes": "absent — texte du 2 juillet 1675 où les insurgés du pays bigouden formulent eux-mêmes leurs griefs ; l'un des très rares textes directs du peuple, signalé « document en or » par axe-peuple-et-guerre-louis-xiv.md — priorité de recherche élevée" }
-  ]
+  ],
+  "chiffres_consolides": {
+    "a_propos": "Résultat d'une vérification ciblée (consolidation-chiffres-cles.md) sur les chiffres les plus structurants de l'atlas. Règle de méthode à appliquer partout : les chiffres de démographie historique sont des estimations d'historiens, pas des mesures — toujours donner une fourchette avec le nom de l'historien plutôt qu'un chiffre unique présenté comme un fait. Ces entrées ne sont PAS encore intégrées dans les données sourcées (aucune n'a de source Gallica/page précise) — elles servent de référence prête à l'emploi pour le jour où les faits correspondants seront écrits, avec citation primaire à l'appui.",
+    "chiffres": [
+      {
+        "sujet": "famine-1693",
+        "rattache_a": ["famine-1693 (axe 6)"],
+        "fourchette": "environ 1,3 à 2 millions de morts (surmortalité), sur une population d'environ 20 millions",
+        "historiens": "Le Roy Ladurie (~1,3M, référence la plus citée) ; Lachiver, Les Années de misère (1991) : « un million et demi de victimes » ; Lebrun : proportionnellement plus meurtrière que la Première Guerre mondiale",
+        "confiance": "élevé",
+        "formulation_recommandee": "Environ 1,3 million de morts selon Le Roy Ladurie, jusqu'à 2 millions selon d'autres estimations — la plus meurtrière des famines du règne, proportionnellement plus meurtrière que la Grande Guerre (Lebrun)."
+      },
+      {
+        "sujet": "grand-hiver-1709",
+        "rattache_a": ["grand-hiver-1709 (axe 6)"],
+        "fourchette": "environ 600 000 morts (surmortalité), soit ~3 % de la population",
+        "historiens": "Le Roy Ladurie (~600 000, stable dans toutes les sources) ; Lachiver : décomposition ~100 000 (froid direct), ~200 000 (faim), ~300 000 (épidémies collatérales)",
+        "confiance": "très élevé",
+        "formulation_recommandee": "Environ 600 000 morts (Le Roy Ladurie), soit ~3 % de la population : environ 100 000 du froid, 200 000 de la faim, 300 000 des épidémies (Lachiver).",
+        "note": "la famine de 1693-1694 fut plus de deux fois plus meurtrière que ce Grand Hiver plus célèbre — biais de mémoire à corriger dans l'atlas"
+      },
+      {
+        "sujet": "huguenots-exiles",
+        "rattache_a": ["revocation-edit-nantes-1685 (axe 7)", "ruine-fin-regne (axe 5)"],
+        "fourchette": "environ 150 000 à 200 000 exilés, sur une population réformée d'environ 800 000 (soit ~un quart)",
+        "historiens": "convergence de plusieurs sources universitaires récentes (Annales de Bretagne, Presses universitaires de Provence, base de données du Refuge huguenot/LARHRA appuyée sur 46 000 notices d'archives, revue Diasporas)",
+        "confiance": "élevé",
+        "formulation_recommandee": "Entre 150 000 et 200 000 protestants fuient (soit environ un quart des ~800 000 réformés de France) — la plus grande migration forcée des temps modernes.",
+        "note": "écarter les chiffres de 300 000+ (sources anciennes/anglophones moins précises) et le chiffre isolé de 800 000 qui confond exilés et population réformée totale ; beaucoup de réformés n'ont pas pu partir (émigration interdite, punie des galères)"
+      },
+      {
+        "sujet": "affaire-poisons",
+        "rattache_a": ["affaire-poisons-1679-1682 (axe 8)"],
+        "fourchette": "442 accusés auditionnés par la Chambre ardente (10 avril 1679 - 21 juillet 1682), 367 arrestations ordonnées, 218 maintenues, 36 exécutions",
+        "historiens": "concordance Ministère de la Justice, Louvre-Lens, Wikipédia",
+        "confiance": "élevé",
+        "formulation_recommandee": ""
+      },
+      {
+        "sujet": "dragonnades-poitou",
+        "rattache_a": ["logement-troupes (axe 4)", "dragonnades-poitou-reactions (societe.json, déjà écrit)"],
+        "fourchette": "environ 30 000 conversions forcées au Poitou (1681) ; environ 400 000 confessions signées sous contrainte à l'été 1685",
+        "historiens": "EHNE, Musée protestant",
+        "confiance": "moyenne-élevée",
+        "formulation_recommandee": "À présenter comme estimations, pas comme chiffres définitifs."
+      },
+      {
+        "sujet": "population-royaume",
+        "rattache_a": ["france-agricole (axe 6)", "recul-demographique-fin-regne (axe 6)"],
+        "fourchette": "environ 20 à 22 millions d'habitants",
+        "historiens": "Lebrun : baisse de 22,25 à 20,75 millions pendant la crise de 1693",
+        "confiance": "élevé",
+        "formulation_recommandee": ""
+      },
+      {
+        "sujet": "pertes-militaires-batailles",
+        "rattache_a": ["bataille-malplaquet-1709 (axe 3)", "guerre-hollande (axe 3)", "guerre-succession-espagne (axe 3)"],
+        "fourchette": "non chiffrable de façon fiable",
+        "historiens": "",
+        "confiance": "faible",
+        "formulation_recommandee": "",
+        "note": "les sources d'époque sur les pertes de bataille sont peu fiables ; laisser en fourchettes larges ou éviter tout chiffre précis plutôt que d'en avancer un non vérifiable"
+      }
+    ]
+  }
 }
